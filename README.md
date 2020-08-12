@@ -1,5 +1,5 @@
 # mysavei
-React JS website containing condensed investment advice for those that want to passively build riches without learning the intricacies of the stock market.
+React JS website containing condensed savings & investment advice for those that are intimidated by traditional financial documentation.
 
 ## user flow
 ![Website User Flow](/mysavei-UXFlow.png)
