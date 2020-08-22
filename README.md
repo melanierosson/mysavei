@@ -9,6 +9,10 @@ React JS website containing condensed savings & investment advice for those that
 * make the stock market and investing less intimidating by breaking down some of the most important concepts into manageable, easily understandable portions
 * endorse tools (mobile apps) that will be recognizable, free (or extremely inexpensive), and user-friendly for younger generations
 * ensure the content and process for beginning to invest takes as little of the users time as possible
+#### developer
+* gain more experience with React JS
+* become familiar with React Bootstrap
+* begin to use React Router
 
 ## user flow
 ![Website User Flow](/imgs/mysavei-UXFlow.png)
