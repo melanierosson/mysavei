@@ -1,5 +1,15 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+
+// Pages
 import Home from './pages/Home.js';
+import All from './pages/All.js';
+import SecondStep from './pages/SecondStep.js';
+import Active from './pages/Active.js';
+import LongTerm from './pages/LongTerm.js';
 
 function App() {
   return (
@@ -11,8 +21,15 @@ function App() {
         crossorigin="anonymous"
       />
 
-
-      <Home/>
+      <Router>
+        <section id="app">
+          <Route path="/" component={Home} exact/>
+          <Route path="/all" component={All} />
+          <Route path="/step2" component={SecondStep} />
+          <Route path="/active" component={Active} />
+          <Route path="/passive" component={LongTerm} />
+        </section>
+      </Router>
 
 
       <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
