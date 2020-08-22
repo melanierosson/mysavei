@@ -13,6 +13,10 @@ React JS website containing condensed savings & investment advice for those that
 ## user flow
 ![Website User Flow](/imgs/mysavei-UXFlow.png)
 
+## market research
+I only did a small amount of market research via online search engines. I couldn't find much more than articles and Youtube videos. None of the sources I found accomplished all of mySavei's goals.
+<img src="/imgs/market-research.png">
+
 ## ui
 #### sketches
 <img src="/imgs/mysavei-sketches1-sm.jpg" height="500px"> <img src="/imgs/mysavei-sketches2-sm.jpg" height="500px">
