@@ -11,4 +11,11 @@ React JS website containing condensed savings & investment advice for those that
 * ensure the content and process for beginning to invest takes as little of the users time as possible
 
 ## user flow
-![Website User Flow](/mysavei-UXFlow.png)
+![Website User Flow](/imgs/mysavei-UXFlow.png)
+
+## ui
+#### sketches
+<img src="/imgs/mysavei-sketches1-sm.jpg" height="500px"> <img src="/imgs/mysavei-sketches2-sm.jpg" height="500px">
+#### wireframes
+<img src="/imgs/wireframe-1.jpg" height="500px"> <img src="/imgs/wireframe-2.jpg" height="500px"> <img src="/imgs/wireframe-3.jpg" height="500px">
+
