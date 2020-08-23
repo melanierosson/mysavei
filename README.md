@@ -11,8 +11,9 @@ React JS website containing condensed savings & investment advice for those that
 * ensure the content and process for beginning to invest takes as little of the users time as possible
 #### developer
 * gain more experience with React JS
-* become familiar with React Bootstrap
+* become familiar with React Bootstrap nuances
 * begin to use React Router
+* practice more ES6 syntax
 
 ## user flow
 ![Website User Flow](/imgs/mysavei-UXFlow.png)
