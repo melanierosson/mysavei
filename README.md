@@ -31,6 +31,5 @@ I only did a small amount of market research via online search engines. I couldn
 ##### final
 <img src="/imgs/wire-home.png" height="300px"> <img src="/imgs/wire-secondstep.png" height="300px"> <img src="/imgs/wire-thirdstep.png" height="300px"> <img src="/imgs/wire-all.png" height="300px">
 #### mocks
-##### prospective
-<img src="/imgs/mock-home-4.png" height="500px">
+<img src="/imgs/mock-home.png" height="500px"> <img src="/imgs/mock-step2.png" height="500px"> <img src="/imgs/mock-step3.png" height="500px"> <img src="/imgs/mock-all.png" height="500px">
 
