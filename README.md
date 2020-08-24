@@ -26,5 +26,8 @@ I only did a small amount of market research via online search engines. I couldn
 #### sketches
 <img src="/imgs/mysavei-sketches1-sm.jpg" height="500px"> <img src="/imgs/mysavei-sketches2-sm.jpg" height="500px">
 #### wireframes
-<img src="/imgs/wireframe-1.jpg" height="500px"> <img src="/imgs/wireframe-2.jpg" height="500px"> <img src="/imgs/wireframe-3.jpg" height="500px">
+##### prospective
+<img src="/imgs/wireframe-1.jpg" height="300px"> <img src="/imgs/wireframe-2.jpg" height="300px"> <img src="/imgs/wireframe-3.jpg" height="300px">
+##### final
+<img src="/imgs/wire-home.png" height="300px"> <img src="/imgs/wire-secondstep.png" height="300px"> <img src="/imgs/wire-thirdstep.png" height="300px"> <img src="/imgs/wire-all.png" height="300px">
 
