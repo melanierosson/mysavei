@@ -1,5 +1,5 @@
 # mysavei
-React JS website containing condensed savings & investment advice for those that are intimidated by traditional financial documentation.
+🤑 Website containing condensed savings & investment advice for those that are intimidated by traditional financial documentation. Coded in React JS using functional components + hooks with Router and Bootstrap.
 
 ## goals
 #### high-level
@@ -31,5 +31,7 @@ I only did a small amount of market research via online search engines. I couldn
 ##### final
 <img src="/imgs/wire-home.png" height="300px"> <img src="/imgs/wire-secondstep.png" height="300px"> <img src="/imgs/wire-thirdstep.png" height="300px"> <img src="/imgs/wire-all.png" height="300px">
 #### mocks
-<img src="/imgs/mock-home.png" height="500px"> <img src="/imgs/mock-step2.png" height="500px"> <img src="/imgs/mock-step3.png" height="500px"> <img src="/imgs/mock-all.png" height="500px">
+##### prospective
+<img src="/imgs/mock-home.png" height="400px"> <img src="/imgs/mock-step2.png" height="400px"> <img src="/imgs/mock-step3.png" height="400px"> <img src="/imgs/mock-all.png" height="400px">
+<img src="/imgs/insta-mocks-3.png" width="800px"> 
 
