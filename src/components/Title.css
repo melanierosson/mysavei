@@ -14,5 +14,10 @@ header#mysavei-title {
   top:22px;
   transform: translate(71px,0);
   z-index:5;
-
+}
+h1 {
+  color:#fff;
+  font-weight:900 !important;
+  font-size:2rem;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.16);
 }
