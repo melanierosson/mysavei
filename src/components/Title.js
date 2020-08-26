@@ -1,4 +1,5 @@
 import React from 'react';
+import './Title.css';
 
 const titleStyle = {
     paddingBottom: "1rem",
@@ -6,7 +7,8 @@ const titleStyle = {
 };
 
 const Title = () => (
-    <header>
+    <header id="mysavei-title">
+        <span class="title-dot"></span>
         <h1 style={titleStyle}
             id="mysavei-title" 
             className="text-center">

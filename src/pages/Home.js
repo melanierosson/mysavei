@@ -12,7 +12,6 @@ const videoFigure = {
     justifyContent: "center",
     alignContent: "center",
     alignItems: "center",
-    border: "1px solid #000",
     width: "400px",
     height: "250px",
     backgroundColor: "#eee",
@@ -26,7 +25,6 @@ const optionsList = {
     paddingLeft: "0",
 };
 const listLinks = {
-    border: "1px solid #000",
     width: "141px",
     height: "200px",
     backgroundColor: "#92B96A",
