@@ -34,3 +34,9 @@ section.footer-nav {
         font-size:0.975rem;
     }
 }
+@media screen and (max-width:374px) {
+    #footer-melp {
+        font-size:0.875rem;
+        line-height:1rem;
+    }
+}

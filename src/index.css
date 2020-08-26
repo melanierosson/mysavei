@@ -7,6 +7,8 @@ div#root {
   -moz-osx-font-smoothing: grayscale;
   background-color:#333333;
   min-height:100vh;
+  position:relative;
+  /* z-index:-11 !important; */
 }
 
 section#app {
@@ -14,10 +16,25 @@ section#app {
   margin:0 auto;
   background-color:#554C58;
   min-height:100vh;
+  position:relative;
+  /* z-index:-5 !important; */
+}
+
+h3.subtitle {
+  color:#F7F7F2;
+  font-size:1.5rem;
+  text-align:center;
+  margin-top:-20px;
+  margin-bottom:15px;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.16);
 }
 
 a:link, a {
   color:#000 !important;
+}
+
+.fw-semibold {
+  font-weight:500;
 }
 
 code {

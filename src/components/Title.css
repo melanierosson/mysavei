@@ -4,15 +4,15 @@ header#mysavei-title {
     align-items:center;
 }
 .title-dot {
-  height: 9px;
-  width: 9px;
+  height: 10px;
+  width: 10px;
   background-color: #52B788;
   border: 2px solid #F6AE2D;
   border-radius: 50%;
   display: block;
   position:absolute;
-  top:22px;
-  transform: translate(71px,0);
+  top:21px;
+  transform: translate(71.5px,0);
   z-index:5;
 }
 h1 {

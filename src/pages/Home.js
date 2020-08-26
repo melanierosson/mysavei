@@ -3,46 +3,16 @@ import Title from '../components/Title.js';
 import Figure from 'react-bootstrap/Figure';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer.js';
-
-// style variables 
-const videoFigure = {
-    margin: "auto",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignContent: "center",
-    alignItems: "center",
-    width: "400px",
-    height: "250px",
-    backgroundColor: "#eee",
-};
-const optionsList = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignContent: "center",
-    alignItems: "center",
-    paddingLeft: "0",
-};
-const listLinks = {
-    width: "141px",
-    height: "200px",
-    backgroundColor: "#92B96A",
-    boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.16)",
-    listStyleType: "none",
-    listIndent: "none",
-    margin: "20px",
-    padding: "20px",
-    textAlign:"center",
-}
+import './Home.css';
 
 // home page component
 const Home = () => (
     <>
         <Title />
+        <h3 className="subtitle">Quick Start Investing</h3>
         <main>
             <article className="why-invest">
-                <Figure style={videoFigure}>
+                <Figure>
                     <Figure.Image
                         id="video-intro"
                         width={100}
@@ -52,23 +22,21 @@ const Home = () => (
                     />
                     <Figure.Caption>
                         <b>Why Invest?</b> video placeholder
-                </Figure.Caption>
+                    </Figure.Caption>
                 </Figure>
             </article>
-            <nav>
-                <ul style={optionsList}>
-                    <li style={listLinks}>
-                        <Link to="/step2">
-                            Your personal investment strategy <br />(&lt;2min)
-                        </Link>
-                    </li>
-                    <li style={listLinks}>
-                        <Link to="/all">
-                            All savings and investment educational resources and tools <br />(&lt;10min)
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
+            <ul className="options-list">
+                <li>
+                    <Link to="/step2">
+                        I want to see my <span className="fw-semibold">personal investment strategy</span> <br />(&lt;2min)
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/all">
+                        I want to see <span className="fw-semibold">all investment &amp; savings information</span> <br />(&lt;10min)
+                    </Link>
+                </li>
+            </ul>
         </main>
         <Footer />
     </>
