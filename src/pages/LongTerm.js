@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../components/Title.js';
 import Acorns from '../components/Acorns.js';
 import IndexFunds from '../components/IndexFunds.js';
+import Footer from '../components/Footer.js';
 
 const pageStyle = {
     display: "flex",
@@ -35,6 +36,7 @@ const LongTerm = () => (
                 </li>
             </ul>
         </main>
+        <Footer />
     </>
 )
 

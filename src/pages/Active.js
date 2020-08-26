@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../components/Title.js';
 import Robinhood from '../components/Robinhood.js';
 import KeyTerms from '../components/KeyTerms.js';
+import Footer from '../components/Footer.js';
 
 const pageStyle = {
     display: "flex",
@@ -34,9 +35,8 @@ const Active = () => (
                     <KeyTerms />
                 </li>
             </ul>
-            
-            
         </main>
+        <Footer />
     </>
 )
 

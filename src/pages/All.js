@@ -4,6 +4,7 @@ import KeyTerms from '../components/KeyTerms.js';
 import IndexFunds from '../components/IndexFunds.js';
 import Robinhood from '../components/Robinhood.js';
 import Acorns from '../components/Acorns.js';
+import Footer from '../components/Footer.js';
 
 // style variables
 const pageStyle = {
@@ -42,8 +43,8 @@ const All = () => (
                     <Robinhood />
                 </li>
             </ul>
-            
         </main>
+        <Footer />
     </>
 )
 

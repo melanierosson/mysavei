@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../components/Title.js';
 import Figure from 'react-bootstrap/Figure';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer.js';
 
 // style variables 
 const videoFigure = {
@@ -26,9 +27,10 @@ const optionsList = {
 };
 const listLinks = {
     border: "1px solid #000",
-    width: "200px",
+    width: "141px",
     height: "200px",
-    backgroundColor: "#eee",
+    backgroundColor: "#92B96A",
+    boxShadow: "4px 4px 4px rgba(0, 0, 0, 0.16)",
     listStyleType: "none",
     listIndent: "none",
     margin: "20px",
@@ -70,6 +72,7 @@ const Home = () => (
                 </ul>
             </nav>
         </main>
+        <Footer />
     </>
 )
 
