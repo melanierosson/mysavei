@@ -47,12 +47,17 @@ ul.options-list li {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-height: 667px) {
+  ul.options-list li {
+    height: 215px;
+  }
+}
 ul.options-list li div.bottom {
   background: #71B176;
   position: absolute;
-  transform: translate(0, 159px) translateZ(0);
-  -webkit-transform: translate(0, 159px) translateZ(0);
-  -moz-transform: translate(0, 159px) translateZ(0);
+  transform: translate(0, 159px);
+  -webkit-transform: translate(0, 159px);
+  -moz-transform: translate(0, 159px);
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   height: 70.5px;
   width: 141px;
@@ -61,6 +66,13 @@ ul.options-list li div.bottom {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-height: 667px) {
+  ul.options-list li div.bottom {
+    transform: translate(0, 140px);
+    -webkit-transform: translate(0, 140px);
+    -moz-transform: translate(0, 140px);
+  }
 }
 ul.options-list li div.bottom span {
   margin-top: -10px;

@@ -32,6 +32,9 @@ ul.options-list {
     li {
         width: 141px;
         height:247px;
+        @media screen and (max-height:667px) {
+            height:215px;
+        }
         z-index:0;
         background-color: #92B96A;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
@@ -48,9 +51,14 @@ ul.options-list {
         div.bottom {
             background: #71B176;
             position: absolute;
-            transform: translate(0,159px) translateZ(0);
-            -webkit-transform: translate(0,159px) translateZ(0);
-            -moz-transform: translate(0,159px) translateZ(0);
+            transform: translate(0,159px);
+            -webkit-transform: translate(0,159px);
+            -moz-transform: translate(0,159px);
+            @media screen and (max-height:667px) {
+                transform: translate(0,140px);
+                -webkit-transform: translate(0,140px);
+                -moz-transform: translate(0,140px);
+            }
             box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
             height: $size;
             width: $size * 2;
