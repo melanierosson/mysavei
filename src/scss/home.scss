@@ -1,0 +1,67 @@
+article.why-invest {
+    /* z-index:10;
+    display:relative; */
+    Figure {
+        position:relative;
+        z-index:10;
+        margin: auto;
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 334px;
+        height: 199px;
+        background-color: #CAC4CE;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+        @media screen and (max-width:374px) {
+            width: 270px;
+            height:130px;
+        }
+    }
+}
+
+ul.options-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 0;
+    li {
+        width: 141px;
+        height:247px;
+        z-index:0;
+        background-color: #92B96A;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+        list-style-type: none;
+        list-indent: none;
+        margin: -20px 15px 20px 15px;
+        padding: 20px;
+        text-align: center;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        // the half circles
+        $size: 70.5px;
+        div.bottom {
+            background: #71B176;
+            position: absolute;
+            transform: translate(0,159px) translateZ(0);
+            -webkit-transform: translate(0,159px) translateZ(0);
+            -moz-transform: translate(0,159px) translateZ(0);
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+            height: $size;
+            width: $size * 2;
+            border-bottom-left-radius: $size * 2;
+            border-bottom-right-radius: $size * 2;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            span {
+                margin-top:-10px;
+            }
+        }
+    }
+}

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css';
+import '../css/footer.css';
 
 const Footer = () => (
     <nav className="footer">
         <footer className="row">
             <section id="footer-home" className="footer-nav col-4">
-                <Link to="/" exact style={{ paddingLeft: '30px' }}>
+                <Link to="/" exact style={{ paddingLeft: '25px' }}>
                     <i class="fas fa-home"></i>
                 </Link>
-                <Link to="/" exact style={{ paddingLeft: '20px' }}>
+                <Link to="/" exact style={{ paddingLeft: '21px' }}>
                     home
                 </Link>
             </section>
@@ -25,7 +25,7 @@ const Footer = () => (
                 <Link to="/all" style={{ paddingRight: '20px' }}>
                     <i class="fas fa-list-ul"></i>
                 </Link>
-                <Link to="/all" style={{ paddingRight: '20px' }}>
+                <Link to="/all" style={{ paddingRight: '25px' }}>
                     all
                 </Link>
             </section>

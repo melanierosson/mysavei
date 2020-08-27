@@ -1,0 +1,50 @@
+div#root {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size:1.125rem;
+  line-height:1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#333333;
+  min-height:100vh;
+  position:relative;
+  /* z-index:-11 !important; */
+  section#app {
+    max-width:1200px;
+    margin:0 auto;
+    background-color:#554C58;
+    min-height:100vh;
+    position:relative;
+    /* z-index:-5 !important; */
+
+    h3.subtitle {
+      color:#F7F7F2;
+      font-size:1.5rem;
+      text-align:center;
+      margin-top:-20px;
+      margin-bottom:15px;
+      text-shadow: 4px 4px 4px rgba(0,0,0,0.16);
+    }
+
+    a:link, a {
+      color:#000 !important;
+    }
+
+    .fw-semibold {
+      font-weight:500;
+    }
+    .fw-medium {
+      font-weight:600;
+    }
+
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+  }
+}
+
+
+
