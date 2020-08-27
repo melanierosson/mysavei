@@ -7,29 +7,30 @@ div#root {
   line-height:1.5rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#333333;
+  background-color: $windowBg;
   min-height:100vh;
   position:relative;
-  /* z-index:-11 !important; */
   section#app {
     max-width:1200px;
     margin:0 auto;
-    background-color:#554C58;
+    background-color: $mainBg;
     min-height:100vh;
     position:relative;
-    /* z-index:-5 !important; */
 
     h3.subtitle {
-      color:#F7F7F2;
+      color: $textWhite;
       font-size:1.5rem;
       text-align:center;
       margin-top:-20px;
       margin-bottom:15px;
-      text-shadow: 4px 4px 4px rgba(0,0,0,0.16);
+      text-shadow: $x4Shadow;
     }
 
     a:link, a {
-      color:#000 !important;
+      color: $textBlack;
+      &:focus, &:hover, &:visited, &:link, &:active {
+        text-decoration:none;
+      }
     }
 
     .fw-semibold {

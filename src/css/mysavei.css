@@ -7,15 +7,13 @@ div#root {
   -moz-osx-font-smoothing: grayscale;
   background-color: #333333;
   min-height: 100vh;
-  position: relative;
-  /* z-index:-11 !important; */ }
+  position: relative; }
   div#root section#app {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #554C58;
     min-height: 100vh;
-    position: relative;
-    /* z-index:-5 !important; */ }
+    position: relative; }
     div#root section#app h3.subtitle {
       color: #F7F7F2;
       font-size: 1.5rem;
@@ -24,7 +22,9 @@ div#root {
       margin-bottom: 15px;
       text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.16); }
     div#root section#app a:link, div#root section#app a {
-      color: #000 !important; }
+      color: #000; }
+      div#root section#app a:link:focus, div#root section#app a:link:hover, div#root section#app a:link:visited, div#root section#app a:link:link, div#root section#app a:link:active, div#root section#app a:focus, div#root section#app a:hover, div#root section#app a:visited, div#root section#app a:link, div#root section#app a:active {
+        text-decoration: none; }
     div#root section#app .fw-semibold {
       font-weight: 500; }
     div#root section#app .fw-medium {

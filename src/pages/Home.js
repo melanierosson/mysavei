@@ -26,22 +26,26 @@ const Home = () => (
                 </Figure>
             </article>
             <ul className="options-list">
-                <li>
-                    <Link to="/step2">
-                        I want to see my <span className="fw-medium">personal investment strategy</span>
-                    </Link>
-                    <div class="bottom">
-                        <span className="time">&lt; 2 min.</span>
-                    </div>
-                </li>
-                <li>
-                    <Link to="/all">
-                        I want to see <span className="fw-medium">all investment &amp; savings information</span>
-                    </Link>
-                    <div class="bottom">
-                        <span className="time">&lt; 10 min.</span>
-                    </div>
-                </li>
+                <Link to="/step2">
+                    <li>
+                        <p>
+                            I want to see my <span className="fw-medium">personal investment strategy</span>
+                        </p>
+                        <div class="bottom">
+                            <span className="time">&lt; 2 min.</span>
+                        </div>
+                    </li>
+                </Link>
+                <Link to="/all">
+                    <li>
+                        <p>
+                            I want to see <span className="fw-medium">all investment &amp; savings information</span>
+                        </p>
+                        <div class="bottom">
+                            <span className="time">&lt; 10 min.</span>
+                        </div>
+                    </li>
+                </Link>
             </ul>
         </main>
         <Footer />

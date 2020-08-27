@@ -52,6 +52,15 @@ ul.options-list li {
     height: 215px;
   }
 }
+ul.options-list li:hover {
+  transform: translateY(18px);
+  transition: 0.15s linear;
+  background-color: #85B752;
+  cursor: pointer;
+}
+ul.options-list li:hover > div.bottom {
+  background-color: #52B788;
+}
 ul.options-list li div.bottom {
   background: #71B176;
   position: absolute;

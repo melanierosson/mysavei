@@ -1,11 +1,13 @@
+@import 'variables';
+
 nav.footer {
     position:absolute;
     width:100%;
     max-width:1200px;
     bottom:0;
     footer {
-        background-color:#7B7283;
-        box-shadow: 8px -8px 8px rgba(0,0,0,0.16);
+        background-color: $footerBg;
+        box-shadow: $y8Shadow;
         display:flex;
         flex-direction:row;
         justify-content:space-between;
@@ -18,8 +20,14 @@ nav.footer {
             flex-direction: column;
             justify-content:center;
             font-size:1rem;
+            margin-top:20px;
             i {
                 font-size:1.75rem;
+            }
+            p.footer-nav-link{
+                &:hover {
+                    color:$hvrGold !important;
+                }
             }
         }
         #footer-home {
@@ -27,6 +35,9 @@ nav.footer {
         }
         #footer-melp {
             text-align:center;
+            a:hover {
+                color:$hvrGold !important;
+            }
             @media screen and (max-width:400px) {
                 font-size:0.975rem;
             }
@@ -37,6 +48,9 @@ nav.footer {
         }
         #footer-all {
             text-align:right;
+            &:hover {
+                color:$hvrGold !important;
+            }
         }
     }
 }

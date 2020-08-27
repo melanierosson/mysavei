@@ -1,3 +1,5 @@
+@import 'variables';
+
 article.why-invest {
     /* z-index:10;
     display:relative; */
@@ -36,7 +38,7 @@ ul.options-list {
             height:215px;
         }
         z-index:0;
-        background-color: #92B96A;
+        background-color: $bgMdGreen;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
         list-style-type: none;
         list-indent: none;
@@ -46,10 +48,20 @@ ul.options-list {
         display:flex;
         justify-content:center;
         align-items:center;
+        &:hover {
+            transform: translateY(18px);
+            transition:0.15s linear;
+            background-color: $hvrMdGreen;
+            cursor:pointer;
+            > div.bottom {
+                background-color: $hvrTqGreen;
+            }
+        }
+
         // the half circles
         $size: 70.5px;
         div.bottom {
-            background: #71B176;
+            background: $bgSecondGreen;
             position: absolute;
             transform: translate(0,159px);
             -webkit-transform: translate(0,159px);
