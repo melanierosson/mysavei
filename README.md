@@ -34,4 +34,7 @@ I only did a small amount of market research via online search engines. I couldn
 ##### prospective
 <img src="/imgs/mock-home.png" height="400px"> <img src="/imgs/mock-step2.png" height="400px"> <img src="/imgs/mock-step3.png" height="400px"> <img src="/imgs/mock-all.png" height="400px">
 <img src="/imgs/insta-mocks-3.png" width="800px"> 
+<img src="/imgs/desktop-step1.png" width="800px"> 
+<img src="/imgs/desktop-step2.png" width="800px"> 
+<img src="/imgs/desktop-step3active.png" width="800px">
 
