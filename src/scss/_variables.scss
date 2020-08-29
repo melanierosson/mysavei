@@ -4,6 +4,7 @@ $windowBg: #333333;
 $subMainBg: #847C88;
 
 $bgGrey: #CAC4CE;
+$bgSecondaryGrey: #CCC;
 $bgMdGreen: #92B96A;
 $bgGold: #C59139;
 $bgTqGreen: #53AA81;
@@ -12,12 +13,17 @@ $bgSecondGreen: #71B176;
 
 $footerBg: #7B7283;
 
+// gradient bgs
+$gradientTq: linear-gradient(329deg, #50A862 0%, #52B788 100%);
+$gradientGreen: linear-gradient(329deg, #92B96A 30%, #B7AB52 100%);
 
 // hover colors
 $hvrMdGreen: #85B752;
 $hvrTqGreen: #52B788;
 $hvrGold: #F6AE2D;
 
+//expander colors
+$expMdGreen: rgba(133,183,82,0.7);
 
 // typography
 $textWhite: #F7F7F2;

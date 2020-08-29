@@ -1,51 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Title from '../components/Title.js';
 import KeyTerms from '../components/KeyTerms.js';
 import IndexFunds from '../components/IndexFunds.js';
-import Robinhood from '../components/Robinhood.js';
-import Acorns from '../components/Acorns.js';
+import MobileApp from '../components/MobileApp.js';
 import Footer from '../components/Footer.js';
 
-// style variables
-const pageStyle = {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignContent: "center",
-    alignItems: "center",
-}
-const listStyle = {
-    listStyleType: "none",
-    textAlign: "center",
-    padding: "20px",
-}
-const component = {
-    border: "1px solid #ccc",
-    padding: "20px",
-}
+const All = ({props}) => {
 
-const All = () => (
-    <>
-        <Title />
-        <main style={pageStyle}>
-            <h2>All Resources and Information</h2>
-            <ul style={listStyle}>
-                <li style={component}>
-                    <KeyTerms />
-                </li>
-                <li style={component}>
-                    <Acorns />
-                </li>
-                <li style={component}>
-                    <IndexFunds />
-                </li>
-                <li style={component}>
-                    <Robinhood />
-                </li>
-            </ul>
-        </main>
-        <Footer />
-    </>
-)
+    return (
+        <>
+            <Title />
+            <main class="content-page" id="all-content">
+                <h3 className="subtitle">All Resources and Information</h3>
+
+                <section id="mobile-apps" class="bordered all-container">
+                    <h4 class="section-title">Mobile Apps</h4>
+                    <MobileApp type={true} containAll={true} expand="See more"/>
+                    <br /><br />
+                    <MobileApp type={false} containAll={true} expand="See more"/>
+                </section>
+
+            </main>
+            <Footer />
+        </>
+    )
+}
 
 export default All;

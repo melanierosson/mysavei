@@ -14,16 +14,23 @@ div#root {
     max-width:1024px;
     margin:0 auto;
     background-color: $mainBg;
+    background: linear-gradient(329deg, rgba(153,143,160,1) 0%,rgba(85,76,88,1) 60%, rgba(85,76,88,1) 100%);
+    overflow-y:auto;
     min-height:100vh;
     position:relative;
 
-    h3.subtitle {
+    h1, h2, h3, h4, h5, h6 {
       color: $textWhite;
-      font-size:1.5rem;
       text-align:center;
+      text-shadow: $x4Shadow;
+    }
+    h3.subtitle {
+      font-size:1.5rem;
       margin-top:-20px;
       margin-bottom:15px;
-      text-shadow: $x4Shadow;
+    }
+    h4.section-title {
+      font-size:1.25rem;
     }
 
     a:link, a {
@@ -43,6 +50,46 @@ div#root {
     code {
       font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+    }
+
+    // passive, active and all investing pages
+    main.content-page {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      section.bordered {
+        border: 5px solid #ccc;
+        border-radius:20px;
+        background-color:#847C88;
+        box-shadow: $x8Shadow;
+        margin-left:34px;
+        margin-right:34px;
+        width:90%;
+        @media screen and (max-width:400px) {
+          max-width:306px;
+        }
+        @media screen and (max-width:767px) {
+          padding:21px;
+        }
+        @media screen and (min-width:768px) {
+          padding:24px;
+        }
+        @media screen and (min-width:1024px) {
+          width:748px;
+        }
+        &.all-container {
+          border-color: $hvrMdGreen;
+        }
+      }
+      .component-content {
+        background-color:$bgGrey;
+        border: 3px solid $bgSecondaryGrey;
+        border-radius: 20px;
+        width:100%;
+        box-shadow: $x8Shadow;
+      }
     }
   }
 }

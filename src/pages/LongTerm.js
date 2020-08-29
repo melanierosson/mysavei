@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../components/Title.js';
-import Acorns from '../components/Acorns.js';
+import MobileApp from '../components/MobileApp.js';
 import IndexFunds from '../components/IndexFunds.js';
 import Footer from '../components/Footer.js';
 
@@ -29,7 +29,7 @@ const LongTerm = () => (
             <p style={{ textAlign: "center" }}>Applicable component placeholders imported below.</p>
             <ul id="active" style={listStyle}>
                 <li style={component}>
-                    <Acorns />
+                    <MobileApp />
                 </li>
                 <li style={component}>
                     <IndexFunds />

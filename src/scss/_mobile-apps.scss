@@ -1,0 +1,71 @@
+article.component-content.mobile-app {
+    padding:24px;
+    margin:auto;
+    @media screen and (max-width:767px) {
+        height:250px;
+    }
+    .img-container {
+        display:flex;
+        .img-holder {
+            border-radius:30px;
+            box-shadow: $x4Shadow;
+            width:109px;
+            height:109px;
+            img.app-icons {
+                width:109px;
+                height:109px;
+            }
+        }
+        @media screen and (max-width:767px) {
+            justify-content:center;
+        }
+        @media screen and (min-width:768px) {
+            justify-content:flex-start;
+            padding:0;
+        }
+        
+    }
+    .about-mobile-app {
+        margin:0;
+        padding:0;
+        .mobile-app-title {
+            @media screen and (max-width:767px) {
+                span.type::after {
+                    content: '\a';
+                    white-space:pre;
+                }
+            }
+        }
+        &.dropdown-start {
+            @media screen and (max-width:767px) {
+                background-color: $bgTqGreen;
+                background: $gradientTq;
+                max-width:200px;
+                margin: 18px auto 0 auto;
+                padding:16px 0 0 0;
+                border-radius: 0 0 20px 20px;
+                position:relative;
+                z-index:1;
+                box-shadow:$x8Shadow;
+                .mobile-app-descr {
+                    display:none;
+                }
+                .expand {
+                    margin-top:19px;
+                    max-width:200px;
+                    height:48px;
+                    border-radius: 0 0 20px 20px;
+                    background-color: $expMdGreen;
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+                }
+            }
+        }
+        @media screen and (max-width:767px) {
+            justify-content:center;
+            text-align:center;
+        }
+    }
+    
+}

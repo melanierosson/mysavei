@@ -5,9 +5,10 @@ nav.footer {
     width:100%;
     max-width:1024px;
     bottom:0;
+    z-index:20;
     footer {
         background-color: $footerBg;
-        box-shadow: $y8Shadow;
+        box-shadow: 0 -8px 8px rgba(0,0,0,0.16);
         display:flex;
         flex-direction:row;
         justify-content:space-around;
@@ -35,7 +36,7 @@ nav.footer {
                 line-height:1.25rem;
                 text-align:center;
                 margin:auto;
-                box-shadow:4px 4px 8px rgba(0,0,0,0.10);
+                box-shadow:inset -4px -4px 8px rgba(0,0,0,0.16);
                 border-radius:50%;
                 width:74px;
                 height:74px;
@@ -51,6 +52,7 @@ nav.footer {
                     margin:auto;
                 }
                 &:hover {
+                    cursor:pointer;
                     background-image:
                     radial-gradient(
                         circle at center,
@@ -58,10 +60,11 @@ nav.footer {
                         rgba(255,255,255,0.01),
                         rgba(255,255,255,0.30)
                     );
-                    a:link {
+                    a:link, a:visited, a:active, a:hover{
                         color:#ccc !important;
                     }
                     color:#ccc !important;
+                    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.20);
                 }
                 i {
                     font-size:1.75rem;

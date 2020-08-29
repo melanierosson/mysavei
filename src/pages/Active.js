@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../components/Title.js';
-import Robinhood from '../components/Robinhood.js';
+import MobileApp from '../components/MobileApp.js';
 import KeyTerms from '../components/KeyTerms.js';
 import Footer from '../components/Footer.js';
 
@@ -29,7 +29,7 @@ const Active = () => (
             <p style={{ textAlign: "center" }}>Applicable component placeholders imported below.</p>
             <ul id="active" style={listStyle}>
                 <li style={component}>
-                    <Robinhood />
+                    <MobileApp />
                 </li>
                 <li style={component}>
                     <KeyTerms />
