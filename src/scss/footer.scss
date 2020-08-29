@@ -53,12 +53,15 @@ nav.footer {
                 &:hover {
                     background-image:
                     radial-gradient(
-                        circle at bottom right,
-                        rgba(255,255,255,0.40),
-                        rgba(128,128,128,0.05),
-                        rgba(128,128,128,0.30)
+                        circle at center,
+                        rgba(128,128,128,0.40),
+                        rgba(255,255,255,0.01),
+                        rgba(255,255,255,0.30)
                     );
-                    box-shadow:-4px -4px 8px rgba(0,0,0,0.10);
+                    a:link {
+                        color:#ccc !important;
+                    }
+                    color:#ccc !important;
                 }
                 i {
                     font-size:1.75rem;

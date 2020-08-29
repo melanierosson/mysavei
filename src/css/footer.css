@@ -47,8 +47,11 @@ nav.footer footer section.footer-nav p.footer-nav-link a:link, nav.footer footer
   margin: auto;
 }
 nav.footer footer section.footer-nav p.footer-nav-link:hover {
-  background-image: radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.4), rgba(128, 128, 128, 0.05), rgba(128, 128, 128, 0.3));
-  box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.1);
+  background-image: radial-gradient(circle at center, rgba(128, 128, 128, 0.4), rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.3));
+  color: #ccc !important;
+}
+nav.footer footer section.footer-nav p.footer-nav-link:hover a:link {
+  color: #ccc !important;
 }
 nav.footer footer section.footer-nav p.footer-nav-link i {
   font-size: 1.75rem;
