@@ -40,11 +40,17 @@ div#root {
       }
     }
 
+    .text-center {
+      text-align:center;
+    }
     .fw-semibold {
       font-weight:500;
     }
     .fw-medium {
       font-weight:600;
+    }
+    .fw-bold {
+      font-weight:700;
     }
 
     code {
@@ -82,6 +88,12 @@ div#root {
         &.all-container {
           border-color: $hvrMdGreen;
         }
+        &.active-container {
+          border-color: $bgGold;
+        }
+        &.passive-container {
+          border-color: $bgTqGreen;
+        }
       }
       .component-content {
         background-color:$bgGrey;
@@ -89,6 +101,9 @@ div#root {
         border-radius: 20px;
         width:100%;
         box-shadow: $x8Shadow;
+      }
+      .page-description {
+        color: $textWhite;
       }
     }
   }

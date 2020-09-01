@@ -1,0 +1,86 @@
+#step2-page #step2-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 748px;
+  height: 129px;
+  border-radius: 60px;
+}
+@media screen and (max-width: 400px) {
+  #step2-page #step2-question {
+    max-width: 345px;
+  }
+}
+#step2-page ul.options-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+#step2-page ul.options-list li {
+  width: 141px;
+  height: 247px;
+  z-index: 0;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  list-style-type: none;
+  list-indent: none;
+  margin: -20px 15px 20px 15px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-height: 667px) {
+  #step2-page ul.options-list li {
+    height: 215px;
+  }
+}
+#step2-page ul.options-list li:hover {
+  transform: translateY(18px);
+  transition: 0.15s linear;
+  background-color: #85B752;
+  cursor: pointer;
+}
+#step2-page ul.options-list li:hover > div.bottom {
+  background-color: #52B788;
+}
+#step2-page ul.options-list li#passive-option {
+  background-color: #53AA81;
+  background: linear-gradient(329deg, #50A862 0%, #52B788 100%);
+}
+#step2-page ul.options-list li#both-option {
+  background-color: #92B96A;
+  background: linear-gradient(329deg, #92B96A 30%, #B7AB52 100%);
+}
+#step2-page ul.options-list li#active-option {
+  background-color: #C59139;
+  background: linear-gradient(329deg, #AA7A2E 30%, #C59139 100%);
+}
+#step2-page ul.options-list li div.bottom {
+  background: #71B176;
+  position: absolute;
+  transform: translate(0, 159px);
+  -webkit-transform: translate(0, 159px);
+  -moz-transform: translate(0, 159px);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  height: 70.5px;
+  width: 141px;
+  border-bottom-left-radius: 141px;
+  border-bottom-right-radius: 141px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-height: 667px) {
+  #step2-page ul.options-list li div.bottom {
+    transform: translate(0, 140px);
+    -webkit-transform: translate(0, 140px);
+    -moz-transform: translate(0, 140px);
+  }
+}
+#step2-page ul.options-list li div.bottom span {
+  margin-top: -10px;
+}

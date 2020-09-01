@@ -113,11 +113,17 @@ div#root section#app a:link, div#root section#app a {
 div#root section#app a:link:focus, div#root section#app a:link:hover, div#root section#app a:link:visited, div#root section#app a:link:link, div#root section#app a:link:active, div#root section#app a:focus, div#root section#app a:hover, div#root section#app a:visited, div#root section#app a:link, div#root section#app a:active {
   text-decoration: none;
 }
+div#root section#app .text-center {
+  text-align: center;
+}
 div#root section#app .fw-semibold {
   font-weight: 500;
 }
 div#root section#app .fw-medium {
   font-weight: 600;
+}
+div#root section#app .fw-bold {
+  font-weight: 700;
 }
 div#root section#app code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -161,10 +167,19 @@ div#root section#app main.content-page section.bordered {
 div#root section#app main.content-page section.bordered.all-container {
   border-color: #85B752;
 }
+div#root section#app main.content-page section.bordered.active-container {
+  border-color: #C59139;
+}
+div#root section#app main.content-page section.bordered.passive-container {
+  border-color: #53AA81;
+}
 div#root section#app main.content-page .component-content {
   background-color: #CAC4CE;
   border: 3px solid #CCC;
   border-radius: 20px;
   width: 100%;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+}
+div#root section#app main.content-page .page-description {
+  color: #F7F7F2;
 }

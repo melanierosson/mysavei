@@ -29,7 +29,7 @@ const Footer = () => (
             </section>
             <section id="footer-email" className="footer-nav col-3">
                 <p className="footer-nav-link">
-                    <a href="mailto:melanielynnpanem@gmail.com">
+                    <a href="mailto:mysavei.investing@gmail.com?subject=mySavei%20Feedback">
                         <span className="footer-nav-link">
                             <i class="far fa-envelope"></i>
                         </span>

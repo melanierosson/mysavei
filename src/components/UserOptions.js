@@ -1,37 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const optionsList = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignContent: "center",
-    alignItems: "center",
-    paddingLeft: "0",
-};
-const listLinks = {
-    border: "1px solid #000",
-    width: "200px",
-    height: "200px",
-    backgroundColor: "#eee",
-    listStyleType: "none",
-    listIndent: "none",
-    margin: "20px",
-    padding: "20px",
-    textAlign: "center",
-}
-
 const UserOptions = () => (
     <nav>
-        <ul style={optionsList}>
-            <li style={listLinks}>
+        <ul className="options-list">
+            <li id="passive-option">
                 <Link to="/passive">
-                    Invest passively, long-term
+                    <b>I want to invest my money passively, long-term.</b>
+                    <br/><br/>
+                    <i>i.e. not check your account or participate in the investment process once it’s started</i>
                 </Link>
             </li>
-            <li style={listLinks}>
+            <li id="both-option">
+                <Link to="/all">
+                    <b>What about a little of both?</b>
+                </Link>
+            </li>
+            <li id="active-option">
                 <Link to="/active">
-                    Invest actively in the stock market
+                    <b>I want to invest actively in the stock market.</b>
+                    <br/><br/>
+                    <i>i.e. you want to learn a little bit more about stocks, do some short-term trading, and setup
+                    re-occurring deposits</i>
                 </Link>
             </li>
         </ul>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Title from '../components/Title.js';
 import KeyTerms from '../components/KeyTerms.js';
 import IndexFunds from '../components/IndexFunds.js';

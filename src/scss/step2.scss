@@ -1,0 +1,88 @@
+@import 'variables';
+
+#step2-page {
+    #step2-question {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        max-width:748px;
+        height:129px;
+        border-radius:60px;
+        @media screen and (max-width:400px) {
+            max-width:345px;
+        }
+    }
+
+    ul.options-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 0;
+        li {
+            width: 141px;
+            height:247px;
+            @media screen and (max-height:667px) {
+                height:215px;
+            }   
+            z-index:0;
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+            list-style-type: none;
+            list-indent: none;
+            margin: -20px 15px 20px 15px;
+            padding: 20px;
+            text-align: center;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            &:hover {
+                transform: translateY(18px);
+                transition:0.15s linear;
+                background-color: $hvrMdGreen;
+                cursor:pointer;
+                > div.bottom {
+                    background-color: $hvrTqGreen;
+                }
+            }
+            &#passive-option {
+                background-color: $bgTqGreen;
+                background: $gradientTq;
+            }
+            &#both-option {
+                background-color: $bgMdGreen;
+                background: $gradientGreen;
+            }
+            &#active-option {
+                background-color: $bgGold;
+                background: $gradientOrange;
+            }
+
+            // the half circles
+            $size: 70.5px;
+            div.bottom {
+                background: $bgSecondGreen;
+                position: absolute;
+                transform: translate(0,159px);
+                -webkit-transform: translate(0,159px);
+                -moz-transform: translate(0,159px);
+                @media screen and (max-height:667px) {
+                    transform: translate(0,140px);
+                    -webkit-transform: translate(0,140px);
+                    -moz-transform: translate(0,140px);
+                }
+                box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+                height: $size;
+                width: $size * 2;
+                border-bottom-left-radius: $size * 2;
+                border-bottom-right-radius: $size * 2;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                span {
+                    margin-top:-10px;
+                }
+            }
+        }
+    }
+}
