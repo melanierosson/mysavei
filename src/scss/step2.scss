@@ -18,11 +18,11 @@
         flex-direction: row;
         justify-content: center;
         align-content: center;
-        align-items: center;
+        align-items: flex-start;
         padding-left: 0;
         li {
             width: 141px;
-            height:247px;
+            height:450px;
             @media screen and (max-height:667px) {
                 height:215px;
             }   
@@ -35,7 +35,7 @@
             text-align: center;
             display:flex;
             justify-content:center;
-            align-items:center;
+            align-items:flex-start;
             &:hover {
                 transform: translateY(18px);
                 transition:0.15s linear;
@@ -52,6 +52,7 @@
             &#both-option {
                 background-color: $bgMdGreen;
                 background: $gradientGreen;
+                height:115px;
             }
             &#active-option {
                 background-color: $bgGold;
