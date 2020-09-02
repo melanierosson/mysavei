@@ -31,7 +31,7 @@ const Home = () => (
                         <p>
                             I want to see my <span className="fw-medium">personal investment strategy</span>
                         </p>
-                        <div class="bottom">
+                        <div className="bottom">
                             <span className="time">&lt; 2 min.</span>
                         </div>
                     </li>
@@ -41,7 +41,7 @@ const Home = () => (
                         <p>
                             I want to see <span className="fw-medium">all investment &amp; savings information</span>
                         </p>
-                        <div class="bottom">
+                        <div className="bottom">
                             <span className="time">&lt; 10 min.</span>
                         </div>
                     </li>

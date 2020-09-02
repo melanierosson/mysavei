@@ -22,7 +22,7 @@
         padding-left: 0;
         li {
             width: 141px;
-            height:450px;
+            height:330px;
             @media screen and (max-height:667px) {
                 height:215px;
             }   
@@ -30,48 +30,55 @@
             box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
             list-style-type: none;
             list-indent: none;
-            margin: -20px 15px 20px 15px;
-            padding: 20px;
+            margin: -20px 30px 0 30px;
+            padding: 30px 8px 10px 8px;
+            line-height:1.35rem;
             text-align: center;
             display:flex;
             justify-content:center;
             align-items:flex-start;
             &:hover {
-                transform: translateY(18px);
+                transform: translate(0,18px);
                 transition:0.15s linear;
-                background-color: $hvrMdGreen;
                 cursor:pointer;
-                > div.bottom {
-                    background-color: $hvrTqGreen;
-                }
             }
             &#passive-option {
                 background-color: $bgTqGreen;
                 background: $gradientTq;
+                div.bottom-2 {
+                    transform: translate(-8px,69px);
+                    background-color:$hvrTqGreen;
+                }
             }
             &#both-option {
                 background-color: $bgMdGreen;
                 background: $gradientGreen;
-                height:115px;
+                height:100px;
+                div.bottom-2 {
+                    transform: translate(-8px,25px);
+                    background-color: $bgMdGreen;
+                }
             }
             &#active-option {
                 background-color: $bgGold;
                 background: $gradientOrange;
+                div.bottom-2 {
+                    transform: translate(-8px,27px);
+                    background-color:$bgGold;
+                }
             }
 
             // the half circles
             $size: 70.5px;
-            div.bottom {
+            div.bottom-2 {
                 background: $bgSecondGreen;
                 position: absolute;
-                transform: translate(0,159px);
-                -webkit-transform: translate(0,159px);
-                -moz-transform: translate(0,159px);
-                @media screen and (max-height:667px) {
-                    transform: translate(0,140px);
-                    -webkit-transform: translate(0,140px);
-                    -moz-transform: translate(0,140px);
-                }
+
+                // @media screen and (max-height:667px) {
+                //     transform: translate(0,140px);
+                //     -webkit-transform: translate(0,140px);
+                //     -moz-transform: translate(0,140px);
+                // }
                 box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
                 height: $size;
                 width: $size * 2;
@@ -80,9 +87,6 @@
                 display:flex;
                 justify-content:center;
                 align-items:center;
-                span {
-                    margin-top:-10px;
-                }
             }
         }
     }

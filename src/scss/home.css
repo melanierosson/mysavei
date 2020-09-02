@@ -37,7 +37,7 @@ ul.options-list li {
   height: 247px;
   z-index: 0;
   background-color: #92B96A;
-  background: linear-gradient(329deg, #92B96A 30%, #B7AB52 100%);
+  background: linear-gradient(329deg, #92B96A 5%, #B7AB52 100%);
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   list-style-type: none;
   list-indent: none;

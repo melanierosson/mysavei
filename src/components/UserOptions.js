@@ -6,22 +6,25 @@ const UserOptions = () => (
         <ul className="options-list">
             <li id="passive-option">
                 <Link to="/passive">
-                    <b>I want to invest my money passively, long-term.</b>
+                    <span className="fw-semibold">I want to invest my money passively,<br/>long-term.</span>
                     <br/><br/>
-                    <i>i.e. not check your account or participate in the investment process once it’s started</i>
+                    <span>i.e. not check your account or participate in the investment process once it’s started</span>
+                    <div className="bottom-2"></div>
                 </Link>
             </li>
             <li id="both-option">
                 <Link to="/all">
-                    <b>What about a little of both?</b>
+                    <span className="fw-semibold">What about a little of both?</span>
+                    <div className="bottom-2"></div>
                 </Link>
             </li>
             <li id="active-option">
                 <Link to="/active">
-                    <b>I want to invest actively in the stock market.</b>
+                    <span className="fw-semibold">I want to invest actively in the stock market.</span>
                     <br/><br/>
-                    <i>i.e. you want to learn a little bit more about stocks, do some short-term trading, and setup
-                    re-occurring deposits</i>
+                    <span>i.e. you want to learn a little bit more about stocks, do some short-term trading, and setup
+                    re-occurring deposits</span>
+                    <div className="bottom-2"></div>
                 </Link>
             </li>
         </ul>
