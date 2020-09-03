@@ -1,7 +1,6 @@
 import React from 'react';
 import Title from '../components/Title.js';
-import KeyTerms from '../components/KeyTerms.js';
-import IndexFunds from '../components/IndexFunds.js';
+import NeedToKnow from '../components/NeedToKnow.js';
 import MobileApp from '../components/MobileApp.js';
 import Footer from '../components/Footer.js';
 

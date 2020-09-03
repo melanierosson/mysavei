@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../components/Title.js';
 import MobileApp from '../components/MobileApp.js';
-import IndexFunds from '../components/IndexFunds.js';
+import NeedToKnow from '../components/NeedToKnow.js';
 import Footer from '../components/Footer.js';
 
 const LongTerm = () => (
@@ -16,6 +16,7 @@ const LongTerm = () => (
 
             <section id="passive" class="bordered passive-container">
                 <MobileApp type={true} containDescr={true} expand="See more" />
+                <NeedToKnow type={true} />
             </section>
 
         </main>

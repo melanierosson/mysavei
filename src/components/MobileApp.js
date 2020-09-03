@@ -16,12 +16,19 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
             </section>
             <section className={`about-mobile-app col-12 col-md-9 ${ containAll ? 'dropdown-start' : '' }`}>
                 <div class="mobile-app-title">
-                    <b><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</b>
+                    <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
-                <div class={`mobile-app-descr ${ containDescr ? 'dropdown-start' : '' }`}>
+                <div className={`mobile-app-descr ${ containDescr ? 'dropdown-start' : '' }`}>
                     { type 
                         ? 'The Acorns mobile app makes passive investing as easy as possible.' 
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
+                    }
+                </div>
+                <div className="price">
+                    {type ? 
+                        'All accounts are extremely affordable, with the most expensive, “Family”, being only $5 a month.' 
+                        : 
+                        'FREE! No fees until you transfer funds back to your checking account, then it’s $75 (so you only want to do this once you have a large chunk of profit to transfer). '
                     }
                 </div>
                 <div className="expand">

@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../components/Title.js';
 import MobileApp from '../components/MobileApp.js';
-import KeyTerms from '../components/KeyTerms.js';
+import NeedToKnow from '../components/NeedToKnow.js';
 import Footer from '../components/Footer.js';
 
 const Active = () => (
@@ -16,6 +16,7 @@ const Active = () => (
 
             <section id="active" class="bordered active-container">
                 <MobileApp type={false} containDescr={true} expand="See more" />
+                <NeedToKnow />
             </section>
 
         </main>
