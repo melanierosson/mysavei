@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe12250c.chunk.css",
-    "main.js": "/static/js/main.3b621e5c.chunk.js",
-    "main.js.map": "/static/js/main.3b621e5c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a25bc507.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a25bc507.js.map",
-    "static/js/2.f5f3b349.chunk.js": "/static/js/2.f5f3b349.chunk.js",
-    "static/js/2.f5f3b349.chunk.js.map": "/static/js/2.f5f3b349.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2dd2dd731d3f439af435470b62506d2f.js": "/precache-manifest.2dd2dd731d3f439af435470b62506d2f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fe12250c.chunk.css.map": "/static/css/main.fe12250c.chunk.css.map",
-    "static/js/2.f5f3b349.chunk.js.LICENSE.txt": "/static/js/2.f5f3b349.chunk.js.LICENSE.txt",
-    "static/media/acorns.png": "/static/media/acorns.292feff0.png",
-    "static/media/robinhood.png": "/static/media/robinhood.61bd9af1.png"
+    "main.css": "/mysavei/static/css/main.fe12250c.chunk.css",
+    "main.js": "/mysavei/static/js/main.3b621e5c.chunk.js",
+    "main.js.map": "/mysavei/static/js/main.3b621e5c.chunk.js.map",
+    "runtime-main.js": "/mysavei/static/js/runtime-main.6ffa9c1e.js",
+    "runtime-main.js.map": "/mysavei/static/js/runtime-main.6ffa9c1e.js.map",
+    "static/js/2.f5f3b349.chunk.js": "/mysavei/static/js/2.f5f3b349.chunk.js",
+    "static/js/2.f5f3b349.chunk.js.map": "/mysavei/static/js/2.f5f3b349.chunk.js.map",
+    "index.html": "/mysavei/index.html",
+    "precache-manifest.6d44ac6dfb361f6eea5952941cb2a857.js": "/mysavei/precache-manifest.6d44ac6dfb361f6eea5952941cb2a857.js",
+    "service-worker.js": "/mysavei/service-worker.js",
+    "static/css/main.fe12250c.chunk.css.map": "/mysavei/static/css/main.fe12250c.chunk.css.map",
+    "static/js/2.f5f3b349.chunk.js.LICENSE.txt": "/mysavei/static/js/2.f5f3b349.chunk.js.LICENSE.txt",
+    "static/media/acorns.png": "/mysavei/static/media/acorns.292feff0.png",
+    "static/media/robinhood.png": "/mysavei/static/media/robinhood.61bd9af1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a25bc507.js",
+    "static/js/runtime-main.6ffa9c1e.js",
     "static/js/2.f5f3b349.chunk.js",
     "static/css/main.fe12250c.chunk.css",
     "static/js/main.3b621e5c.chunk.js"
