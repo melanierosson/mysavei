@@ -1,9 +1,9 @@
 import React from 'react';
 
-const NeedToKnow = ({type}) => (
+const NeedToKnow = ({type, showTitle}) => (
     <article id="need-to-know" className="component-content need-to-know">
         <section className="col-12">
-            <h4>Need To Know</h4>
+            { showTitle ? <h4>Need To Know</h4> : '' }
             <h5>{ type ? 'Acorns Features' : 'Stock Market' }</h5>
             <p>{ type ? 
                 'A little more detail about Acorns features that you won\'t see on their website.' : 
@@ -12,6 +12,9 @@ const NeedToKnow = ({type}) => (
             </p>
             { type ? 
                 <ul className="acorns">
+                    <li>
+                        When you setup a reoccurring deposit for one of your investment accounts, Acorns will show you a graphed, calculated prediction of what your investing savings will grow to after a certain amount of years. This is incredibly motivating when just getting started!
+                    </li>
                     <li>Round-Ups: Link your various checking, savings, or credit accounts and have any purchases you make round up to the nearest dollar (or specified amount) and that round-up change will deposit to your investment (“Invest”) account. You can choose your investments from their pre-set portfolios or they will default you to a suggested portfolio.</li>
                     <li>Later Account: Optional retirement investment account. (Similar to an employer’s 401K but is an IRA.)</li>
                     <li>Early Account: Optional trust fund investment account for children. This is NOT the same as a 529 College Savings account, and on its own CAN disqualify a child from being eligible for Financial Aid, but allows you to use the funds on anything that might benefit the child.</li>

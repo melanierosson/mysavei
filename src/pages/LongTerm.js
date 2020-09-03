@@ -9,14 +9,14 @@ const LongTerm = () => (
         <Title/>
         <main class="content-page" id="passive-content">
 
-            <h3 className="subtitle">Long-Term, Passive Investing</h3>
+            <h2 className="subtitle">Long-Term, Passive Investing</h2>
             <p class="page-description">
                 You rarely want to check your account or participate in the investment process once it’s started.
             </p>
 
             <section id="passive" class="bordered passive-container">
                 <MobileApp type={true} containDescr={true} expand="See more" />
-                <NeedToKnow type={true} />
+                <NeedToKnow type={true} showTitle={true}/>
             </section>
 
         </main>

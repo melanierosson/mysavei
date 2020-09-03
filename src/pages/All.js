@@ -10,13 +10,19 @@ const All = ({props}) => {
         <>
             <Title />
             <main class="content-page" id="all-content">
-                <h3 className="subtitle">All Resources and Information</h3>
+                <h2 className="subtitle">All Resources and Information</h2>
 
                 <section id="mobile-apps" class="bordered all-container">
-                    <h4 class="section-title">Mobile Apps</h4>
+                    <h3>Mobile Apps</h3>
                     <MobileApp type={true} containAll={true} expand="See more"/>
                     <br /><br />
                     <MobileApp type={false} containAll={true} expand="See more"/>
+                </section>
+
+                <section id="know" class="bordered all-container">
+                    <h3>Need To Know</h3>
+                    <NeedToKnow type={true} showTitle={false} />
+                    <NeedToKnow type={false} showTitle={false} />
                 </section>
 
             </main>
