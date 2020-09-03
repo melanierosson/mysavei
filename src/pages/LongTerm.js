@@ -16,6 +16,7 @@ const LongTerm = () => (
 
             <section id="passive" class="bordered passive-container">
                 <MobileApp type={true} containDescr={true} expand="See more" />
+                <br /><br />
                 <NeedToKnow type={true} showTitle={true}/>
             </section>
 

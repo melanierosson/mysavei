@@ -16,6 +16,7 @@ const Active = () => (
 
             <section id="active" class="bordered active-container">
                 <MobileApp type={false} containDescr={true} expand="See more" />
+                <br /><br />
                 <NeedToKnow type={false} showTitle={true}/>
             </section>
 

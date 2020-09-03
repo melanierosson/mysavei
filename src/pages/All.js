@@ -18,10 +18,11 @@ const All = ({props}) => {
                     <br /><br />
                     <MobileApp type={false} containAll={true} expand="See more"/>
                 </section>
-
+                <br /><br />
                 <section id="know" class="bordered all-container">
                     <h3>Need To Know</h3>
                     <NeedToKnow type={true} showTitle={false} />
+                    <br /><br />
                     <NeedToKnow type={false} showTitle={false} />
                 </section>
 

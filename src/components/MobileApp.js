@@ -11,7 +11,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
         <article id="mobile-app" className="row component-content mobile-app">
             <section className="img-container col-12 col-md-3">
                 <div className="img-holder">
-                    <img className="app-icons" src={type ? AcornsImg : RobinhoodImg} />
+                    <img className="app-icons" src={ type ? AcornsImg : RobinhoodImg } />
                 </div>
             </section>
             <section className={`about-mobile-app col-12 col-md-9 ${ containAll ? 'dropdown-start' : '' }`}>
