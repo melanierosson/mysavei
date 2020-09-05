@@ -8,11 +8,9 @@ const Footer = () => (
             <section id="footer-home" className="footer-nav col-3">
                 <Link to="/" exact>
                     <p className="footer-nav-link">
-                        <span className="footer-nav-span" style={{ marginBottom: '-10px' }}>
+                        <span className="footer-nav-link">
                             <i class="fas fa-home"></i>
-                        </span>
-                        <br />
-                        <span className="footer-nav-span" style={{ marginTop: '-10px' }}>
+                            <br/>
                             home
                         </span>
                     </p>
@@ -43,11 +41,9 @@ const Footer = () => (
             <section id="footer-all" className="footer-nav col-3">
                 <Link to="/all">
                     <p className="footer-nav-link">
-                        <span className="footer-nav-link" style={{ marginBottom: '-10px' }}>
+                        <span className="footer-nav-link">
                             <i class="fas fa-list-ul"></i>
-                        </span>
-                        <br/>
-                        <span className="footer-nav-link" style={{ marginTop: '-10px' }}>
+                            <br/>
                             all
                         </span>
                     </p>

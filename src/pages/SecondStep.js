@@ -8,12 +8,14 @@ const SecondStep = () => (
     <>
         <Title/>
         <main id="step2-page" class="content-page">
-            <h3 className="subtitle">Your Investment Strategy</h3>
+            <h2 className="subtitle">Your Investment Strategy</h2>
 
             <section id="step2-question" className="component-content">
+                <div className="left"></div>
                 <p id="step2-q-text" className="text-center fw-medium">
                     How would you<br/>like to invest?
                 </p>
+                <div className="right"></div>
             </section>
 
             <UserOptions />

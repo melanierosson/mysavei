@@ -31,28 +31,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/components/IndexFunds.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/components/IndexFunds-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/components/KeyTerms.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/components/KeyTerms-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/components/MobileApp.js": {
 		"bF": 0,
 		"ft": 64,
@@ -60,6 +38,17 @@
 		"mi": 0,
 		"oA": 1,
 		"oAP": "/components/MobileApp-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/components/NeedToKnow.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/components/NeedToKnow.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -274,16 +263,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/footer.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/footer-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"/scss/footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -292,20 +271,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/footer.css",
-		"oF": 0,
+		"oAP": "/css/footer.css",
+		"oF": 2,
 		"oS": 0,
 		"sct": 0
-		},
-	"/scss/home.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/home-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"/scss/home.scss": {
 		"aP": 0,
@@ -315,8 +284,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/home.css",
-		"oF": 0,
+		"oAP": "/css/home.css",
+		"oF": 2,
 		"oS": 0,
 		"sct": 0
 		},
@@ -354,10 +323,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/title.css",
-		"oF": 0,
+		"oAP": "/css/title.css",
+		"oF": 2,
 		"oS": 0,
-		"sct": 0
+		"sct": 1
 		},
 	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/classnames/index.js": {
 		"bF": 0,
@@ -387,7 +356,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/history/esm/history-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/history/esm/history.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -398,7 +367,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -409,7 +378,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/mini-create-react-context/dist/esm/index-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/mini-create-react-context/dist/esm/index.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -497,7 +466,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-dom/index-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-dom/index.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -508,7 +477,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-is/index-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-is/index.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -519,7 +488,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router-dom/esm/react-router-dom-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router-dom/esm/react-router-dom.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -530,7 +499,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router/esm/react-router-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router/esm/react-router.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -541,7 +510,7 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router/node_modules/path-to-regexp/index-min.js",
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router/node_modules/path-to-regexp/index.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

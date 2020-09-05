@@ -3,13 +3,36 @@
 #step2-page {
     #step2-question {
         display:flex;
+        flex-direction:row;
+        align-content:center;
         align-items:center;
-        justify-content:center;
-        max-width:748px;
+        justify-content:space-between;
+        max-width:630px;
         height:129px;
-        border-radius:60px;
+        border-radius:100%;
+        z-index:30;
         @media screen and (max-width:400px) {
             max-width:345px;
+        }
+        $size: 64.5px;
+        div {
+        background-color:$bgGrey;
+        display: inline-block;
+        }
+        .right,
+        .left {
+        height: $size * 2;
+        width: $size;
+        }
+        .right {
+            border-bottom-right-radius: $size * 2;
+            border-top-right-radius: $size * 2;
+            margin-right:-70px;
+        }
+        .left {
+            border-bottom-left-radius: $size * 2;
+            border-top-left-radius: $size * 2;
+            margin-left:-70px;
         }
     }
 
@@ -46,7 +69,7 @@
                 background-color: $bgTqGreen;
                 background: $gradientTq;
                 div.bottom-2 {
-                    transform: translate(-8px,69px);
+                    transform: translate(-8px,62px);
                     background-color:$hvrTqGreen;
                 }
             }
@@ -63,7 +86,7 @@
                 background-color: $bgGold;
                 background: $gradientOrange;
                 div.bottom-2 {
-                    transform: translate(-8px,27px);
+                    transform: translate(-8px,19px);
                     background-color:$bgGold;
                 }
             }
