@@ -1,4 +1,24 @@
 article.component-content.mobile-app {
+    // mixin for mobile app green dropdown elements
+    @mixin mobile-app-dropdown {
+        background-color: $bgTqGreen;
+        background: $gradientTq;
+        padding:16px 0 0 0;
+        border-radius: 0 0 20px 20px;
+        position:relative;
+        z-index:1;
+        box-shadow:$x8Shadow;
+    }
+    @mixin expanding {
+        height:48px;
+        border-radius: 0 0 20px 20px;
+        background-color: $expMdGreen;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    //
+
     margin:auto;
     @media screen and (max-width:767px) {
         height:250px;
@@ -37,27 +57,16 @@ article.component-content.mobile-app {
         }
         &.dropdown-start {
             @media screen and (max-width:767px) {
-                background-color: $bgTqGreen;
-                background: $gradientTq;
-                max-width:200px;
+                @include mobile-app-dropdown;
                 margin: 18px auto 0 auto;
-                padding:16px 0 0 0;
-                border-radius: 0 0 20px 20px;
-                position:relative;
-                z-index:1;
-                box-shadow:$x8Shadow;
+                max-width:200px;
                 .mobile-app-descr {
                     display:none;
                 }
                 .expand {
+                    @include expanding;
                     margin-top:19px;
                     max-width:200px;
-                    height:48px;
-                    border-radius: 0 0 20px 20px;
-                    background-color: $expMdGreen;
-                    display:flex;
-                    justify-content:center;
-                    align-items:center;
                 }
             }
         }
@@ -65,6 +74,27 @@ article.component-content.mobile-app {
             justify-content:center;
             text-align:center;
         }
+        // desktop size dropdown menu
+        @media screen and (min-width: 768px) {
+            .mobile-app-descr {
+                @include mobile-app-dropdown;
+                padding:16px 16px;
+                max-width: 481px;
+                margin-top:2px;
+                height:124px;
+            }
+            .expand {
+                @include expanding;
+                max-width:481px;
+                margin-top:-47px;
+                position:relative;
+                // display:block;
+                z-index:5;
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        height:164px !important;
     }
     
 }

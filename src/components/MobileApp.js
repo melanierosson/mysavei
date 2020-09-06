@@ -24,7 +24,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
                     }
                 </div>
-                <div className="price">
+                <div className="price" style={{display:'none'}}>
                     {type ? 
                         'All accounts are extremely affordable, with the most expensive, “Family”, being only $5 a month.' 
                         : 

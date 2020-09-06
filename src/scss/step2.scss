@@ -11,28 +11,49 @@
         height:129px;
         border-radius:100%;
         z-index:30;
-        @media screen and (max-width:400px) {
-            max-width:345px;
+        @media screen and (max-height:667px) {
+            height:100px;
+        }
+        @media screen and (max-width:767px) {
+            max-width:280px;
         }
         $size: 64.5px;
         div {
-        background-color:$bgGrey;
-        display: inline-block;
+            background-color:$bgGrey;
+            display: inline-block;
         }
         .right,
         .left {
-        height: $size * 2;
-        width: $size;
+            height: $size * 2;
+            width: $size;
+            @media screen and (max-height:667px) {
+                height: 50px * 2;
+                width: 50px;
+            }
         }
         .right {
             border-bottom-right-radius: $size * 2;
             border-top-right-radius: $size * 2;
+            @media screen and (max-height:667px) {
+                border-bottom-right-radius: 50px * 2;
+                border-top-right-radius: 50px * 2;
+            }
             margin-right:-70px;
+            @media screen and (max-height:667px) {
+                margin-right:-60px;
+            }
         }
         .left {
             border-bottom-left-radius: $size * 2;
             border-top-left-radius: $size * 2;
+            @media screen and (max-height:667px) {
+                border-bottom-left-radius: 50px * 2;
+                border-top-left-radius: 50px * 2;
+            }
             margin-left:-70px;
+            @media screen and (max-height:667px) {
+                margin-left:-60px;
+            }
         }
     }
 
@@ -47,7 +68,14 @@
             width: 141px;
             height:330px;
             @media screen and (max-height:667px) {
-                height:215px;
+                height:228px;
+                .hide-mobile {
+                    display:none;
+                }
+                span.more-descr {
+                    font-size:0.8rem;
+                    line-height:0.8rem;
+                }
             }   
             z-index:0;
             box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
@@ -71,15 +99,48 @@
                 div.bottom-2 {
                     transform: translate(-8px,62px);
                     background-color:$hvrTqGreen;
+                    @media screen and (max-height:667px) {
+                        transform: translate(-8px,2px);
+                    }
+                }
+                @media screen and (max-width:767px) {
+                    margin: -20px 15px 0 15px;
                 }
             }
             &#both-option {
                 background-color: $bgMdGreen;
                 background: $gradientGreen;
                 height:100px;
+                .mobile-arrow {
+                    display:none;
+                }
                 div.bottom-2 {
                     transform: translate(-8px,25px);
                     background-color: $bgMdGreen;
+                }
+                @media screen and (max-width:767px) {
+                    width:317px;
+                    height:67px;
+                    position:absolute;
+                    top:645px;
+                    margin:0 auto;
+                    border-radius:50px;
+                    display:flex;
+                    align-items:center;
+                    padding-top:6px;
+                    div.bottom-2 {
+                        display:none;
+                    }
+                    @media screen and (max-height:667px) {
+                        top:500px;
+                    }
+                    .mobile-arrow {
+                        display:inline;
+                        padding-left:6px;
+                    }
+                    &:hover {
+                        transform: translate(18px,0);
+                    }
                 }
             }
             &#active-option {
@@ -88,6 +149,12 @@
                 div.bottom-2 {
                     transform: translate(-8px,19px);
                     background-color:$bgGold;
+                    @media screen and (max-height:667px) {
+                        transform: translate(-8px,2px);
+                    }
+                }
+                @media screen and (max-width:767px) {
+                    margin: -20px 15px 0 15px;
                 }
             }
 

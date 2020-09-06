@@ -44,32 +44,64 @@ article.component-content.mobile-app .about-mobile-app {
   article.component-content.mobile-app .about-mobile-app.dropdown-start {
     background-color: #53AA81;
     background: linear-gradient(329deg, #50A862 0%, #52B788 100%);
-    max-width: 200px;
-    margin: 18px auto 0 auto;
     padding: 16px 0 0 0;
     border-radius: 0 0 20px 20px;
     position: relative;
     z-index: 1;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+    margin: 18px auto 0 auto;
+    max-width: 200px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr {
     display: none;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .expand {
-    margin-top: 19px;
-    max-width: 200px;
     height: 48px;
     border-radius: 0 0 20px 20px;
     background-color: rgba(133, 183, 82, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 19px;
+    max-width: 200px;
   }
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .about-mobile-app {
     justify-content: center;
     text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr {
+    background-color: #53AA81;
+    background: linear-gradient(329deg, #50A862 0%, #52B788 100%);
+    padding: 16px 0 0 0;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+    padding: 16px 16px;
+    max-width: 481px;
+    margin-top: 2px;
+    height: 124px;
+  }
+  article.component-content.mobile-app .about-mobile-app .expand {
+    height: 48px;
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(133, 183, 82, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 481px;
+    margin-top: -47px;
+    position: relative;
+    z-index: 5;
+  }
+}
+@media screen and (min-width: 768px) {
+  article.component-content.mobile-app {
+    height: 164px !important;
   }
 }
 
