@@ -42,7 +42,7 @@ const Home = () => (
                             I want to see <span className="fw-medium">all investment &amp; savings information</span>
                         </p>
                         <div className="bottom">
-                            <span className="time">&lt; 10 min.</span>
+                            <span className="time">&lt; 15 min.</span>
                         </div>
                     </li>
                 </Link>

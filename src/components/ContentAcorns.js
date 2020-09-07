@@ -22,13 +22,13 @@ const ContentAcorns = () => (
         </li>
         <li>
             <p>
-                <b>Predicted Savings Graph:</b> When you setup a recurring deposit for one of your investment accounts, Acorns will show you a graphed, calculated prediction of what your investing savings will grow to after a certain amount of years. This is incredibly motivating when just getting started!
+                <b>Predicted Savings Graph:</b> When you setup a recurring deposit for one of your investment accounts, Acorns will show you a graphed, calculated prediction of what your investing savings will grow to after a certain amount of years. This is incredibly motivating!
             </p>
             <img src={predictImg} />
         </li>
         <li>
             <p>
-                <b>Later Account:</b> Optional retirement investment account. (Similar to an employer’s 401K but is an IRA.)
+                <b>Later Account:</b> Optional retirement investment account. (Similar to an employer’s retirement plan but is an IRA.)
             </p>
             <img src={laterImg} />
         </li>
