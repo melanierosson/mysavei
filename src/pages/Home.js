@@ -9,7 +9,7 @@ import '../css/home.css';
 const Home = () => (
     <>
         <Title />
-        <h3 className="subtitle">Quick Start Investing</h3>
+        <h2 className="subtitle">Quick Start Investing</h2>
         <main>
             <article className="why-invest">
                 <Figure>

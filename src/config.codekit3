@@ -20,6 +20,28 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/components/ContentAcorns.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/components/ContentAcorns.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/components/ContentStocks.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/components/ContentStocks.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/components/Footer.js": {
 		"bF": 0,
 		"ft": 64,
@@ -136,6 +158,149 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/imgs/active/auto-deposits.PNG": {
+		"ft": 32768,
+		"iS": 140630,
+		"oA": 0,
+		"oAP": "/imgs/active/auto-deposits.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/crypto.PNG": {
+		"ft": 32768,
+		"iS": 25490,
+		"oA": 0,
+		"oAP": "/imgs/active/crypto.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/dividends.PNG": {
+		"ft": 32768,
+		"iS": 85539,
+		"oA": 0,
+		"oAP": "/imgs/active/dividends.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/fractional-share.PNG": {
+		"ft": 32768,
+		"iS": 16969,
+		"oA": 0,
+		"oAP": "/imgs/active/fractional-share.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/indexes.PNG": {
+		"ft": 32768,
+		"iS": 82190,
+		"oA": 0,
+		"oAP": "/imgs/active/indexes.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/limit-price.PNG": {
+		"ft": 32768,
+		"iS": 14774,
+		"oA": 0,
+		"oAP": "/imgs/active/limit-price.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/market-price.PNG": {
+		"ft": 32768,
+		"iS": 15191,
+		"oA": 0,
+		"oAP": "/imgs/active/market-price.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/active/stock-etf.PNG": {
+		"ft": 32768,
+		"iS": 23548,
+		"oA": 0,
+		"oAP": "/imgs/active/stock-etf.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/passive/.roundup~imageoptim.png": {
+		"ft": 32768,
+		"iS": 326321,
+		"oA": 0,
+		"oAP": "/imgs/passive/.roundup~imageoptim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/passive/early.png": {
+		"ft": 32768,
+		"iS": 254600,
+		"oA": 0,
+		"oAP": "/imgs/passive/early.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/passive/later.png": {
+		"ft": 32768,
+		"iS": 394189,
+		"oA": 0,
+		"oAP": "/imgs/passive/later.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/passive/predict.png": {
+		"ft": 32768,
+		"iS": 385745,
+		"oA": 0,
+		"oAP": "/imgs/passive/predict.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/passive/recurring.png": {
+		"ft": 32768,
+		"iS": 27070,
+		"oA": 0,
+		"oAP": "/imgs/passive/recurring.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/imgs/robinhood.png": {
 		"ft": 32768,
 		"iS": 19220,
@@ -246,6 +411,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_mobile-apps.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/_needtoknow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_needtoknow.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

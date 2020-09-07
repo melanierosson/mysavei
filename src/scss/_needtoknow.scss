@@ -1,0 +1,78 @@
+ul.need-to-know.list {
+    list-style-type:none;
+    padding-left:0;
+    li {
+        display:flex;
+        @media screen and (max-width:767px) {
+            flex-direction:column;
+        }
+        @media screen and (min-width:768px) {
+            flex-direction:row;
+        }
+        align-items:center;
+        border-top: 3px solid rgba(0,0,0,0.16);
+        padding-left:10px;
+        padding-right:10px;
+        p {
+            @media screen and (max-width:767px) {
+                margin-top:20px;
+            }
+            margin-top:5px;
+            a.link {
+                color:$hvrTqGreen !important;
+                margin-left:10px;
+                font-weight:500;
+                text-shadow:$linkShadow;
+                &:hover {
+                    color:$hvrMdGreen !important;
+                }
+            }
+            a {
+                color:$hvrTqGreen !important;
+                font-weight:500;
+                text-shadow:$linkShadow;
+                &:hover {
+                    color:$hvrMdGreen !important;
+                }
+            }
+        }
+        img {
+            @media screen and (max-width:767px) {
+                margin-top:0;
+                margin-bottom:25px;
+            }
+            @media screen and (min-width:768px) {
+                float:right;
+                width:250px;
+                padding:10px 0 10px 10px;
+            }
+            width:100%;
+            float:none;
+            
+        }
+        ul.sublist {
+            display:inline;
+            li {
+                border:0;
+            }
+            li:first-of-type {
+                margin-top:-20px;
+                @media screen and (max-width:767px) {
+                    margin-top:-40px;
+                }
+            }
+        }
+    }
+    .listImgStyle {
+        display:flex;
+        padding-left:0;
+        padding-right:0;
+        @media screen and (max-width:767px) {
+            flex-direction:column;
+        }
+        @media screen and (min-width:768px) {
+            flex-direction:row;
+        }
+        align-items:center;
+    }
+}

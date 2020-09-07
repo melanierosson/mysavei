@@ -112,6 +112,9 @@ div#root {
         width:100%;
         box-shadow: $x8Shadow;
         padding:24px;
+        @media screen and (max-width:767px) {
+          padding:6px;
+        }
       }
       .page-description {
         color: $textWhite;

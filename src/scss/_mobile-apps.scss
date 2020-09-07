@@ -73,6 +73,21 @@ article.component-content.mobile-app {
         @media screen and (max-width:767px) {
             justify-content:center;
             text-align:center;
+            .mobile-app-descr {
+                &.dropdown-start {
+                    @include mobile-app-dropdown;
+                    margin: 18px auto 0 auto;
+                    padding:16px 16px 16px 16px;
+                    max-width:200px;
+                    height:160px;
+                }
+            }
+            .mobile-app-descr.dropdown-start > .expand {
+                @include expanding;
+                margin-top:-30px;
+                max-width:200px;
+                z-index:3;
+            }
         }
         // desktop size dropdown menu
         @media screen and (min-width: 768px) {
