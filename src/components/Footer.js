@@ -6,7 +6,7 @@ const Footer = () => (
     <nav className="footer">
         <footer className="row">
             <section id="footer-home" className="footer-nav col-3">
-                <Link to="/" exact>
+                <Link to={process.env.PUBLIC_URL + '/'} exact>
                     <p className="footer-nav-link">
                         <span className="footer-nav-link">
                             <i class="fas fa-home"></i>
@@ -39,7 +39,7 @@ const Footer = () => (
                 </p>
             </section>
             <section id="footer-all" className="footer-nav col-3">
-                <Link to="/all">
+                <Link to={process.env.PUBLIC_URL + '/all'}>
                     <p className="footer-nav-link">
                         <span className="footer-nav-link">
                             <i class="fas fa-list-ul"></i>

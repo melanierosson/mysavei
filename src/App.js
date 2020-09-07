@@ -34,11 +34,11 @@ function App() {
       <Router>
         <section id="app">
           <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/all" component={All} />
-            <Route path="/step2" component={SecondStep} />
-            <Route path="/active" component={Active} />
-            <Route path="/passive" component={LongTerm} />
+            <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
+            <Route path={process.env.PUBLIC_URL + '/all'} component={All} />
+            <Route path={process.env.PUBLIC_URL + '/step2'} component={SecondStep} />
+            <Route path={process.env.PUBLIC_URL + '/active'} component={Active} />
+            <Route path={process.env.PUBLIC_URL + '/passive'} component={LongTerm} />
             <Route component={NotFound} />
           </Switch>
         </section>
