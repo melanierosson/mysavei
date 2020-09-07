@@ -1,5 +1,6 @@
 # mysavei
 🤑 Website containing condensed savings & investment advice for those that are intimidated by traditional financial documentation. Coded in React JS using functional components + hooks with Router and Bootstrap.
+>In Progress: http://mysavei.com
 
 ## goals
 #### high-level
