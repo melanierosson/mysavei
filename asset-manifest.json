@@ -1,24 +1,37 @@
 {
   "files": {
-    "main.css": "/mysavei/static/css/main.c07fe87b.chunk.css",
-    "main.js": "/mysavei/static/js/main.dbc3211a.chunk.js",
-    "main.js.map": "/mysavei/static/js/main.dbc3211a.chunk.js.map",
+    "main.css": "/mysavei/static/css/main.07262c58.chunk.css",
+    "main.js": "/mysavei/static/js/main.760b96f2.chunk.js",
+    "main.js.map": "/mysavei/static/js/main.760b96f2.chunk.js.map",
     "runtime-main.js": "/mysavei/static/js/runtime-main.6ffa9c1e.js",
     "runtime-main.js.map": "/mysavei/static/js/runtime-main.6ffa9c1e.js.map",
-    "static/js/2.f5f3b349.chunk.js": "/mysavei/static/js/2.f5f3b349.chunk.js",
-    "static/js/2.f5f3b349.chunk.js.map": "/mysavei/static/js/2.f5f3b349.chunk.js.map",
+    "static/js/2.8a149d01.chunk.js": "/mysavei/static/js/2.8a149d01.chunk.js",
+    "static/js/2.8a149d01.chunk.js.map": "/mysavei/static/js/2.8a149d01.chunk.js.map",
     "index.html": "/mysavei/index.html",
-    "precache-manifest.45c625665708ea8ac88100bad1811eed.js": "/mysavei/precache-manifest.45c625665708ea8ac88100bad1811eed.js",
+    "precache-manifest.00446fdd318bfd02959bb18204f681ef.js": "/mysavei/precache-manifest.00446fdd318bfd02959bb18204f681ef.js",
     "service-worker.js": "/mysavei/service-worker.js",
-    "static/css/main.c07fe87b.chunk.css.map": "/mysavei/static/css/main.c07fe87b.chunk.css.map",
-    "static/js/2.f5f3b349.chunk.js.LICENSE.txt": "/mysavei/static/js/2.f5f3b349.chunk.js.LICENSE.txt",
+    "static/css/main.07262c58.chunk.css.map": "/mysavei/static/css/main.07262c58.chunk.css.map",
+    "static/js/2.8a149d01.chunk.js.LICENSE.txt": "/mysavei/static/js/2.8a149d01.chunk.js.LICENSE.txt",
     "static/media/acorns.png": "/mysavei/static/media/acorns.292feff0.png",
-    "static/media/robinhood.png": "/mysavei/static/media/robinhood.61bd9af1.png"
+    "static/media/auto-deposits.png": "/mysavei/static/media/auto-deposits.c2feb7b4.png",
+    "static/media/crypto.png": "/mysavei/static/media/crypto.f079310d.png",
+    "static/media/dividends.PNG": "/mysavei/static/media/dividends.c1d3555c.PNG",
+    "static/media/early.png": "/mysavei/static/media/early.d43d10b9.png",
+    "static/media/fractional-share.PNG": "/mysavei/static/media/fractional-share.4b618d14.PNG",
+    "static/media/indexes.PNG": "/mysavei/static/media/indexes.796e9c3f.PNG",
+    "static/media/later.png": "/mysavei/static/media/later.c027174e.png",
+    "static/media/limit-price.PNG": "/mysavei/static/media/limit-price.11c7635d.PNG",
+    "static/media/market-price.PNG": "/mysavei/static/media/market-price.54f083e6.PNG",
+    "static/media/predict.png": "/mysavei/static/media/predict.12efd468.png",
+    "static/media/recurring.png": "/mysavei/static/media/recurring.dd3d7eee.png",
+    "static/media/robinhood.png": "/mysavei/static/media/robinhood.61bd9af1.png",
+    "static/media/roundup.png": "/mysavei/static/media/roundup.10a627c1.png",
+    "static/media/stock-etf.PNG": "/mysavei/static/media/stock-etf.2bc6e6e8.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.6ffa9c1e.js",
-    "static/js/2.f5f3b349.chunk.js",
-    "static/css/main.c07fe87b.chunk.css",
-    "static/js/main.dbc3211a.chunk.js"
+    "static/js/2.8a149d01.chunk.js",
+    "static/css/main.07262c58.chunk.css",
+    "static/js/main.760b96f2.chunk.js"
   ]
 }
