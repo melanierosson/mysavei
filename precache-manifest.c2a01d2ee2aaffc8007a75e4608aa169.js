@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e31c5157aa608cfe7b0726990ec5c52c",
+    "revision": "1d2685ae373c842b81c57db671e651bd",
     "url": "/mysavei/index.html"
   },
   {
-    "revision": "ee4f6251aba9b05efc3c",
+    "revision": "845a2d79a2108925592a",
     "url": "/mysavei/static/css/main.a0767905.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mysavei/static/js/2.7a50070e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee4f6251aba9b05efc3c",
-    "url": "/mysavei/static/js/main.cd0e683b.chunk.js"
+    "revision": "845a2d79a2108925592a",
+    "url": "/mysavei/static/js/main.dc066618.chunk.js"
   },
   {
     "revision": "f4e51f36081e6b2bb290",
     "url": "/mysavei/static/js/runtime-main.6ffa9c1e.js"
   },
   {
-    "revision": "0b84dd6d9a9ff1eb867b81576746f5fb",
-    "url": "/mysavei/static/media/acorns.0b84dd6d.png"
+    "revision": "b8ab5786a775281da55b6c6a8fe98eeb",
+    "url": "/mysavei/static/media/acorns.b8ab5786.png"
   },
   {
     "revision": "738111157d9206ccb31891bb3e3370be",
