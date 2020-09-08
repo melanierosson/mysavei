@@ -65,6 +65,9 @@ div#root {
     .fw-bold {
       font-weight:700;
     }
+    .xs {
+      font-size:80%;
+    }
 
     code {
       font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -121,6 +124,15 @@ div#root {
       }
       .page-description {
         color: $textWhite;
+        padding:0 20px;
+        text-align:center;
+      }
+      #toggle-mobile-apps,
+      #toggle-needtoknow,
+      #needtoknow-header {
+        &:hover {
+          cursor:pointer;
+        }
       }
     }
   }

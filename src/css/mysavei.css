@@ -194,6 +194,9 @@ div#root section#app .fw-medium {
 div#root section#app .fw-bold {
   font-weight: 700;
 }
+div#root section#app .xs {
+  font-size: 80%;
+}
 div#root section#app code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -257,6 +260,13 @@ div#root section#app main.content-page .component-content {
 }
 div#root section#app main.content-page .page-description {
   color: #F7F7F2;
+  padding: 0 20px;
+  text-align: center;
+}
+div#root section#app main.content-page #toggle-mobile-apps:hover,
+div#root section#app main.content-page #toggle-needtoknow:hover,
+div#root section#app main.content-page #needtoknow-header:hover {
+  cursor: pointer;
 }
 
 ul.need-to-know.list {

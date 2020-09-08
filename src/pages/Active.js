@@ -14,7 +14,7 @@ const Active = () => (
                 You want to learn a little bit more about stocks, do some short-term trading, and maybe setup re-occurring deposits.
             </p>
 
-            <section id="active" class="bordered active-container">
+            <section id="active" class="bordered active-container" style={{ marginBottom: '100px'}}>
                 <MobileApp type={false} containDescr={true} expand="See more" />
                 <br /><br />
                 <NeedToKnow type={false} showTitle={true}/>

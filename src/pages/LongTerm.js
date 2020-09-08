@@ -14,7 +14,7 @@ const LongTerm = () => (
                 You rarely want to check your account or participate in the investment process once it’s started.
             </p>
 
-            <section id="passive" class="bordered passive-container">
+            <section id="passive" class="bordered passive-container" style={{ marginBottom: '100px' }}>
                 <MobileApp type={true} containDescr={true} expand="See more" />
                 <br /><br />
                 <NeedToKnow type={true} showTitle={true}/>
