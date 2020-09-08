@@ -16,7 +16,12 @@
 }
 @media screen and (max-width: 767px) {
   #step2-page #step2-question {
-    max-width: 280px;
+    max-width: 345px;
+    border-radius: 100px !important;
+    justify-content: center;
+  }
+  #step2-page #step2-question div {
+    display: none !important;
   }
 }
 #step2-page #step2-question div {

@@ -15,7 +15,12 @@
             height:100px;
         }
         @media screen and (max-width:767px) {
-            max-width:280px;
+            max-width:345px;
+            border-radius:100px !important;
+            justify-content:center;
+            div {
+                display:none !important;
+            }
         }
         $size: 64.5px;
         div {

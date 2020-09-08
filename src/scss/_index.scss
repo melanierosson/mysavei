@@ -40,7 +40,10 @@ div#root {
       font-size:1.25rem;
     }
     h5, h6 {
-      font-size:1.125rem;
+      font-size:1.15rem;
+      @media screen and (max-width:767px) {
+        margin-top:8px;
+      }
     }
 
     a:link, a {
@@ -84,10 +87,10 @@ div#root {
         margin-right:34px;
         width:90%;
         @media screen and (max-width:400px) {
-          max-width:306px;
+          max-width:350px;
         }
         @media screen and (max-width:767px) {
-          padding:21px;
+          padding:16px;
         }
         @media screen and (min-width:768px) {
           padding:24px;

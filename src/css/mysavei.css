@@ -169,7 +169,12 @@ div#root section#app h4 {
   font-size: 1.25rem;
 }
 div#root section#app h5, div#root section#app h6 {
-  font-size: 1.125rem;
+  font-size: 1.15rem;
+}
+@media screen and (max-width: 767px) {
+  div#root section#app h5, div#root section#app h6 {
+    margin-top: 8px;
+  }
 }
 div#root section#app a:link, div#root section#app a {
   color: #000;
@@ -210,12 +215,12 @@ div#root section#app main.content-page section.bordered {
 }
 @media screen and (max-width: 400px) {
   div#root section#app main.content-page section.bordered {
-    max-width: 306px;
+    max-width: 350px;
   }
 }
 @media screen and (max-width: 767px) {
   div#root section#app main.content-page section.bordered {
-    padding: 21px;
+    padding: 16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -262,17 +267,19 @@ ul.need-to-know.list li {
   display: flex;
   align-items: center;
   border-top: 3px solid rgba(0, 0, 0, 0.16);
-  padding-left: 10px;
-  padding-right: 10px;
 }
 @media screen and (max-width: 767px) {
   ul.need-to-know.list li {
     flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media screen and (min-width: 768px) {
   ul.need-to-know.list li {
     flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 ul.need-to-know.list li p {
@@ -284,21 +291,21 @@ ul.need-to-know.list li p {
   }
 }
 ul.need-to-know.list li p a.link {
-  color: #52B788 !important;
+  color: #018667 !important;
   margin-left: 10px;
   font-weight: 500;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 ul.need-to-know.list li p a.link:hover {
-  color: #85B752 !important;
+  color: #F3755B !important;
 }
 ul.need-to-know.list li p a {
-  color: #52B788 !important;
+  color: #018667 !important;
   font-weight: 500;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 ul.need-to-know.list li p a:hover {
-  color: #85B752 !important;
+  color: #F3755B !important;
 }
 ul.need-to-know.list li img {
   width: 100%;
@@ -308,12 +315,15 @@ ul.need-to-know.list li img {
   ul.need-to-know.list li img {
     margin-top: 0;
     margin-bottom: 25px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 768px) {
   ul.need-to-know.list li img {
     float: right;
+    min-width: 250px;
     width: 250px;
+    max-width: 250px;
     padding: 10px 0 10px 10px;
   }
 }
@@ -322,6 +332,12 @@ ul.need-to-know.list li ul.sublist {
 }
 ul.need-to-know.list li ul.sublist li {
   border: 0;
+}
+@media screen and (max-width: 767px) {
+  ul.need-to-know.list li ul.sublist li {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 ul.need-to-know.list li ul.sublist li:first-of-type {
   margin-top: -20px;

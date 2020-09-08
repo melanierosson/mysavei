@@ -52,7 +52,7 @@ const ContentStocks = () => (
                 <img src={indexImg} />
             </div>
             
-            <div className="col-12" style={{paddingBottom:'20px'}}>
+            <div className="col-12" style={{paddingBottom:'20px', paddingLeft: '0'}}>
                 <ul className="sublist">
                     <li>
                         <p>
