@@ -65,6 +65,9 @@ article.component-content.mobile-app .about-mobile-app {
     margin-top: 19px;
     max-width: 200px;
   }
+  article.component-content.mobile-app .about-mobile-app.dropdown-start .expand:hover {
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .about-mobile-app {
@@ -121,6 +124,9 @@ article.component-content.mobile-app .about-mobile-app {
     margin-top: -47px;
     position: relative;
     z-index: 5;
+  }
+  article.component-content.mobile-app .about-mobile-app .expand:hover {
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 768px) {

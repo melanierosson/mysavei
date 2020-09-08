@@ -67,6 +67,9 @@ article.component-content.mobile-app {
                     @include expanding;
                     margin-top:19px;
                     max-width:200px;
+                    &:hover {
+                        cursor:pointer;
+                    }
                 }
             }
         }
@@ -105,6 +108,9 @@ article.component-content.mobile-app {
                 position:relative;
                 // display:block;
                 z-index:5;
+                &:hover {
+                    cursor:pointer;
+                }
             }
         }
     }
