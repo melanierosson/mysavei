@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47e436a5d8645c1be511615c869f94a6",
+    "revision": "e31c5157aa608cfe7b0726990ec5c52c",
     "url": "/mysavei/index.html"
   },
   {
-    "revision": "0f878bed6715be500a8d",
-    "url": "/mysavei/static/css/main.5b8f5f0a.chunk.css"
+    "revision": "ee4f6251aba9b05efc3c",
+    "url": "/mysavei/static/css/main.a0767905.chunk.css"
   },
   {
-    "revision": "9c3ec7f36e9ea92ca82e",
-    "url": "/mysavei/static/js/2.8a149d01.chunk.js"
+    "revision": "e100cf09b623b69499fa",
+    "url": "/mysavei/static/js/2.7a50070e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/mysavei/static/js/2.8a149d01.chunk.js.LICENSE.txt"
+    "url": "/mysavei/static/js/2.7a50070e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f878bed6715be500a8d",
-    "url": "/mysavei/static/js/main.0dee8cc3.chunk.js"
+    "revision": "ee4f6251aba9b05efc3c",
+    "url": "/mysavei/static/js/main.cd0e683b.chunk.js"
   },
   {
     "revision": "f4e51f36081e6b2bb290",
     "url": "/mysavei/static/js/runtime-main.6ffa9c1e.js"
   },
   {
-    "revision": "292feff0ab3202abf442dc1fef5fece9",
-    "url": "/mysavei/static/media/acorns.292feff0.png"
+    "revision": "0b84dd6d9a9ff1eb867b81576746f5fb",
+    "url": "/mysavei/static/media/acorns.0b84dd6d.png"
   },
   {
-    "revision": "c2feb7b42bf0e01e6993caa29310f812",
-    "url": "/mysavei/static/media/auto-deposits.c2feb7b4.png"
+    "revision": "738111157d9206ccb31891bb3e3370be",
+    "url": "/mysavei/static/media/auto-deposits.73811115.png"
   },
   {
-    "revision": "f079310d9ef73c6afac8f032f62ac376",
-    "url": "/mysavei/static/media/crypto.f079310d.png"
+    "revision": "9b146e9bd1989723dddf7b238248b7ee",
+    "url": "/mysavei/static/media/crypto.9b146e9b.png"
   },
   {
     "revision": "c1d3555cf9d7a4615514ef67908d5af9",
@@ -64,16 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mysavei/static/media/market-price.54f083e6.PNG"
   },
   {
-    "revision": "12efd468a3fe1c9091ab07c029b512a5",
-    "url": "/mysavei/static/media/predict.12efd468.png"
+    "revision": "9fe7ca9f048d8cac31f7f511f368d4c5",
+    "url": "/mysavei/static/media/predict.9fe7ca9f.png"
   },
   {
     "revision": "dd3d7eeede076c8d321da0827dc6c567",
     "url": "/mysavei/static/media/recurring.dd3d7eee.png"
-  },
-  {
-    "revision": "61bd9af17c09d0a6b75c76b2277a4755",
-    "url": "/mysavei/static/media/robinhood.61bd9af1.png"
   },
   {
     "revision": "10a627c14ba1b8d78b2a89ba27857085",
