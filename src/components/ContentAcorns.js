@@ -16,26 +16,34 @@ const ContentAcorns = () => (
         </li>
         <li>
             <p>
-                <b>Recurring Deposits:</b> You can choose to automatically deposit a certain amount to your specified investment savings account on a regular basis. This is the most effective form of passive investment savings.
+                <b>Recurring Investment:</b> You can choose to automatically deposit a certain amount to your specified investment savings account on a regular basis. This is the most effective form of passive investment savings.
             </p>
             <img src={recurringImg} />
         </li>
         <li>
             <p>
-                <b>Predicted Savings Graph:</b> When you setup a recurring deposit for one of your investment accounts, Acorns will show you a graphed, calculated prediction of what your investing savings will grow to after a certain amount of years. This is incredibly motivating!
+                <b>Predicted Savings Graph:</b> When you setup a recurring deposit for one of your investment accounts, Acorns will show you a graphed, calculated prediction of what your investment savings will grow to after a certain amount of years. This is incredibly motivating!
             </p>
             <img src={predictImg} />
         </li>
         <li>
             <p>
-                <b>Later Account:</b> Optional retirement investment account. (Similar to an employer’s retirement plan but is an IRA.)
+                <b>Later Account:</b> Optional investment account specifically for retirement. (Similar to an employer’s retirement plan but is an IRA.)
             </p>
             <img src={laterImg} />
         </li>
         <li>
-            <p>
-                <b>Early Account:</b> Optional trust fund investment account for children. This is NOT the same as a 529 College Savings account, and on its own CAN disqualify a child from being eligible for Financial Aid, but allows you to use the funds on anything that might benefit the child.
-            </p>
+            <div style={{flexDirection:'column'}}>
+                <p style={{ marginBottom: '5px' }}>
+                    <b>Early Account:</b> Optional trust fund investment account for children.
+                </p>
+                <p style={{marginBottom:'5px', fontWeight:'500'}}>
+                    <i>This is NOT the same as a 529 College Savings account, and on its own CAN disqualify a child from being eligible for Financial Aid.</i> 
+                </p>
+                <p>
+                    That said, unlike a 529 Account, it allows you to use the funds on anything that might benefit the child - not just education-related expenses.
+                </p>
+            </div>
             <img src={earlyImg} />
         </li>
     </ul>
