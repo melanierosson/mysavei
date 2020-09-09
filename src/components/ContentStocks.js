@@ -96,7 +96,7 @@ const ContentStocks = () => (
                     </li>
                     <li>
                         <p>
-                            Robinhood has an <b>automatic reinvestment feature</b> called DRIP that allows you to choose to have your dividends from a stock/ETF be automatically reinvested back in that stock/ETF.
+                            Robinhood has an <b>automatic dividends reinvestment feature</b> called DRIP that allows you to choose to have your dividends from a stock/ETF be automatically reinvested back in that stock/ETF.
                             <a className="link" href="https://robinhood.com/us/en/support/articles/dividend-reinvestment/" target="_blank">
                                 See more <i class="fas fa-chevron-right"></i>
                             </a>
