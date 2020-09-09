@@ -68,6 +68,14 @@ div#root {
     .xs {
       font-size:80%;
     }
+    .hide-on-desktop {
+      @media screen and (max-width:767px) {
+        display:block;
+      }
+      @media screen and (min-width:768px) {
+        display:none;
+      }
+    }
 
     code {
       font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

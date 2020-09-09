@@ -54,6 +54,11 @@ const ContentStocks = () => (
             
             <div className="col-12" style={{paddingBottom:'20px', paddingLeft: '0'}}>
                 <ul className="sublist">
+                    <li id="spgi">
+                        <p>
+                            <b>S&amp;P 500:</b> Group of the 500 largest companies on the U.S. stock exchange.
+                        </p>
+                    </li>
                     <li>
                         <p>
                             <b>QQQ:</b> Represents the <a href="#nasdaq">NASDAQ</a> 100, comprised of tech companies like Apple, Facebook, Google and Amazon.
@@ -106,13 +111,26 @@ const ContentStocks = () => (
             </p>
             <img src={autoDepositImg} />
         </li>
-        <li>
-            <p>
-                Some other less-important key terms:
+        <li style={{flexDirection:'column', alignItems:'flex-start'}}>
+            <p style={{marginBottom:'0'}}>
+                <b>Less-Important Key Terms:</b>
+                <br /><br className="hide-on-desktop"/>
                 <ul className="sublist">
-                    <li id="spgi">S&amp;P 500: Group of the 500 largest companies on the U.S. stock exchange.</li>
-                    <li id="nyse">NYSE:</li>
-                    <li id="nasdaq">NASDAQ:</li>
+                    <li id="nyse">
+                        <p>
+                            <b>NYSE:</b> Stock exchange known for being composed of the more long-established, stable companies, therefore their stocks tend to be safer but not always as profitable.
+                    </p>
+                    </li>
+                    <li id="nasdaq">
+                        <p>
+                            <b>NASDAQ:</b> Stock exchange known for being composed of newer, larger tech-related companies, and their stocks tend to move faster and swing larger (less safe but this means they might be more profitable).
+                        </p>
+                    </li>
+                    <li id="symbols">
+                        <p style={{ marginBottom: '0' }}>
+                            <b>Stock Symbols:</b> Also known as "Ticker Symbols" or company abbreviations, they are just a shorthand way to represent the company on the stock exchange. There's not a significant or consistent reason why some companies use 2 letters versus 3+. (e.g. TWTR, NFLX, BAC, FB)
+                        </p>
+                    </li>
                 </ul>
             </p>
         </li>
