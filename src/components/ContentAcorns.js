@@ -1,10 +1,10 @@
 import React from 'react';
 // images
-import roundupsImg from '../imgs/passive/roundup.png';
-import recurringImg from '../imgs/passive/recurring.png';
-import predictImg from '../imgs/passive/predict.png';
-import laterImg from '../imgs/passive/later.png';
-import earlyImg from '../imgs/passive/early.png';
+import roundupsImg from '../imgs/passive/roundup.jpg';
+import recurringImg from '../imgs/passive/recurring.jpg';
+import predictImg from '../imgs/passive/predict.jpg';
+import laterImg from '../imgs/passive/later.jpg';
+import earlyImg from '../imgs/passive/early.jpg';
 
 const ContentAcorns = () => (
     <ul className="acorns need-to-know list">
@@ -22,7 +22,7 @@ const ContentAcorns = () => (
         </li>
         <li>
             <p>
-                <b>Predicted Savings Graph:</b> When you setup a recurring deposit for one of your investment accounts, Acorns will show you a graphed, calculated prediction of what your investment savings will grow to after a certain amount of years. It also separates the predicted "Return" (your profit) versus your "Investment" (deposited funds). This is incredibly motivating!
+                <b>Potential Savings Graph:</b> When you click on the chart icon in the top-right corner of the mobile app, Acorns will show you a graphed, calculated prediction of what your investment savings accounts might grow to after a certain amount of years. It also separates the predicted "Return" (your profit) versus your "Investment" (deposited funds). This is incredibly motivating!
             </p>
             <img src={predictImg} />
         </li>

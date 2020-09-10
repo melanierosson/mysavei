@@ -1,13 +1,13 @@
 import React from 'react';
 // images
-import stockImg from '../imgs/active/stock-etf.PNG';
-import marketImg from '../imgs/active/market-price.PNG';
-import fractionalImg from '../imgs/active/fractional-share.PNG';
-import limitImg from '../imgs/active/limit-price.PNG';
-import cryptoImg from '../imgs/active/crypto.png';
-import indexImg from '../imgs/active/indexes.PNG';
-import dividendImg from '../imgs/active/dividends.PNG';
-import autoDepositImg from '../imgs/active/auto-deposits.png';
+import stockImg from '../imgs/active/stock-etf.jpg';
+import marketImg from '../imgs/active/market-price.jpg';
+import fractionalImg from '../imgs/active/fractional-share.jpg';
+import limitImg from '../imgs/active/limit-price.jpg';
+import cryptoImg from '../imgs/active/crypto.jpg';
+import indexImg from '../imgs/active/indexes.jpg';
+import dividendImg from '../imgs/active/dividends.jpg';
+import autoDepositImg from '../imgs/active/auto-deposits.jpg';
 
 const ContentStocks = () => (
     <ul className="stock-market need-to-know list">
