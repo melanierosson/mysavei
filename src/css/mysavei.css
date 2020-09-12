@@ -396,7 +396,8 @@ ul.need-to-know.list .listImgStyle {
   }
 }
 
-section#app-store-icons {
+section#acorns-store-icon,
+section#robinhood-store-icon {
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   position: absolute;
   left: 50vw;
@@ -408,33 +409,41 @@ section#app-store-icons {
   padding: 35px 20px 20px 20px;
   border-radius: 30px;
 }
-section#app-store-icons div#close {
+section#acorns-store-icon div.close,
+section#robinhood-store-icon div.close {
   float: right;
   margin-top: -20px;
   color: rgba(0, 0, 0, 0.6);
 }
-section#app-store-icons div#close:hover {
+section#acorns-store-icon div.close:hover,
+section#robinhood-store-icon div.close:hover {
   cursor: pointer;
   color: #F3755B;
 }
-section#app-store-icons div.apps {
+section#acorns-store-icon div.apps,
+section#robinhood-store-icon div.apps {
   display: flex;
   justify-content: space-around;
 }
-section#app-store-icons a i.fab {
+section#acorns-store-icon a i.fab,
+section#robinhood-store-icon a i.fab {
   font-size: 6rem;
 }
-section#app-store-icons a i.fab.fa-apple {
+section#acorns-store-icon a i.fab.fa-apple,
+section#robinhood-store-icon a i.fab.fa-apple {
   color: #018667;
   padding: 10px;
 }
-section#app-store-icons a i.fab.fa-google-play {
+section#acorns-store-icon a i.fab.fa-google-play,
+section#robinhood-store-icon a i.fab.fa-google-play {
   color: #52B788;
   padding: 10px;
 }
-section#app-store-icons a i.fab:hover {
+section#acorns-store-icon a i.fab:hover,
+section#robinhood-store-icon a i.fab:hover {
   color: #F3755B;
 }
-section#app-store-icons a span:hover {
+section#acorns-store-icon a span:hover,
+section#robinhood-store-icon a span:hover {
   text-decoration: underline;
 }
