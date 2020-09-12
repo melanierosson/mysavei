@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AcornsImg from '../imgs/acorns.png';
 import RobinhoodImg from '../imgs/robinhood.png';
+import AppStoreIcons from './AppStoreIcons.js';
 
 
 
@@ -10,13 +11,20 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
 
     return (
         <article id="mobile-app" className="row component-content mobile-app">
-            <section className="img-container col-12 col-md-3">
+            {/* modal for app stores */}
+            <AppStoreIcons id="app-store-modal" type={type ? true : false} />
+
+            <section className="img-container col-12 col-md-3" onClick={() => document.getElementById('app-store-icons').style.display = "block"}>
                 <div className="img-holder">
-                    <img className="app-icons" src={ type ? AcornsImg : RobinhoodImg } />
+                    <img 
+                        className="app-icons" 
+                        src={ type ? AcornsImg : RobinhoodImg } 
+                        onClick={() => document.getElementById('app-store-icons').style.display = "block"} />
                 </div>
             </section>
+
             <section className={`about-mobile-app col-12 col-md-9 ${ containAll ? 'dropdown-start' : '' }`}>
-                <div class="mobile-app-title">
+                <div className="mobile-app-title" onClick={() => document.getElementById('app-store-icons').style.display = "block"}>
                     <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
                 <div className={`mobile-app-descr ${ containDescr ? 'dropdown-start' : '' }`}>
@@ -25,7 +33,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
                     }
                     <div className="price" style={showContent ? { display: 'none' } : { display: 'block', padding: '5px', border: '3px solid rgba(255,255,255,0.16)', marginTop:'10px' }}>
-                        <i class="fas fa-dollar-sign"></i> &nbsp;
+                        <i className="fas fa-dollar-sign"></i> &nbsp;
                         {type ?
                             'All accounts are extremely affordable, with the most expensive, “Family”, being only $5 a month.'
                             :
@@ -34,7 +42,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                     </div>
                 </div>
                 <div className="expand" onClick={() => displayContent(showContent ? false : true)}>
-                    {expand} &nbsp; {showContent ? <i class="xs fas fa-chevron-down"></i> : <i class="xs fas fa-chevron-up"></i>}
+                    {expand} &nbsp; {showContent ? <i className="xs fas fa-chevron-down"></i> : <i className="xs fas fa-chevron-up"></i>}
                 </div>
             </section>
         </article>

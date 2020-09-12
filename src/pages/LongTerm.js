@@ -7,14 +7,14 @@ import Footer from '../components/Footer.js';
 const LongTerm = () => (
     <>
         <Title/>
-        <main class="content-page" id="passive-content">
+        <main className="content-page" id="passive-content">
 
             <h2 className="subtitle">Long-Term, Passive Investing</h2>
-            <p class="page-description">
+            <p className="page-description">
                 You rarely want to check your account or participate in the investment process once it’s started.
             </p>
 
-            <section id="passive" class="bordered passive-container" style={{ marginBottom: '100px' }}>
+            <section id="passive" className="bordered passive-container" style={{ marginBottom: '100px' }}>
                 <MobileApp type={true} containAll={true} expand="See more" />
                 <br /><br />
                 <NeedToKnow type={true} showTitle={true}/>

@@ -33,6 +33,9 @@ article.component-content.mobile-app {
             img.app-icons {
                 width:109px;
                 height:109px;
+                &:hover {
+                    cursor:pointer;
+                }
             }
         }
         @media screen and (max-width:767px) {
@@ -53,6 +56,9 @@ article.component-content.mobile-app {
                     content: '\a';
                     white-space:pre;
                 }
+            }
+            &:hover {
+                cursor:pointer;
             }
         }
         &.dropdown-start {

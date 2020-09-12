@@ -19,6 +19,9 @@ article.component-content.mobile-app .img-container .img-holder img.app-icons {
   width: 109px;
   height: 109px;
 }
+article.component-content.mobile-app .img-container .img-holder img.app-icons:hover {
+  cursor: pointer;
+}
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .img-container {
     justify-content: center;
@@ -39,6 +42,9 @@ article.component-content.mobile-app .about-mobile-app {
     content: "\a";
     white-space: pre;
   }
+}
+article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .about-mobile-app.dropdown-start {
@@ -388,4 +394,47 @@ ul.need-to-know.list .listImgStyle {
   ul.need-to-know.list .listImgStyle {
     flex-direction: row;
   }
+}
+
+section#app-store-icons {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 35px 20px 20px 20px;
+  border-radius: 30px;
+}
+section#app-store-icons div#close {
+  float: right;
+  margin-top: -20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+section#app-store-icons div#close:hover {
+  cursor: pointer;
+  color: #F3755B;
+}
+section#app-store-icons div.apps {
+  display: flex;
+  justify-content: space-around;
+}
+section#app-store-icons a i.fab {
+  font-size: 6rem;
+}
+section#app-store-icons a i.fab.fa-apple {
+  color: #018667;
+  padding: 10px;
+}
+section#app-store-icons a i.fab.fa-google-play {
+  color: #52B788;
+  padding: 10px;
+}
+section#app-store-icons a i.fab:hover {
+  color: #F3755B;
+}
+section#app-store-icons a span:hover {
+  text-decoration: underline;
 }

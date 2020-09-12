@@ -1,0 +1,46 @@
+section#app-store-icons {
+    box-shadow:$x8Shadow;
+    position:absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    z-index:50;
+    width:350px;
+    background-color:rgba(255,255,255,0.95);
+    padding:35px 20px 20px 20px;
+    border-radius:30px;
+    div#close {
+        float:right;
+        margin-top:-20px;
+        color:rgba(0,0,0,0.6);
+        &:hover {
+            cursor:pointer;
+            color:$hvrLinkOrange;
+        }
+    }
+    div.apps {
+        display:flex;
+        justify-content:space-around;
+    }
+    a {
+        i.fab {
+            font-size:6rem;
+            &.fa-apple {
+                color:$hvrLinkGreen;
+                padding:10px;
+            }
+            &.fa-google-play {
+                color:$hvrTqGreen;
+                padding:10px;
+            }
+            &:hover {
+                color:$hvrLinkOrange;
+            }
+        }
+        span {
+            &:hover {
+                text-decoration:underline;
+            }
+        }
+    }
+}

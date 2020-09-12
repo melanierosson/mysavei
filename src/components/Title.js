@@ -3,7 +3,7 @@ import '../css/title.css';
 
 const Title = () => (
     <header id="mysavei-title">
-        <span class="title-dot"></span>
+        <span className="title-dot"></span>
         <h1 id="mysavei-title" 
             className="text-center">
             mySavei
