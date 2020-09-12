@@ -10,7 +10,7 @@ const Active = () => (
         <main class="content-page" id="active-content">
             
             <h2 className="subtitle">Active Investing</h2>
-            <p class="page-description">
+            <p className="page-description">
                 You want to learn a little bit more about stocks, do some short-term trading, and maybe setup re-occurring deposits.
             </p>
 

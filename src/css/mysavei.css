@@ -64,7 +64,7 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
   article.component-content.mobile-app .about-mobile-app.dropdown-start .expand {
     height: 48px;
     border-radius: 0 0 20px 20px;
-    background-color: rgba(133, 183, 82, 0.7);
+    background-color: #75B45B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
   article.component-content.mobile-app .about-mobile-app .mobile-app-descr.dropdown-start > .expand {
     height: 48px;
     border-radius: 0 0 20px 20px;
-    background-color: rgba(133, 183, 82, 0.7);
+    background-color: #75B45B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,10 +119,13 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     margin-top: 2px;
     height: 124px;
   }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.opened {
+    height: 200px;
+  }
   article.component-content.mobile-app .about-mobile-app .expand {
     height: 48px;
     border-radius: 0 0 20px 20px;
-    background-color: rgba(133, 183, 82, 0.7);
+    background-color: #75B45B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,13 +137,68 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
   article.component-content.mobile-app .about-mobile-app .expand:hover {
     cursor: pointer;
   }
+  article.component-content.mobile-app .about-mobile-app .expand.opened {
+    margin-top: -20px;
+  }
 }
 @media screen and (min-width: 768px) {
   article.component-content.mobile-app {
     height: 164px !important;
   }
 }
+article.component-content.mobile-app div.price {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+article.component-content.mobile-app div.price div.cost {
+  border: 2px solid rgba(1, 134, 103, 0.5);
+  border-radius: 15px;
+  padding: 10px 0;
+  margin-top: -25px;
+}
+article.component-content.mobile-app div.price i.xl.fas.fa-dollar-sign {
+  font-size: 2rem;
+  position: absolute;
+  margin-top: -25px;
+  color: #02795F;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+article.component-content.mobile-app div.get-app {
+  text-align: center;
+  padding: 3px 10px 0 10px;
+  margin-top: 8px;
+}
+article.component-content.mobile-app div.get-app span {
+  color: #065241;
+}
+article.component-content.mobile-app div.get-app span:hover {
+  cursor: pointer;
+  color: white;
+}
+article.component-content.mobile-app div.get-app span:hover i {
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-name: ctaAppAngle;
+}
 
+@keyframes ctaAppAngle {
+  0% {
+    transform: translateX(1px);
+  }
+  25% {
+    transform: translateX(6px);
+  }
+  50% {
+    transform: translateX(13px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
 div#root {
   margin: 0;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -283,6 +341,7 @@ div#root section#app main.content-page .component-content {
 div#root section#app main.content-page .page-description {
   color: #F7F7F2;
   padding: 0 20px;
+  margin-top: -5px;
   text-align: center;
 }
 div#root section#app main.content-page #toggle-mobile-apps:hover,

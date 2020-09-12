@@ -33,7 +33,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 </div>
             </section>
 
-            <section className={`about-mobile-app col-12 col-md-9 ${ containAll ? 'dropdown-start' : '' }`}>
+            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''}`}>
                 <div className="mobile-app-title" onClick={type ?
                     () => document.getElementById('acorns-store-icon').style.display = "block"
                     :
@@ -41,17 +41,34 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 } >
                     <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
-                <div className={`mobile-app-descr ${ containDescr ? 'dropdown-start' : '' }`}>
+                <div className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''}`} style={showContent ? { height: '124px' } : { height: '257px' }}>
                     { type 
                         ? 'The Acorns mobile app makes passive investing as easy as possible.' 
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
                     }
-                    <div className="price" style={showContent ? { display: 'none' } : { display: 'block', padding: '5px', border: '3px solid rgba(255,255,255,0.16)', marginTop:'10px' }}>
-                        <i className="fas fa-dollar-sign"></i> &nbsp;
+                    <div className="price" style={ showContent ? { display: 'none' } : { display: 'block' } }>
+                        <i class="xl fas fa-dollar-sign"></i><br />
+                        <div className="cost">
+                            {type ?
+                                <span>
+                                    All accounts are extremely affordable<br />($1-$5 a month)
+                                </span>
+                                :
+                                <span>
+                                    Free unless you upgrade (Gold or Premium accounts) or transfer funds back to your bank account ($75 flat fee)
+                                </span>
+                            }
+                        </div>
+                    </div>
+                    <div className="get-app" style={showContent ? { display: 'none' } : { display: 'block' }}>
                         {type ?
-                            'All accounts are extremely affordable, with the most expensive, “Family”, being only $5 a month.'
+                            <span onClick={() => document.getElementById('acorns-store-icon').style.display = "block"}>
+                                <b>Get the Acorns app</b> <i class="fas fa-angle-double-right"></i>
+                            </span>
                             :
-                            'FREE! No fees until you transfer funds back to your checking account, then it’s $75 (so you only want to do this once you have a large chunk of profit to transfer). '
+                            <span onClick={() => document.getElementById('robinhood-store-icon').style.display = "block"}>
+                                <b>Get the Robinhood app</b> <i class="fas fa-angle-double-right"></i>
+                            </span>
                         }
                     </div>
                 </div>

@@ -15,6 +15,9 @@ const All = ({props}) => {
             <Title />
             <main class="content-page" id="all-content">
                 <h2 className="subtitle">All Resources and Information</h2>
+                <p className="page-description">
+                    You're interested in knowing more about both passive and active investing.
+                </p>
 
                 <section id="mobile-apps" class="bordered all-container">
                     <div id="toggle-mobile-apps" onClick={() => displayMobile(showMobile ? false : true)}>

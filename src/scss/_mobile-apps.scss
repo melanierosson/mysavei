@@ -12,7 +12,7 @@ article.component-content.mobile-app {
     @mixin expanding {
         height:48px;
         border-radius: 0 0 20px 20px;
-        background-color: $expMdGreen;
+        background-color: $expSolidGreen;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -106,6 +106,9 @@ article.component-content.mobile-app {
                 max-width: 481px;
                 margin-top:2px;
                 height:124px;
+                &.opened {
+                    height:200px;
+                }
             }
             .expand {
                 @include expanding;
@@ -117,11 +120,57 @@ article.component-content.mobile-app {
                 &:hover {
                     cursor:pointer;
                 }
+                &.opened {
+                    margin-top:-20px;
+                }
             }
         }
     }
     @media screen and (min-width: 768px) {
         height:164px !important;
     }
-    
+    div.price {
+        font-size:1rem;
+        text-align:center;
+        margin-top:8px;
+        padding:10px;
+        border-radius: 20px;
+        background-color:rgba(255,255,255,0.16);
+        div.cost {
+            border: 2px solid rgba(1,134,103,0.5);
+            border-radius: 15px;
+            padding: 10px 0;
+            margin-top:-25px;
+        }
+        i.xl.fas.fa-dollar-sign {
+            font-size:2rem;
+            position:absolute;
+            margin-top:-25px;
+            color:#02795F;
+            text-shadow:$linkShadow;
+        }
+    }
+    div.get-app {
+        text-align:center;
+        padding:3px 10px 0 10px;
+        margin-top:8px;
+        span {
+            color:#065241;
+            &:hover {
+                cursor:pointer;
+                color:white;
+                i {
+                    animation-duration:.5s;
+                    animation-iteration-count: infinite;
+                    animation-name: ctaAppAngle;
+                }
+            }
+        }
+    }
+}
+@keyframes ctaAppAngle {
+  0%   {transform: translateX(1px);}
+  25%   {transform: translateX(6px);}
+  50% {transform: translateX(13px);}
+  75%   {transform: translateX(4px);}
 }
