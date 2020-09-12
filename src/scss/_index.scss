@@ -104,7 +104,7 @@ div#root {
           padding:16px;
         }
         @media screen and (min-width:768px) {
-          padding:24px;
+          padding:20px 24px;
         }
         @media screen and (min-width:1024px) {
           width:748px;
@@ -135,6 +135,7 @@ div#root {
         padding:0 20px;
         margin-top:-5px;
         text-align:center;
+        max-width:748px;
       }
       #toggle-mobile-apps,
       #toggle-needtoknow,

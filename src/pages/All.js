@@ -28,9 +28,9 @@ const All = ({props}) => {
                         </h3>
                     </div>
                     <div id="mobileapp-components" style={showMobile ? { display: 'block' } : { display: 'none' }}>
-                        <MobileApp type={true} containAll={true} expand="See more" />
+                        <MobileApp type={true} containAll={true} expand="See" />
                         <br /><br />
-                        <MobileApp type={false} containAll={true} expand="See more" />
+                        <MobileApp type={false} containAll={true} expand="See" />
                     </div>
                 </section>
                 

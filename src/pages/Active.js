@@ -15,7 +15,7 @@ const Active = () => (
             </p>
 
             <section id="active" class="bordered active-container" style={{ marginBottom: '100px'}}>
-                <MobileApp type={false} containAll={true} expand="See more" />
+                <MobileApp type={false} containAll={true} expand="See" />
                 <br /><br />
                 <NeedToKnow type={false} showTitle={true}/>
             </section>

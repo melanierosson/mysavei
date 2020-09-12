@@ -66,8 +66,34 @@ article.component-content.mobile-app {
                 @include mobile-app-dropdown;
                 margin: 18px auto 0 auto;
                 max-width:200px;
-                .mobile-app-descr {
+                &.opened {
+                    height:290px;
+                    .expand {
+                        margin-top:-84px;
+                    }
+                }
+                .mobile-app-descr.closed {
                     display:none;
+                }
+                .mobile-app-descr.opened {
+                    display:block;
+                    padding:0 10px;
+                    i.fa-dollar-sign {
+                        display:none;
+                    }
+                    div.cost {
+                        padding:5px;
+                        span.cost-descr {
+                            display:none;
+                        }
+                        div.get-app {
+                            display:block;
+                            margin-top:-2px;
+                            span.hide-xs {
+                                display:none;
+                            }
+                        }
+                    }
                 }
                 .expand {
                     @include expanding;
@@ -106,9 +132,6 @@ article.component-content.mobile-app {
                 max-width: 481px;
                 margin-top:2px;
                 height:124px;
-                &.opened {
-                    height:200px;
-                }
             }
             .expand {
                 @include expanding;
@@ -119,9 +142,6 @@ article.component-content.mobile-app {
                 z-index:5;
                 &:hover {
                     cursor:pointer;
-                }
-                &.opened {
-                    margin-top:-20px;
                 }
             }
         }
@@ -153,12 +173,16 @@ article.component-content.mobile-app {
     div.get-app {
         text-align:center;
         padding:3px 10px 0 10px;
-        margin-top:8px;
+        margin-top:4px;
         span {
             color:#065241;
+            font-size:1.125rem;
             &:hover {
                 cursor:pointer;
                 color:white;
+                span {
+                    color:white;
+                }
                 i {
                     animation-duration:.5s;
                     animation-iteration-count: infinite;

@@ -34,12 +34,13 @@ section#robinhood-store-icon {
                 color:$hvrTqGreen;
                 padding:10px;
             }
-            &:hover {
+        }
+        &:hover {
+            cursor:pointer;
+            i.fab {
                 color:$hvrLinkOrange;
             }
-        }
-        span {
-            &:hover {
+            span {
                 text-decoration:underline;
             }
         }

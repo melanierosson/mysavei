@@ -33,7 +33,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 </div>
             </section>
 
-            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''}`}>
+            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'}`} style={type ? { zIndex: '3' } : { zIndex: '1'}}>
                 <div className="mobile-app-title" onClick={type ?
                     () => document.getElementById('acorns-store-icon').style.display = "block"
                     :
@@ -41,7 +41,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 } >
                     <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
-                <div className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''}`} style={showContent ? { height: '124px' } : { height: '257px' }}>
+                <div className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'}`} style={showContent ? {height: '124px'} : {height: '257px'}}>
                     { type 
                         ? 'The Acorns mobile app makes passive investing as easy as possible.' 
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
@@ -50,30 +50,30 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                         <i class="xl fas fa-dollar-sign"></i><br />
                         <div className="cost">
                             {type ?
-                                <span>
+                                <span className="cost-descr">
                                     All accounts are extremely affordable<br />($1-$5 a month)
                                 </span>
                                 :
-                                <span>
+                                <span className="cost-descr">
                                     Free unless you upgrade (Gold or Premium accounts) or transfer funds back to your bank account ($75 flat fee)
                                 </span>
                             }
+                            <div className="get-app">
+                                {type ?
+                                    <span onClick={() => document.getElementById('acorns-store-icon').style.display = "block"}>
+                                        <b>Get the <span className="hide-xs">Acorns</span> app</b> <i class="fas fa-angle-double-right"></i>
+                                    </span>
+                                    :
+                                    <span onClick={() => document.getElementById('robinhood-store-icon').style.display = "block"}>
+                                        <b>Get the <span className="hide-xs">Robinhood</span> app</b> <i class="fas fa-angle-double-right"></i>
+                                    </span>
+                                }
+                            </div>
                         </div>
-                    </div>
-                    <div className="get-app" style={showContent ? { display: 'none' } : { display: 'block' }}>
-                        {type ?
-                            <span onClick={() => document.getElementById('acorns-store-icon').style.display = "block"}>
-                                <b>Get the Acorns app</b> <i class="fas fa-angle-double-right"></i>
-                            </span>
-                            :
-                            <span onClick={() => document.getElementById('robinhood-store-icon').style.display = "block"}>
-                                <b>Get the Robinhood app</b> <i class="fas fa-angle-double-right"></i>
-                            </span>
-                        }
                     </div>
                 </div>
                 <div className="expand" onClick={() => displayContent(showContent ? false : true)}>
-                    {expand} &nbsp; {showContent ? <i className="xs fas fa-chevron-down"></i> : <i className="xs fas fa-chevron-up"></i>}
+                    {expand}&nbsp;{showContent ? <span>more &nbsp;<i className="xs fas fa-chevron-down"></i></span> : <span>less &nbsp;<i className="xs fas fa-chevron-up"></i></span>}
                 </div>
             </section>
         </article>
