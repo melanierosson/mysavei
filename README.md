@@ -33,7 +33,8 @@ I only did a small amount of market research via online search engines. I couldn
 <img src="/imgs/wire-home.png" height="300px"> <img src="/imgs/wire-secondstep.png" height="300px"> <img src="/imgs/wire-thirdstep.png" height="300px"> <img src="/imgs/wire-all.png" height="300px">
 #### mocks
 ##### prospective
-<img src="/imgs/mock-home.png" height="250px"> <img src="/imgs/mock-step2.png" height="250px"> <img src="/imgs/mock-step3.png" height="250px"> <img src="/imgs/mock-all.png" height="250px"> <img src="/imgs/insta-mocks-3.png" width="500px"> <img src="/imgs/desktop-step1.png" width="500px"> <img src="/imgs/desktop-step2.png" width="500px"> <img src="/imgs/desktop-step3active.png" width="500px">
+<img src="/imgs/mock-home.png" height="250px"> <img src="/imgs/mock-step2.png" height="250px"> <img src="/imgs/mock-step3.png" height="250px"> <img src="/imgs/mock-all.png" height="250px"> 
+<img src="/imgs/insta-mocks-3.png" width="500px"> <img src="/imgs/desktop-step1.png" width="500px"> <img src="/imgs/desktop-step2.png" width="500px"> <img src="/imgs/desktop-step3active.png" width="500px">
 ##### final
 <img src="/imgs/mysavei-mobile-home.jpg" height="300px"> <img src="/imgs/mysavei-mobile-secondstep.jpg" height="300px"> <img src="/imgs/mysavei-mobile-passive.jpg" height="300px"> <img src="/imgs/mysavei-mobile-active.jpg" height="300px"> <img src="/imgs/mysavei-mobile-all.jpg" height="300px"> <img src="/imgs/mysavei-desktop-home.jpg" height="450px"> <img src="/imgs/mysavei-desktop-secondstep.jpg" height="450px"> <img src="/imgs/mysavei-desktop-passive.jpg" height="450px"> <img src="/imgs/mysavei-desktop-active.jpg" height="450px"> <img src="/imgs/mysavei-desktop-all.jpg" height="450px">
 
