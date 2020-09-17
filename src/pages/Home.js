@@ -8,8 +8,7 @@ import '../css/home.css';
 // home page component
 const Home = () => (
     <>
-        <Title />
-        <h2 className="subtitle">Quick Start Investing</h2>
+        <Title content="Quick Start Investing"/>
         <main>
             <article className="why-invest">
                 <Figure>

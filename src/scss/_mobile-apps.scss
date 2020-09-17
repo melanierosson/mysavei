@@ -1,8 +1,7 @@
 article.component-content.mobile-app {
-    // mixin for mobile app green dropdown elements
+    // mixin for mobile app dropdown elements
     @mixin mobile-app-dropdown {
-        background-color: $bgTqGreen;
-        background: $gradientTq;
+        background-color: $fullTurq;
         padding:16px 0 0 0;
         border-radius: 0 0 20px 20px;
         position:relative;
@@ -12,7 +11,7 @@ article.component-content.mobile-app {
     @mixin expanding {
         height:48px;
         border-radius: 0 0 20px 20px;
-        background-color: $expSolidGreen;
+        background-color: $lightTurq;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -157,8 +156,6 @@ article.component-content.mobile-app {
         border-radius: 20px;
         background-color:rgba(255,255,255,0.16);
         div.cost {
-            border: 2px solid rgba(1,134,103,0.5);
-            border-radius: 15px;
             padding: 10px 0;
             margin-top:-25px;
         }

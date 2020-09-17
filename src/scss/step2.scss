@@ -1,5 +1,13 @@
 @import 'variables';
 
+header#mysavei-title,
+footer {
+    background-color: $fullTurq;
+}
+section#app {
+    background-color: $offWhite2;
+}
+
 #step2-page {
     #step2-question {
         display:flex;
@@ -24,7 +32,7 @@
         }
         $size: 64.5px;
         div {
-            background-color:$bgGrey;
+            background-color:$offWhite;
             display: inline-block;
         }
         .right,
@@ -99,11 +107,10 @@
                 cursor:pointer;
             }
             &#passive-option {
-                background-color: $bgTqGreen;
-                background: $gradientTq;
+                background-color: $fullBlue;
                 div.bottom-2 {
                     transform: translate(-8px,62px);
-                    background-color:$hvrTqGreen;
+                    background-color:$lightBlue;
                     @media screen and (max-height:667px) {
                         transform: translate(-8px,2px);
                     }
@@ -113,15 +120,14 @@
                 }
             }
             &#both-option {
-                background-color: $bgMdGreen;
-                background: $gradientGreen;
+                background-color: $fullGreen;
                 height:100px;
                 .mobile-arrow {
                     display:none;
                 }
                 div.bottom-2 {
                     transform: translate(-8px,25px);
-                    background-color: $bgMdGreen;
+                    background-color: $lightGreen;
                 }
                 @media screen and (max-width:767px) {
                     width:317px;
@@ -149,11 +155,10 @@
                 }
             }
             &#active-option {
-                background-color: $bgGold;
-                background: $gradientOrange;
+                background-color: $fullYellow;
                 div.bottom-2 {
                     transform: translate(-8px,19px);
-                    background-color:$bgGold;
+                    background-color:$lightYellow;
                     @media screen and (max-height:667px) {
                         transform: translate(-8px,2px);
                     }

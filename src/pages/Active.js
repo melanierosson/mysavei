@@ -3,10 +3,11 @@ import Title from '../components/Title.js';
 import MobileApp from '../components/MobileApp.js';
 import NeedToKnow from '../components/NeedToKnow.js';
 import Footer from '../components/Footer.js';
+import '../css/active.css';
 
 const Active = () => (
     <>
-        <Title/>
+        <Title content="Your Investment Strategy" />
         <main class="content-page" id="active-content">
             
             <h2 className="subtitle">Active Investing</h2>

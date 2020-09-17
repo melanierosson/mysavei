@@ -7,8 +7,6 @@ nav.footer {
     bottom:0;
     z-index:20;
     footer {
-        background-color: $footerBg;
-        box-shadow: 0 -8px 8px rgba(0,0,0,0.16);
         display:flex;
         flex-direction:row;
         justify-content:space-around;
@@ -32,39 +30,23 @@ nav.footer {
                 justify-content:center;
                 align-content:center;
                 align-items:center;
-                color:$textWhite;
+                color:$textBlack;
                 line-height:1.25rem;
                 text-align:center;
                 margin:auto;
-                box-shadow:inset -4px -4px 8px rgba(0,0,0,0.16);
                 border-radius:50%;
                 width:74px;
                 height:74px;
-                background-image:
-                radial-gradient(
-                    circle at top left,
-                    rgba(255,255,255,0.40),
-                     rgba(128,128,128,0.05),
-                    rgba(128,128,128,0.30)
-                );
                 a:link, a:visited, a:active {
-                    color:$textWhite !important;
+                    color:$textBlack !important;
                     margin:auto;
                 }
                 &:hover {
                     cursor:pointer;
-                    background-image:
-                    radial-gradient(
-                        circle at center,
-                        rgba(128,128,128,0.40),
-                        rgba(255,255,255,0.01),
-                        rgba(255,255,255,0.30)
-                    );
                     a:link, a:visited, a:active, a:hover{
                         color:#ccc !important;
                     }
                     color:#ccc !important;
-                    box-shadow: inset 4px 4px 8px rgba(0,0,0,0.20);
                 }
                 i {
                     font-size:1.75rem;

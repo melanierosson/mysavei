@@ -6,10 +6,9 @@ import '../css/step2.css';
 
 const SecondStep = () => (
     <>
-        <Title/>
+        <Title content="Your Investment Strategy"/>
         <main id="step2-page" class="content-page">
-            <h2 className="subtitle">Your Investment Strategy</h2>
-
+            
             <section id="step2-question" className="component-content">
                 <div className="left"></div>
                 <p id="step2-q-text" className="text-center fw-medium">

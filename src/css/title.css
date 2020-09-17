@@ -1,27 +1,37 @@
-header#mysavei-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+@media screen and (max-width: 767px) {
+  header#mysavei-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (min-width: 768px) {
+  header#mysavei-title {
+    padding-left: 35px; } }
+
 header#mysavei-title .title-dot {
   height: 9px;
   width: 9px;
-  background-color: #52B788;
-  border: 2px solid #F6AE2D;
+  background-color: #FFF;
   border-radius: 50%;
   display: block;
   position: absolute;
   top: 18px;
-  transform: translate(57px, 0) translateZ(0);
-  -webkit-transform: translate(57px, 0) translateZ(0);
-  -moz-transform: translate(57px, 0) translateZ(0);
-  z-index: 5;
-}
+  z-index: 5; }
+  @media screen and (min-width: 768px) {
+    header#mysavei-title .title-dot {
+      transform: translate(113px, 0) translateZ(0);
+      -webkit-transform: translate(113px, 0) translateZ(0);
+      -moz-transform: translate(113px, 0) translateZ(0); } }
+  @media screen and (max-width: 767px) {
+    header#mysavei-title .title-dot {
+      transform: translate(57px, 0) translateZ(0);
+      -webkit-transform: translate(57px, 0) translateZ(0);
+      -moz-transform: translate(57px, 0) translateZ(0); } }
 header#mysavei-title h1 {
-  color: #fff;
-  font-weight: 700 !important;
-  font-size: 2rem !important;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.16);
   padding-bottom: 1rem;
-  padding-top: 1rem;
-}
+  padding-top: 1rem; }
+
+header#mysavei-title h2 {
+  font-size: 1.5rem;
+  margin-top: -20px;
+  margin-bottom: 15px; }

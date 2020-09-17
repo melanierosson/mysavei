@@ -6,8 +6,6 @@ nav.footer {
   z-index: 20;
 }
 nav.footer footer {
-  background-color: #7B7283;
-  box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.16);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -33,25 +31,21 @@ nav.footer footer section.footer-nav p.footer-nav-link {
   justify-content: center;
   align-content: center;
   align-items: center;
-  color: #F7F7F2;
+  color: #000;
   line-height: 1.25rem;
   text-align: center;
   margin: auto;
-  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.16);
   border-radius: 50%;
   width: 74px;
   height: 74px;
-  background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.4), rgba(128, 128, 128, 0.05), rgba(128, 128, 128, 0.3));
 }
 nav.footer footer section.footer-nav p.footer-nav-link a:link, nav.footer footer section.footer-nav p.footer-nav-link a:visited, nav.footer footer section.footer-nav p.footer-nav-link a:active {
-  color: #F7F7F2 !important;
+  color: #000 !important;
   margin: auto;
 }
 nav.footer footer section.footer-nav p.footer-nav-link:hover {
   cursor: pointer;
-  background-image: radial-gradient(circle at center, rgba(128, 128, 128, 0.4), rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.3));
   color: #ccc !important;
-  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 nav.footer footer section.footer-nav p.footer-nav-link:hover a:link, nav.footer footer section.footer-nav p.footer-nav-link:hover a:visited, nav.footer footer section.footer-nav p.footer-nav-link:hover a:active, nav.footer footer section.footer-nav p.footer-nav-link:hover a:hover {
   color: #ccc !important;

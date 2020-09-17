@@ -1,5 +1,12 @@
 @import 'variables';
 
+@import 'variables';
+
+section#app,
+footer {
+    background-color: $fullTurq;
+}
+
 article.why-invest {
     /* z-index:10;
     display:relative; */
@@ -15,7 +22,7 @@ article.why-invest {
         align-items: center;
         width: 334px;
         height: 199px;
-        background-color: #CAC4CE;
+        background-color: $offWhite2;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
         @media screen and (max-width:374px) {
             width: 270px;
@@ -38,8 +45,7 @@ ul.options-list {
             height:215px;
         }
         z-index:0;
-        background-color: $bgMdGreen;
-        background: $gradientGreen;
+        background-color: $offWhite;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
         list-style-type: none;
         list-indent: none;
@@ -52,17 +58,16 @@ ul.options-list {
         &:hover {
             transform: translateY(18px);
             transition:0.15s linear;
-            background-color: $hvrMdGreen;
             cursor:pointer;
             > div.bottom {
-                background-color: $hvrTqGreen;
+                background-color: $fullYellow;
             }
         }
 
         // the half circles
         $size: 70.5px;
         div.bottom {
-            background: $bgSecondGreen;
+            background: $fullYellow;
             position: absolute;
             transform: translate(0,159px);
             -webkit-transform: translate(0,159px);

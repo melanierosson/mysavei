@@ -3,7 +3,7 @@ import Title from '../components/Title.js';
 import NeedToKnow from '../components/NeedToKnow.js';
 import MobileApp from '../components/MobileApp.js';
 import Footer from '../components/Footer.js';
-
+import '../css/all.css';
 
 const All = ({props}) => {
 
@@ -12,7 +12,7 @@ const All = ({props}) => {
 
     return (
         <>
-            <Title />
+            <Title content="Your Investment Strategy" />
             <main class="content-page" id="all-content">
                 <h2 className="subtitle">All Resources and Information</h2>
                 <p className="page-description">

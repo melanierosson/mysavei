@@ -1,3 +1,12 @@
+header#mysavei-title,
+footer {
+  background-color: #39D08A;
+}
+
+section#app {
+  background-color: #FCFCFC;
+}
+
 #step2-page #step2-question {
   display: flex;
   flex-direction: row;
@@ -25,7 +34,7 @@
   }
 }
 #step2-page #step2-question div {
-  background-color: #CAC4CE;
+  background-color: #F5F5F8;
   display: inline-block;
 }
 #step2-page #step2-question .right,
@@ -113,12 +122,11 @@
   cursor: pointer;
 }
 #step2-page ul.options-list li#passive-option {
-  background-color: #53AA81;
-  background: linear-gradient(329deg, #50A862 0%, #52B788 100%);
+  background-color: #5DD4CF;
 }
 #step2-page ul.options-list li#passive-option div.bottom-2 {
   transform: translate(-8px, 62px);
-  background-color: #52B788;
+  background-color: #7FE6E2;
 }
 @media screen and (max-height: 667px) {
   #step2-page ul.options-list li#passive-option div.bottom-2 {
@@ -131,8 +139,7 @@
   }
 }
 #step2-page ul.options-list li#both-option {
-  background-color: #92B96A;
-  background: linear-gradient(329deg, #92B96A 5%, #B7AB52 100%);
+  background-color: #A2D039;
   height: 100px;
 }
 #step2-page ul.options-list li#both-option .mobile-arrow {
@@ -140,7 +147,7 @@
 }
 #step2-page ul.options-list li#both-option div.bottom-2 {
   transform: translate(-8px, 25px);
-  background-color: #92B96A;
+  background-color: #C5E282;
 }
 @media screen and (max-width: 767px) {
   #step2-page ul.options-list li#both-option {
@@ -175,12 +182,11 @@
   }
 }
 #step2-page ul.options-list li#active-option {
-  background-color: #C59139;
-  background: linear-gradient(329deg, #AA7A2E 30%, #C59139 100%);
+  background-color: #FAD551;
 }
 #step2-page ul.options-list li#active-option div.bottom-2 {
   transform: translate(-8px, 19px);
-  background-color: #C59139;
+  background-color: #FAE495;
 }
 @media screen and (max-height: 667px) {
   #step2-page ul.options-list li#active-option div.bottom-2 {

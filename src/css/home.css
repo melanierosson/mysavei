@@ -1,3 +1,8 @@
+section#app,
+footer {
+  background-color: #39D08A;
+}
+
 article.why-invest {
   /* z-index:10;
   display:relative; */
@@ -14,7 +19,7 @@ article.why-invest Figure {
   align-items: center;
   width: 334px;
   height: 199px;
-  background-color: #CAC4CE;
+  background-color: #FCFCFC;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
 }
 @media screen and (max-width: 374px) {
@@ -36,8 +41,7 @@ ul.options-list li {
   width: 141px;
   height: 247px;
   z-index: 0;
-  background-color: #92B96A;
-  background: linear-gradient(329deg, #92B96A 5%, #B7AB52 100%);
+  background-color: #F5F5F8;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   list-style-type: none;
   list-indent: none;
@@ -56,14 +60,13 @@ ul.options-list li {
 ul.options-list li:hover {
   transform: translateY(18px);
   transition: 0.15s linear;
-  background-color: #85B752;
   cursor: pointer;
 }
 ul.options-list li:hover > div.bottom {
-  background-color: #52B788;
+  background-color: #FAD551;
 }
 ul.options-list li div.bottom {
-  background: #71B176;
+  background: #FAD551;
   position: absolute;
   transform: translate(0, 159px);
   -webkit-transform: translate(0, 159px);
