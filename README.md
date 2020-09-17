@@ -4,17 +4,17 @@
 
 ## goals
 #### high-level
-* make it easier for Millenials, Generation Z's, and diverse groups to get started with personal savings & investing (outside of any employer 401K plans)
-* decrease the wealth gap by encouraging and promoting long-term wealth-building strategies that are not usually accessible to underprivileged groups
+* make it easier for younger generations and underprivileged groups to get started with personal savings & investing (outside of any employer 401K plans)
+* decrease the wealth gap by encouraging and promoting long-term wealth-building strategies that are not always accessible to everyone
 #### specific
 * make the stock market and investing less intimidating by breaking down some of the most important concepts into manageable, easily understandable portions
-* endorse tools (mobile apps) that will be recognizable, free (or extremely inexpensive), and user-friendly for younger generations
-* ensure the content and process for beginning to invest takes as little of the users time as possible
+* endorse tools (mobile apps) that will be recognizable, free (or extremely inexpensive), and user-friendly for today's smart phone users (almost everyone)
+* ensure the informative content and process for beginning to invest takes as little of the users time as possible
 #### developer
-* gain more experience with React JS
-* become familiar with React Bootstrap nuances
-* begin to use React Router
-* practice more ES6 syntax
+* gain more experience with React JS, React Bootstrap, and React Router
+* host a React website and connect it to search engines via various available tools
+* practice incorporating structured data to improve SEO
+* incorporate as much accessibility-friendly design as possible (which may include a toggling grayscale color skin for color blind viewers)
 
 ## user flow
 ![Website User Flow](/imgs/mysavei-UXFlow.png)
