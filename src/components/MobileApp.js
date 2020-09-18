@@ -33,7 +33,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 </div>
             </section>
 
-            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'}`} style={type ? { zIndex: '3' } : { zIndex: '1'}}>
+            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'}`} style={type ? { zIndex: '5' } : { zIndex: '3'}}>
                 <div className="mobile-app-title" onClick={type ?
                     () => document.getElementById('acorns-store-icon').style.display = "block"
                     :
@@ -47,7 +47,6 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
                     }
                     <div className="price" style={ showContent ? { display: 'none' } : { display: 'block' } }>
-                        <i class="xl fas fa-dollar-sign"></i><br />
                         <div className="cost">
                             {type ?
                                 <span className="cost-descr">

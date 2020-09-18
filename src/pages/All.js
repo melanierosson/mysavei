@@ -14,12 +14,20 @@ const All = ({props}) => {
         <>
             <Title content="Your Investment Strategy" />
             <main class="content-page" id="all-content">
-                <h2 className="subtitle">All Resources and Information</h2>
-                <p className="page-description">
-                    You're interested in knowing more about both passive and active investing.
-                </p>
 
-                <section id="mobile-apps" class="bordered all-container">
+                <section className="content-container">
+                    <h2 className="page-title">All Investing Resources</h2>
+                    <p className="page-description">
+                        You're interested in knowing more about both&nbsp;
+                        <span style={{ backgroundColor:'#5DD4CF'}}>passive</span> 
+                        &nbsp;and&nbsp;
+                        <span style={{ backgroundColor: '#FAD551' }}>active</span>
+                        &nbsp;investing.
+                    </p>
+                </section>
+                
+                <section id="mobile-apps" class="content-container all-container" style={{
+                    marginTop: '30px'}}>
                     <div id="toggle-mobile-apps" onClick={() => displayMobile(showMobile ? false : true)}>
                         <h3>
                             { showMobile ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> }
@@ -34,7 +42,7 @@ const All = ({props}) => {
                     </div>
                 </section>
                 
-                <section id="know" class="bordered all-container" style={{marginTop:'30px', marginBottom: '100px'}}>
+                <section id="know" class="content-container all-container" style={{marginTop:'30px', marginBottom: '100px'}}>
                     <div id="toggle-needtoknow" onClick={() => displayNeedToKnow(showNeedToKnow ? false : true)}>
                         <h3>
                             { showNeedToKnow ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> }

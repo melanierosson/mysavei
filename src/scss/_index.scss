@@ -29,6 +29,10 @@ div#root {
     }
     h2 {
       color: $textWhite;
+      font-size: 1.5rem;
+      &.page-title {
+        text-align: center;
+      }
     }
     h3, h4, h5, h6 {
       color: $textBlack;
@@ -90,11 +94,9 @@ div#root {
       justify-content: center;
       align-content: center;
       align-items: center;
-      section.bordered {
-        border: 5px solid #ccc;
+      section.content-container {
         border-radius:20px;
-        background-color:#847C88;
-        box-shadow: $x8Shadow;
+        background-color:$darken;
         margin-left:34px;
         margin-right:34px;
         width:90%;
@@ -106,6 +108,7 @@ div#root {
         }
         @media screen and (min-width:768px) {
           padding:20px 24px;
+          // max-width: 635px;
         }
         @media screen and (min-width:1024px) {
           width:748px;
@@ -131,7 +134,7 @@ div#root {
         }
       }
       .page-description {
-        color: $textWhite;
+        color: $textBlack;
         padding:0 20px;
         margin-top:-5px;
         text-align:center;

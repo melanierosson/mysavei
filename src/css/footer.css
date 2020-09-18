@@ -1,81 +1,30 @@
-nav.footer {
+article.footer {
   position: absolute;
   width: 100%;
   max-width: 1024px;
   bottom: 0;
   z-index: 20;
+  background-color: #333333;
 }
-nav.footer footer {
+@media screen and (max-width: 767px) {
+  article.footer {
+    display: none;
+  }
+}
+article.footer footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-content: center;
   align-items: center;
-  height: 88px;
+  height: 40px;
   max-width: 1024px;
   margin-right: 0 !important;
   margin-left: 0 !important;
+  background-color: #333333;
 }
-nav.footer footer section.footer-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  font-size: 1rem;
-  margin: auto;
-}
-nav.footer footer section.footer-nav p.footer-nav-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  color: #000;
-  line-height: 1.25rem;
-  text-align: center;
-  margin: auto;
-  border-radius: 50%;
-  width: 74px;
-  height: 74px;
-}
-nav.footer footer section.footer-nav p.footer-nav-link a:link, nav.footer footer section.footer-nav p.footer-nav-link a:visited, nav.footer footer section.footer-nav p.footer-nav-link a:active {
-  color: #000 !important;
-  margin: auto;
-}
-nav.footer footer section.footer-nav p.footer-nav-link:hover {
-  cursor: pointer;
-  color: #ccc !important;
-}
-nav.footer footer section.footer-nav p.footer-nav-link:hover a:link, nav.footer footer section.footer-nav p.footer-nav-link:hover a:visited, nav.footer footer section.footer-nav p.footer-nav-link:hover a:active, nav.footer footer section.footer-nav p.footer-nav-link:hover a:hover {
-  color: #ccc !important;
-}
-nav.footer footer section.footer-nav p.footer-nav-link i {
-  font-size: 1.75rem;
-  margin: auto;
-}
-nav.footer footer section.footer-nav p.footer-nav-link span {
-  margin: auto;
-}
-@media screen and (min-width: 1024px) {
-  nav.footer footer section.footer-nav#footer-home {
-    margin-left: 60px;
-    margin-right: -30px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  nav.footer footer section.footer-nav#footer-melp {
-    margin-right: -30px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  nav.footer footer section.footer-nav#footer-email {
-    margin-left: -30px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  nav.footer footer section.footer-nav#footer-all {
-    margin-right: 60px;
-    margin-left: -30px;
-  }
+article.footer footer a {
+  color: #F7F7F2 !important;
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
 }
