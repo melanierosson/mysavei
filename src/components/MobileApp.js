@@ -60,11 +60,11 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                             <div className="get-app">
                                 {type ?
                                     <span onClick={() => document.getElementById('acorns-store-icon').style.display = "block"}>
-                                        <b>Get the <span className="hide-xs">Acorns</span> app</b> <i class="fas fa-angle-double-right"></i>
+                                        <b>Get the <span className="hide-xs">Acorns</span> app</b>
                                     </span>
                                     :
                                     <span onClick={() => document.getElementById('robinhood-store-icon').style.display = "block"}>
-                                        <b>Get the <span className="hide-xs">Robinhood</span> app</b> <i class="fas fa-angle-double-right"></i>
+                                        <b>Get the <span className="hide-xs">Robinhood</span> app</b>
                                     </span>
                                 }
                             </div>

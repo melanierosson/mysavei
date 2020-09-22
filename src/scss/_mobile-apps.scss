@@ -66,9 +66,9 @@ article.component-content.mobile-app {
                 margin: 18px auto 0 auto;
                 max-width:200px;
                 &.opened {
-                    height:290px;
+                    height:340px;
                     .expand {
-                        margin-top:-84px;
+                        margin-top:-15px;
                     }
                 }
                 .mobile-app-descr.closed {
@@ -77,17 +77,11 @@ article.component-content.mobile-app {
                 .mobile-app-descr.opened {
                     display:block;
                     padding:0 10px;
-                    i.fa-dollar-sign {
-                        display:none;
-                    }
                     div.cost {
-                        padding:5px;
-                        span.cost-descr {
-                            display:none;
-                        }
+                        padding:10px 5px;
                         div.get-app {
                             display:block;
-                            margin-top:-2px;
+                            // margin-top:-2px;
                             span.hide-xs {
                                 display:none;
                             }
@@ -118,7 +112,7 @@ article.component-content.mobile-app {
             }
             .mobile-app-descr.dropdown-start > .expand {
                 @include expanding;
-                margin-top:-30px;
+                margin-top:0;
                 max-width:200px;
                 z-index:3;
             }
@@ -135,7 +129,7 @@ article.component-content.mobile-app {
             .expand {
                 @include expanding;
                 max-width:481px;
-                margin-top:-47px;
+                margin-top:-49px;
                 position:relative;
                 // display:block;
                 z-index:5;
@@ -151,26 +145,28 @@ article.component-content.mobile-app {
     div.price {
         font-size:1rem;
         text-align:center;
-        margin-top:8px;
-        padding:10px;
-        border-radius: 20px;
+        @media screen and (min-width: 768px) {
+            margin:15px -15px 0 -15px;
+        }
+        @media screen and (max-width: 767px) {
+            margin:8px -10px;
+        }
+        padding:0;
         background-color:rgba(255,255,255,0.16);
         div.cost {
-            padding: 10px 0;
-            margin-top:-25px;
-        }
-        i.xl.fas.fa-dollar-sign {
-            font-size:2rem;
-            position:absolute;
-            margin-top:-25px;
-            color:#02795F;
-            text-shadow:$linkShadow;
+            padding:10px 0;
         }
     }
     div.get-app {
         text-align:center;
-        padding:3px 10px 0 10px;
-        margin-top:4px;
+        padding:10px;
+        @media screen and (max-width: 767px) {
+            margin:10px 0 0 0;
+        }
+        @media screen and (min-width: 768px) {
+            margin:15px 0 0 0;
+        }
+        
         span {
             color:#065241;
             font-size:1.125rem;
@@ -180,18 +176,8 @@ article.component-content.mobile-app {
                 span {
                     color:white;
                 }
-                i {
-                    animation-duration:.5s;
-                    animation-iteration-count: infinite;
-                    animation-name: ctaAppAngle;
-                }
+                
             }
         }
     }
-}
-@keyframes ctaAppAngle {
-  0%   {transform: translateX(1px);}
-  25%   {transform: translateX(6px);}
-  50% {transform: translateX(13px);}
-  75%   {transform: translateX(4px);}
 }

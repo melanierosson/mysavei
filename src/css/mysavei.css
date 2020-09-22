@@ -58,10 +58,10 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     max-width: 200px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start.opened {
-    height: 290px;
+    height: 340px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start.opened .expand {
-    margin-top: -84px;
+    margin-top: -15px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.closed {
     display: none;
@@ -70,18 +70,11 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     display: block;
     padding: 0 10px;
   }
-  article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.opened i.fa-dollar-sign {
-    display: none;
-  }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.opened div.cost {
-    padding: 5px;
-  }
-  article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.opened div.cost span.cost-descr {
-    display: none;
+    padding: 10px 5px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.opened div.cost div.get-app {
     display: block;
-    margin-top: -2px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.opened div.cost div.get-app span.hide-xs {
     display: none;
@@ -124,7 +117,7 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -30px;
+    margin-top: 0;
     max-width: 200px;
     z-index: 3;
   }
@@ -150,7 +143,7 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     justify-content: center;
     align-items: center;
     max-width: 481px;
-    margin-top: -47px;
+    margin-top: -49px;
     position: relative;
     z-index: 5;
   }
@@ -166,26 +159,35 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
 article.component-content.mobile-app div.price {
   font-size: 1rem;
   text-align: center;
-  margin-top: 8px;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 0;
   background-color: rgba(255, 255, 255, 0.16);
+}
+@media screen and (min-width: 768px) {
+  article.component-content.mobile-app div.price {
+    margin: 15px -15px 0 -15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  article.component-content.mobile-app div.price {
+    margin: 8px -10px;
+  }
 }
 article.component-content.mobile-app div.price div.cost {
   padding: 10px 0;
-  margin-top: -25px;
-}
-article.component-content.mobile-app div.price i.xl.fas.fa-dollar-sign {
-  font-size: 2rem;
-  position: absolute;
-  margin-top: -25px;
-  color: #02795F;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 article.component-content.mobile-app div.get-app {
   text-align: center;
-  padding: 3px 10px 0 10px;
-  margin-top: 4px;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  article.component-content.mobile-app div.get-app {
+    margin: 10px 0 0 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  article.component-content.mobile-app div.get-app {
+    margin: 15px 0 0 0;
+  }
 }
 article.component-content.mobile-app div.get-app span {
   color: #065241;
@@ -198,26 +200,7 @@ article.component-content.mobile-app div.get-app span:hover {
 article.component-content.mobile-app div.get-app span:hover span {
   color: white;
 }
-article.component-content.mobile-app div.get-app span:hover i {
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-  animation-name: ctaAppAngle;
-}
 
-@keyframes ctaAppAngle {
-  0% {
-    transform: translateX(1px);
-  }
-  25% {
-    transform: translateX(6px);
-  }
-  50% {
-    transform: translateX(13px);
-  }
-  75% {
-    transform: translateX(4px);
-  }
-}
 div#root {
   margin: 0;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
