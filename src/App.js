@@ -34,7 +34,7 @@ function App() {
       <Router>
         <section id="app">
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
+            <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact />
             <Route path={process.env.PUBLIC_URL + '/all'} component={All} />
             <Route path={process.env.PUBLIC_URL + '/step2'} component={SecondStep} />
             <Route path={process.env.PUBLIC_URL + '/active'} component={Active} />
