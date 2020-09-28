@@ -32,5 +32,6 @@ header#mysavei-title h1 {
   padding-top: 1rem; }
 
 header#mysavei-title h2 {
-  margin-bottom: 15px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
   margin-top: -20px; }

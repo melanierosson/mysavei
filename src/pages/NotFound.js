@@ -4,7 +4,7 @@ import Footer from '../components/Footer.js';
 
 const NotFound = () => (
     <>
-        <Title />
+        <Title bgColor="#FFFFFF"/>
         <main>
             <article id="not-found">
                 <h3>Not Found</h3>

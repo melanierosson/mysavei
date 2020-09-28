@@ -7,7 +7,7 @@ import '../css/passive.css';
 
 const LongTerm = () => (
     <>
-        <Title content="Your Investment Strategy" />
+        <Title content="Your Investment Strategy" bgColor="#5DD4CF"/>
         <main className="content-page" id="passive-content">
 
             <section id="passive" className="content-container passive-container" style={{ marginBottom: '100px' }}>

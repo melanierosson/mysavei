@@ -218,6 +218,8 @@ div#root section#app {
   overflow-y: auto;
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 div#root section#app h1 {
   font-size: 2rem;
@@ -292,6 +294,10 @@ div#root section#app .xs {
 }
 div#root section#app code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+div#root section#app main {
+  padding-top: 20px;
+  flex-grow: 2;
 }
 div#root section#app main.content-page {
   display: flex;

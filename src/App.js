@@ -13,7 +13,10 @@ import Active from './pages/Active.js';
 import LongTerm from './pages/LongTerm.js';
 import NotFound from './pages/NotFound.js';
 
+
+
 function App() {
+
   return (
     <>
       <link
@@ -34,12 +37,12 @@ function App() {
       <Router>
         <section id="app">
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact />
-            <Route path={process.env.PUBLIC_URL + '/all'} component={All} />
-            <Route path={process.env.PUBLIC_URL + '/step2'} component={SecondStep} />
-            <Route path={process.env.PUBLIC_URL + '/active'} component={Active} />
-            <Route path={process.env.PUBLIC_URL + '/passive'} component={LongTerm} />
-            <Route component={NotFound} />
+            <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
+            <Route path={process.env.PUBLIC_URL + '/all'} component={All}/>
+            <Route path={process.env.PUBLIC_URL + '/step2'} component={SecondStep}/>
+            <Route path={process.env.PUBLIC_URL + '/active'} component={Active}/>
+            <Route path={process.env.PUBLIC_URL + '/passive'} component={LongTerm}/>
+            <Route component={NotFound}/>
           </Switch>
         </section>
       </Router>

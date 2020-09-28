@@ -12,7 +12,7 @@ const All = ({props}) => {
 
     return (
         <>
-            <Title content="Your Investment Strategy" />
+            <Title content="Your Investment Strategy" bgColor="#A2D039" />
             <main class="content-page" id="all-content">
 
                 <section className="content-container">

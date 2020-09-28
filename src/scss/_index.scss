@@ -16,6 +16,8 @@ div#root {
     overflow-y:auto;
     min-height:100vh;
     position:relative;
+    display:flex;
+    flex-direction:column;
     h1 {
       font-size:2rem;
       font-weight:700 !important;
@@ -87,6 +89,10 @@ div#root {
         monospace;
     }
 
+    main {
+      padding-top:20px;
+      flex-grow:2;
+    }
     // passive, active and all investing pages
     main.content-page {
       display: flex;

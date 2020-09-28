@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/title.css';
 
-const Title = ({content}) => (
-    <header id="mysavei-title">
+const Title = ({content, bgColor}) => (
+    <header id="mysavei-title" style={{backgroundColor: `${bgColor}`}}>
         <span className="title-dot"></span>
         <h1 id="mysavei-title">
             mySavei

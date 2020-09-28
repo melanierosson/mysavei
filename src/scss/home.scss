@@ -2,9 +2,12 @@
 
 @import 'variables';
 
-section#app,
-footer {
+main#page {
     background-color: $fullTurq;
+    margin:0;
+    padding:0;
+    height:inherit;
+    width:100%;
 }
 
 article.why-invest {

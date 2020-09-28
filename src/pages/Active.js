@@ -7,7 +7,7 @@ import '../css/active.css';
 
 const Active = () => (
     <>
-        <Title content="Your Investment Strategy" />
+        <Title content="Your Investment Strategy" bgColor="#FAD551"/>
         <main className="content-page" id="active-content">
 
             <section id="active" class="content-container active-container" style={{ marginBottom: '100px'}}>

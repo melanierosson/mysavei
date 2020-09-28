@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Title from '../components/Title.js';
 import Figure from 'react-bootstrap/Figure';
 import { Link } from 'react-router-dom';
@@ -6,10 +6,12 @@ import Footer from '../components/Footer.js';
 import '../css/home.css';
 
 // home page component
-const Home = () => (
+const Home = () => {
+
+    return (
     <>
-        <Title content="Quick Start Investing"/>
-        <main>
+        <Title content="Quick Start Investing" bgColor="#39D08A"/>
+        <main id="page">
             <article className="why-invest">
                 <Figure>
                     <Figure.Image
@@ -49,6 +51,7 @@ const Home = () => (
         </main>
         <Footer />
     </>
-)
+    )
+}  
 
 export default Home;
