@@ -96,6 +96,18 @@ article.component-content.mobile-app {
                         cursor:pointer;
                     }
                 }
+                &.active-color {
+                    background-color:$fullYellow;
+                    .expand {
+                        background-color: $lightYellow;
+                    }
+                }
+                &.passive-color {
+                    background-color:$fullBlue;
+                    .expand {
+                        background-color: $lightBlue;
+                    }
+                }
             }
         }
         @media screen and (max-width:767px) {
@@ -108,6 +120,12 @@ article.component-content.mobile-app {
                     padding:16px 16px 16px 16px;
                     max-width:200px;
                     height:160px;
+                    &.active-color {
+                        background-color:$fullYellow;
+                    }
+                    &.passive-color {
+                        background-color:$fullBlue;
+                    }
                 }
             }
             .mobile-app-descr.dropdown-start > .expand {
@@ -116,16 +134,15 @@ article.component-content.mobile-app {
                 max-width:200px;
                 z-index:3;
             }
+            .mobile-app-descr.dropdown-start.active-color > .expand {
+                background-color: $lightYellow;
+            }
+            .mobile-app-descr.dropdown-start.passive-color > .expand {
+                background-color: $lightBlue;
+            }
         }
         // desktop size dropdown menu
         @media screen and (min-width: 768px) {
-            .mobile-app-descr {
-                @include mobile-app-dropdown;
-                padding:16px 16px;
-                max-width: 481px;
-                margin-top:2px;
-                height:124px;
-            }
             .expand {
                 @include expanding;
                 max-width:481px;
@@ -136,7 +153,27 @@ article.component-content.mobile-app {
                 &:hover {
                     cursor:pointer;
                 }
+                &.active-color {
+                    background-color:$lightYellow;
+                }
+                &.passive-color {
+                    background-color:$lightBlue;
+                }
             }
+            .mobile-app-descr {
+                @include mobile-app-dropdown;
+                padding:16px 16px;
+                max-width: 481px;
+                margin-top:2px;
+                height:124px;
+                &.active-color {
+                    background-color:$fullYellow;
+                }
+                &.passive-color {
+                    background-color:$fullBlue;
+                }
+            }
+            
         }
     }
     @media screen and (min-width: 768px) {

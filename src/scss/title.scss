@@ -18,14 +18,14 @@ header#mysavei-title {
         position:absolute;
         top:18px;
         @media screen and (min-width:768px) {
-            transform: translate(113px,0) translateZ(0);
-            -webkit-transform: translate(113px,0) translateZ(0);
-            -moz-transform: translate(113px,0) translateZ(0);
+            transform: translate(113.5px,0) translateZ(0);
+            -webkit-transform: translate(113.5px,0) translateZ(0);
+            -moz-transform: translate(113.5px,0) translateZ(0);
         }
         @media screen and (max-width:767px) {
-            transform: translate(57px,0) translateZ(0);
-            -webkit-transform: translate(57px,0) translateZ(0);
-            -moz-transform: translate(57px,0) translateZ(0);
+            transform: translate(114px,0) translateZ(0);
+            -webkit-transform: translate(114px,0) translateZ(0);
+            -moz-transform: translate(114px,0) translateZ(0);
         }
         z-index:5;
     }

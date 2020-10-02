@@ -6,7 +6,7 @@ import ModalRobinhood from './ModalRobinhood.js';
 
 
 
-const MobileApp = ({type, containAll, containDescr, expand}) => {
+const MobileApp = ({type, containAll, containDescr, expand, activeColor, passiveColor}) => {
 
     const [showContent, displayContent] = useState(true);
 
@@ -33,7 +33,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 </div>
             </section>
 
-            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'}`} style={type ? { zIndex: '5' } : { zIndex: '3'}}>
+            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} style={type ? { zIndex: '5' } : { zIndex: '3'}}>
                 <div className="mobile-app-title" onClick={type ?
                     () => document.getElementById('acorns-store-icon').style.display = "block"
                     :
@@ -41,7 +41,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                 } >
                     <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
-                <div className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'}`} style={showContent ? {height: '124px'} : {height: '257px'}}>
+                <div className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} style={showContent ? {height: '124px'} : {height: '257px'}}>
                     { type 
                         ? 'The Acorns mobile app makes passive investing as easy as possible.' 
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
@@ -71,7 +71,7 @@ const MobileApp = ({type, containAll, containDescr, expand}) => {
                         </div>
                     </div>
                 </div>
-                <div className="expand" onClick={() => displayContent(showContent ? false : true)}>
+                <div className={`expand ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} onClick={() => displayContent(showContent ? false : true)}>
                     {expand}&nbsp;{showContent ? <span>more &nbsp;<i className="xs fas fa-chevron-down"></i></span> : <span>less &nbsp;<i className="xs fas fa-chevron-up"></i></span>}
                 </div>
             </section>

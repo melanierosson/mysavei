@@ -92,6 +92,18 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
   article.component-content.mobile-app .about-mobile-app.dropdown-start .expand:hover {
     cursor: pointer;
   }
+  article.component-content.mobile-app .about-mobile-app.dropdown-start.active-color {
+    background-color: #FAD551;
+  }
+  article.component-content.mobile-app .about-mobile-app.dropdown-start.active-color .expand {
+    background-color: #FAE495;
+  }
+  article.component-content.mobile-app .about-mobile-app.dropdown-start.passive-color {
+    background-color: #5DD4CF;
+  }
+  article.component-content.mobile-app .about-mobile-app.dropdown-start.passive-color .expand {
+    background-color: #7FE6E2;
+  }
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .about-mobile-app {
@@ -110,6 +122,12 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     max-width: 200px;
     height: 160px;
   }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.dropdown-start.active-color {
+    background-color: #FAD551;
+  }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.dropdown-start.passive-color {
+    background-color: #5DD4CF;
+  }
   article.component-content.mobile-app .about-mobile-app .mobile-app-descr.dropdown-start > .expand {
     height: 48px;
     border-radius: 0 0 20px 20px;
@@ -121,20 +139,14 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
     max-width: 200px;
     z-index: 3;
   }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.dropdown-start.active-color > .expand {
+    background-color: #FAE495;
+  }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.dropdown-start.passive-color > .expand {
+    background-color: #7FE6E2;
+  }
 }
 @media screen and (min-width: 768px) {
-  article.component-content.mobile-app .about-mobile-app .mobile-app-descr {
-    background-color: #39D08A;
-    padding: 16px 0 0 0;
-    border-radius: 0 0 20px 20px;
-    position: relative;
-    z-index: 1;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
-    padding: 16px 16px;
-    max-width: 481px;
-    margin-top: 2px;
-    height: 124px;
-  }
   article.component-content.mobile-app .about-mobile-app .expand {
     height: 48px;
     border-radius: 0 0 20px 20px;
@@ -149,6 +161,30 @@ article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
   }
   article.component-content.mobile-app .about-mobile-app .expand:hover {
     cursor: pointer;
+  }
+  article.component-content.mobile-app .about-mobile-app .expand.active-color {
+    background-color: #FAE495;
+  }
+  article.component-content.mobile-app .about-mobile-app .expand.passive-color {
+    background-color: #7FE6E2;
+  }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr {
+    background-color: #39D08A;
+    padding: 16px 0 0 0;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+    padding: 16px 16px;
+    max-width: 481px;
+    margin-top: 2px;
+    height: 124px;
+  }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.active-color {
+    background-color: #FAD551;
+  }
+  article.component-content.mobile-app .about-mobile-app .mobile-app-descr.passive-color {
+    background-color: #5DD4CF;
   }
 }
 @media screen and (min-width: 768px) {
@@ -539,7 +575,7 @@ section#robinhood-store-icon a:hover {
 }
 section#acorns-store-icon a:hover i.fab,
 section#robinhood-store-icon a:hover i.fab {
-  color: #F6AE2D;
+  color: #F3755B;
 }
 section#acorns-store-icon a:hover span,
 section#robinhood-store-icon a:hover span {

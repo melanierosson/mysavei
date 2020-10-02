@@ -21,14 +21,14 @@ header#mysavei-title .title-dot {
   z-index: 5; }
   @media screen and (min-width: 768px) {
     header#mysavei-title .title-dot {
-      transform: translate(113px, 0) translateZ(0);
-      -webkit-transform: translate(113px, 0) translateZ(0);
-      -moz-transform: translate(113px, 0) translateZ(0); } }
+      transform: translate(113.5px, 0) translateZ(0);
+      -webkit-transform: translate(113.5px, 0) translateZ(0);
+      -moz-transform: translate(113.5px, 0) translateZ(0); } }
   @media screen and (max-width: 767px) {
     header#mysavei-title .title-dot {
-      transform: translate(57px, 0) translateZ(0);
-      -webkit-transform: translate(57px, 0) translateZ(0);
-      -moz-transform: translate(57px, 0) translateZ(0); } }
+      transform: translate(114px, 0) translateZ(0);
+      -webkit-transform: translate(114px, 0) translateZ(0);
+      -moz-transform: translate(114px, 0) translateZ(0); } }
 header#mysavei-title h1 {
   padding-bottom: 1rem;
   padding-top: 1rem; }
