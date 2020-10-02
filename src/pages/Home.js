@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Title from '../components/Title.js';
 import Figure from 'react-bootstrap/Figure';
 import { Link } from 'react-router-dom';
+import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import '../css/home.css';
 
@@ -10,7 +11,11 @@ const Home = () => {
 
     return (
     <>
-        <Title content="Quick Start Investing" bgColor="#39D08A"/>
+        <section className="top" style={{ backgroundColor: '#39D08A'}}>
+            <Title content="Quick Start Investing" bgColor="#39D08A" />
+            <Nav className="hide-on-mobile desktop-nav" bgColor="#39D08A" />
+        </section>
+        
         <main id="page">
             <article className="why-invest">
                 <Figure>

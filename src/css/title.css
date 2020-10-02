@@ -6,7 +6,9 @@
 
 @media screen and (min-width: 768px) {
   header#mysavei-title {
-    padding-left: 35px; } }
+    padding-left: 35px;
+    width: 50%;
+    float: left; } }
 
 header#mysavei-title .title-dot {
   height: 9px;

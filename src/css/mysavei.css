@@ -292,6 +292,28 @@ div#root section#app .xs {
     display: none;
   }
 }
+@media screen and (max-width: 767px) {
+  div#root section#app .hide-on-mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  div#root section#app .hide-on-mobile {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  div#root section#app .hide-on-mobile.desktop-nav > .nav-link {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  div#root section#app section.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 div#root section#app code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

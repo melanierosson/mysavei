@@ -2,12 +2,18 @@ import React from 'react';
 import Title from '../components/Title.js';
 import MobileApp from '../components/MobileApp.js';
 import NeedToKnow from '../components/NeedToKnow.js';
+import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import '../css/active.css';
 
 const Active = () => (
     <>
-        <Title content="Your Investment Strategy" bgColor="#FAD551"/>
+        
+        <section className="top" style={{ backgroundColor: '#FAD551' }}>
+            <Title content="Your Investment Strategy" bgColor="#FAD551" />
+            <Nav className="hide-on-mobile desktop-nav" bgColor="#FAD551" />
+        </section>
+        
         <main className="content-page" id="active-content">
 
             <section id="active" class="content-container active-container" style={{ marginBottom: '100px'}}>

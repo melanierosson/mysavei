@@ -1,1 +1,22 @@
-
+@media screen and (min-width: 768px) {
+  nav.navigation {
+    padding: 0;
+  }
+  nav.navigation section.nav {
+    padding: 10px;
+  }
+  nav.navigation section.nav:hover {
+    border-top: 8px solid #FFF;
+  }
+  nav.navigation section.nav:hover .nav-link {
+    margin-top: -8px;
+  }
+  nav.navigation section.nav .nav-link {
+    padding: 30px;
+    width: 130px;
+    text-align: center;
+  }
+  nav.navigation section.nav #nav-all {
+    padding-right: 0;
+  }
+}

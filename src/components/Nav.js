@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/nav.css';
 
-const Nav = () => (
-    <nav className="navigation">
+const Nav = ({ bgColor }) => (
+    <nav className="navigation" style={{ backgroundColor: `${bgColor}` }}>
         <article className="row">
             <section id="nav-home" className="nav col-4">
                 <Link to={process.env.PUBLIC_URL + '/'} exact>

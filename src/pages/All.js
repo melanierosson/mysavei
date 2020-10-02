@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Title from '../components/Title.js';
 import NeedToKnow from '../components/NeedToKnow.js';
 import MobileApp from '../components/MobileApp.js';
+import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import '../css/all.css';
 
@@ -12,9 +13,12 @@ const All = ({props}) => {
 
     return (
         <>
-            <Title content="Your Investment Strategy" bgColor="#A2D039" />
-            <main class="content-page" id="all-content">
+            <section className="top" style={{ backgroundColor: '#A2D039' }}>
+                <Title content="Your Investment Strategy" bgColor="#A2D039" />
+                <Nav className="hide-on-mobile desktop-nav" bgColor="#A2D039" />
+            </section>
 
+            <main class="content-page" id="all-content">
                 <section className="content-container">
                     <h2 className="page-title">All Investing Resources</h2>
                     <p className="page-description">

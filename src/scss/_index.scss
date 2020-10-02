@@ -83,6 +83,27 @@ div#root {
         display:none;
       }
     }
+    .hide-on-mobile {
+      @media screen and (max-width:767px) {
+        display:none;
+      }
+      @media screen and (min-width:768px) {
+        display:block;
+      }
+    }
+    .hide-on-mobile.desktop-nav > .nav-link {
+      // why is this not hiding??
+      @media screen and (max-width:767px) {
+        display:none !important;
+      }
+    }
+    section.top {
+      @media screen and (min-width:768px) {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+      }
+    }
 
     code {
       font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

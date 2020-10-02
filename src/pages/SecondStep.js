@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Title from '../components/Title.js';
 import UserOptions from '../components/UserOptions.js';
+import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import '../css/step2.css';
 
@@ -8,7 +9,11 @@ const SecondStep = () => {
 
     return (
         <>
-            <Title content="Your Investment Strategy" bgColor="#39D08A"/>
+            <section className="top" style={{ backgroundColor: '#39D08A' }}>
+                <Title content="Your Investment Strategy" bgColor="#39D08A" />
+                <Nav className="hide-on-mobile desktop-nav" bgColor="#39D08A" />
+            </section>
+            
             <main id="step2-page" class="content-page">
                 
                 <section id="step2-question" className="component-content">
