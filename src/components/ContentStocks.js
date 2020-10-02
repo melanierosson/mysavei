@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 // images
 import stockImg from '../imgs/active/stock-etf.jpg';
 import marketImg from '../imgs/active/market-price.jpg';
@@ -9,7 +9,11 @@ import indexImg from '../imgs/active/indexes.jpg';
 import dividendImg from '../imgs/active/dividends.jpg';
 import autoDepositImg from '../imgs/active/auto-deposits.jpg';
 
-const ContentStocks = () => (
+const ContentStocks = ({highlight}) => {
+
+    const [showContent, displayContent] = useState(false);
+
+    return (
     <ul className="stock-market need-to-know list">
         <li>
             <p>
@@ -43,17 +47,36 @@ const ContentStocks = () => (
             </p>
             <img src={cryptoImg} />
         </li>
-        <li style={{ flexDirection: 'column' }}>
-            <div className="col-12 listImgStyle">
+        <li style={{ flexDirection: 'column', backgroundColor: 'rgba(250,213,81,0.2)' }}>
+            <div className="listImgStyle">
                 <p>
                     <b>Index Funds:</b> A collection of partial shares of various stock, usually sharing a similarity of some sort.
-                    <br /><br/><b>Some key players:</b>
+                    <br /><br className="hide-on-mobile"/>
+                    <b 
+                        className="link hide-on-mobile" 
+                        onClick={() => displayContent(showContent ? false : true)}
+                    >
+                            See 
+                            {showContent ? ' less ' : ' some '} 
+                            key players &nbsp;
+                        {showContent ? <i class="fas fa-chevron-up"></i> : <i class="fas fa-chevron-right"></i>}
+                    </b>
                 </p>
                 <img src={indexImg} />
             </div>
             
-            <div className="col-12" style={{paddingBottom:'20px', paddingLeft: '0'}}>
-                <ul className="sublist">
+            <div style={{paddingBottom:'20px', paddingLeft: '0', paddingTop: '10px'}}>
+                <b 
+                    className="link hide-on-desktop" 
+                    onClick={() => displayContent(showContent ? false : true)}
+                    style={{paddingBottom: '20px', marginTop:'-10px'}}
+                >
+                    See
+                        {showContent ? ' less ' : ' some '}
+                        key players &nbsp;
+                    {showContent ? <i class="fas fa-chevron-up" style={{paddingBottom:'20px'}}></i> : <i class="fas fa-chevron-right"></i>}
+                </b>
+                <ul className="sublist" style={showContent ? { display: 'block' } : { display: 'none' }}>
                     <li id="spgi">
                         <p>
                             <b>S&amp;P 500:</b> Group of the 500 largest companies on the U.S. stock exchange.
@@ -76,7 +99,7 @@ const ContentStocks = () => (
                         </p>
                     </li>
                 </ul>
-                <b><i class="fas fa-star"></i> Index funds are by the far the safest way to invest your money, long-term in the stock market for guaranteed profits.</b>
+                <b style={{fontSize:'1.195rem'}}><i class="fas fa-star"></i> Index funds are by the far the safest way to invest your money, long-term in the stock market for guaranteed profits.</b>
             </div>
         </li>
         <li style={{ flexDirection: 'column' }}>
@@ -135,6 +158,6 @@ const ContentStocks = () => (
             </p>
         </li>
     </ul>
-)
+)}
 
 export default ContentStocks;

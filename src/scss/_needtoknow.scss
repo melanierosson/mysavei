@@ -1,3 +1,13 @@
+@import 'variables';
+
+#need-to-know {
+    &.passive-border {
+        border:5px solid $fullBlue;
+    }
+    &.active-border {
+        border:5px solid $fullYellow;
+    }
+}
 ul.need-to-know.list {
     list-style-type:none;
     padding-left:0;
@@ -15,21 +25,21 @@ ul.need-to-know.list {
         }
         align-items:center;
         border-top: 3px solid rgba(0,0,0,0.16);
-        
+        .link {
+            color:$hvrLinkGreen !important;
+            margin-left:10px;
+            font-weight:500;
+            text-shadow:$linkShadow;
+            &:hover {
+                color:$hvrLinkOrange !important;
+                cursor:pointer;
+            }
+        }
         p {
             @media screen and (max-width:767px) {
                 margin-top:20px;
             }
             margin-top:5px;
-            a.link {
-                color:$hvrLinkGreen !important;
-                margin-left:10px;
-                font-weight:500;
-                text-shadow:$linkShadow;
-                &:hover {
-                    color:$hvrLinkOrange !important;
-                }
-            }
             a {
                 color:$hvrLinkGreen !important;
                 font-weight:500;

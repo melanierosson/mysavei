@@ -237,6 +237,10 @@ article.component-content.mobile-app div.get-app span:hover span {
   color: white;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 div#root {
   margin: 0;
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -421,6 +425,13 @@ div#root section#app main.content-page #needtoknow-header:hover {
   cursor: pointer;
 }
 
+#need-to-know.passive-border {
+  border: 5px solid #5DD4CF;
+}
+#need-to-know.active-border {
+  border: 5px solid #FAD551;
+}
+
 ul.need-to-know.list {
   list-style-type: none;
   padding-left: 0;
@@ -444,6 +455,16 @@ ul.need-to-know.list li {
     padding-right: 10px;
   }
 }
+ul.need-to-know.list li .link {
+  color: #018667 !important;
+  margin-left: 10px;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+ul.need-to-know.list li .link:hover {
+  color: #F3755B !important;
+  cursor: pointer;
+}
 ul.need-to-know.list li p {
   margin-top: 5px;
 }
@@ -451,15 +472,6 @@ ul.need-to-know.list li p {
   ul.need-to-know.list li p {
     margin-top: 20px;
   }
-}
-ul.need-to-know.list li p a.link {
-  color: #018667 !important;
-  margin-left: 10px;
-  font-weight: 500;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
-}
-ul.need-to-know.list li p a.link:hover {
-  color: #F3755B !important;
 }
 ul.need-to-know.list li p a {
   color: #018667 !important;

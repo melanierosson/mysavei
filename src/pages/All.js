@@ -73,9 +73,17 @@ const All = ({props}) => {
                         </h3>
                     {/* </div> */}
                     {/* <div id="needtoknow-components" style={showNeedToKnow ? { display: 'block' } : { display: 'none' }}> */}
-                        <NeedToKnow type={true} showTitle={false} />
+                        <NeedToKnow 
+                            type={true} 
+                            showTitle={false} 
+                            passiveColor="true" 
+                        />
                         <br />
-                        <NeedToKnow type={false} showTitle={false} />
+                        <NeedToKnow 
+                            type={false} 
+                            showTitle={false} 
+                            activeColor="true"
+                        />
                     {/* </div> */}
                 </section>
 

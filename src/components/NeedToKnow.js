@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import ContentAcorns from './ContentAcorns.js';
 import ContentStocks from './ContentStocks.js';
 
-const NeedToKnow = ({type, showTitle}) => {
+const NeedToKnow = ({type, showTitle, passiveColor, activeColor}) => {
 
     const [showContent, displayContent] = useState(true);
 
     return (
-        <article id="need-to-know" className="component-content need-to-know">
-            <section className="col-12">
+        <article id="need-to-know" 
+            className={`component-content need-to-know ${passiveColor ? 'passive-border' : ''} ${activeColor ? 'active-border' : ''}`}
+        >
+            <section>
                 <div id="needtoknow-header" onClick={() => displayContent(showContent ? false : true)}>
                     { showTitle ? 
                         < h4 className="text-center">Need To Know</h4>
