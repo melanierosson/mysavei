@@ -10,7 +10,12 @@ const LongTerm = () => (
     <>
         <section className="top" style={{ backgroundColor: '#5DD4CF' }}>
             <Title content="Your Investment Strategy" bgColor="#5DD4CF" />
-            <Nav className="hide-on-mobile desktop-nav" bgColor="#5DD4CF" />
+            <Nav
+                className="hide-on-mobile desktop-nav"
+                bgColor="#5DD4CF"
+                showDesktop="true"
+                showMobile="false"
+            />
         </section>
         
         <main className="content-page" id="passive-content">

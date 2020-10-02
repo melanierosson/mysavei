@@ -13,7 +13,13 @@ const Home = () => {
     <>
         <section className="top" style={{ backgroundColor: '#39D08A'}}>
             <Title content="Quick Start Investing" bgColor="#39D08A" />
-            <Nav className="hide-on-mobile desktop-nav" bgColor="#39D08A" />
+            <Nav 
+                className="hide-on-mobile desktop-nav" 
+                bgColor="#39D08A" 
+                showDesktop="true" 
+                showMobile="false"
+                home="true"
+            />
         </section>
         
         <main id="page">

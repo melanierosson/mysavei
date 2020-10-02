@@ -15,7 +15,13 @@ const All = ({props}) => {
         <>
             <section className="top" style={{ backgroundColor: '#A2D039' }}>
                 <Title content="Your Investment Strategy" bgColor="#A2D039" />
-                <Nav className="hide-on-mobile desktop-nav" bgColor="#A2D039" />
+                <Nav 
+                    className="hide-on-mobile desktop-nav" 
+                    bgColor="#A2D039" 
+                    showDesktop="true"
+                    showMobile="false"
+                    all="true"
+                />
             </section>
 
             <main class="content-page" id="all-content">

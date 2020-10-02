@@ -11,7 +11,12 @@ const Active = () => (
         
         <section className="top" style={{ backgroundColor: '#FAD551' }}>
             <Title content="Your Investment Strategy" bgColor="#FAD551" />
-            <Nav className="hide-on-mobile desktop-nav" bgColor="#FAD551" />
+            <Nav
+                className="hide-on-mobile desktop-nav"
+                bgColor="#FAD551"
+                showDesktop="true"
+                showMobile="false"
+            />
         </section>
         
         <main className="content-page" id="active-content">

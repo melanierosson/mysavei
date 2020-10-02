@@ -3,16 +3,21 @@ nav.navigation {
         padding:0;
         section.nav {
             padding:10px;
-            &:hover {
+            &:hover,
+            &:active,
+            &.active-nav {
                 border-top:8px solid #FFF;
                 .nav-link { 
                     margin-top:-8px;
                 }
             }
             .nav-link {
-                padding:30px;
-                width:130px;
+                padding:20px;
+                width:120px;
                 text-align:center;
+                @media screen and (max-width:780px) {
+                    width:100px;
+                }
             }
             #nav-all {
                 padding-right:0;

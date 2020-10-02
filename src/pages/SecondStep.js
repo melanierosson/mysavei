@@ -11,7 +11,12 @@ const SecondStep = () => {
         <>
             <section className="top" style={{ backgroundColor: '#39D08A' }}>
                 <Title content="Your Investment Strategy" bgColor="#39D08A" />
-                <Nav className="hide-on-mobile desktop-nav" bgColor="#39D08A" />
+                <Nav
+                    className="hide-on-mobile desktop-nav"
+                    bgColor="#39D08A"
+                    showDesktop="true"
+                    showMobile="false"
+                />
             </section>
             
             <main id="step2-page" class="content-page">

@@ -216,6 +216,7 @@ div#root section#app {
   max-width: 1024px;
   margin: 0 auto;
   overflow-y: auto;
+  overflow-x: hidden;
   min-height: 100vh;
   position: relative;
   display: flex;
@@ -300,11 +301,6 @@ div#root section#app .xs {
 @media screen and (min-width: 768px) {
   div#root section#app .hide-on-mobile {
     display: block;
-  }
-}
-@media screen and (max-width: 767px) {
-  div#root section#app .hide-on-mobile.desktop-nav > .nav-link {
-    display: none !important;
   }
 }
 @media screen and (min-width: 768px) {

@@ -14,6 +14,7 @@ div#root {
     max-width:1024px;
     margin:0 auto;
     overflow-y:auto;
+    overflow-x:hidden;
     min-height:100vh;
     position:relative;
     display:flex;
@@ -89,12 +90,6 @@ div#root {
       }
       @media screen and (min-width:768px) {
         display:block;
-      }
-    }
-    .hide-on-mobile.desktop-nav > .nav-link {
-      // why is this not hiding??
-      @media screen and (max-width:767px) {
-        display:none !important;
       }
     }
     section.top {

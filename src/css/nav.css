@@ -5,17 +5,24 @@
   nav.navigation section.nav {
     padding: 10px;
   }
-  nav.navigation section.nav:hover {
+  nav.navigation section.nav:hover, nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
     border-top: 8px solid #FFF;
   }
-  nav.navigation section.nav:hover .nav-link {
+  nav.navigation section.nav:hover .nav-link, nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
     margin-top: -8px;
   }
   nav.navigation section.nav .nav-link {
-    padding: 30px;
-    width: 130px;
+    padding: 20px;
+    width: 120px;
     text-align: center;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 780px) {
+  nav.navigation section.nav .nav-link {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
   nav.navigation section.nav #nav-all {
     padding-right: 0;
   }
