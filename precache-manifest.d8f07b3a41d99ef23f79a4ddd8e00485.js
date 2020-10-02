@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0abbb61e5d4a1a595adc7e3b75335502",
+    "revision": "d51e980ced6c9a5df527bf94e5f38733",
     "url": "/mysavei/index.html"
   },
   {
-    "revision": "45f4d96c46520e38eb03",
-    "url": "/mysavei/static/css/main.262b2253.chunk.css"
+    "revision": "6a0ec828257c32bda182",
+    "url": "/mysavei/static/css/main.8ef3c0f8.chunk.css"
   },
   {
-    "revision": "189b167c96ddf625cfdf",
-    "url": "/mysavei/static/js/2.79de0033.chunk.js"
+    "revision": "4ab77d40f9923b85e02b",
+    "url": "/mysavei/static/js/2.b7730752.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/mysavei/static/js/2.79de0033.chunk.js.LICENSE.txt"
+    "url": "/mysavei/static/js/2.b7730752.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45f4d96c46520e38eb03",
-    "url": "/mysavei/static/js/main.8f75e8cd.chunk.js"
+    "revision": "6a0ec828257c32bda182",
+    "url": "/mysavei/static/js/main.db02d66a.chunk.js"
   },
   {
     "revision": "f4e51f36081e6b2bb290",
