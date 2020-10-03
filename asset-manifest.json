@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mysavei/static/css/main.3c10d2c1.chunk.css",
-    "main.js": "/mysavei/static/js/main.416d49b6.chunk.js",
-    "main.js.map": "/mysavei/static/js/main.416d49b6.chunk.js.map",
+    "main.js": "/mysavei/static/js/main.744b07b2.chunk.js",
+    "main.js.map": "/mysavei/static/js/main.744b07b2.chunk.js.map",
     "runtime-main.js": "/mysavei/static/js/runtime-main.6ffa9c1e.js",
     "runtime-main.js.map": "/mysavei/static/js/runtime-main.6ffa9c1e.js.map",
     "static/js/2.d320b49a.chunk.js": "/mysavei/static/js/2.d320b49a.chunk.js",
     "static/js/2.d320b49a.chunk.js.map": "/mysavei/static/js/2.d320b49a.chunk.js.map",
     "index.html": "/mysavei/index.html",
-    "precache-manifest.17c56e61c98c96e4b627453146a080ab.js": "/mysavei/precache-manifest.17c56e61c98c96e4b627453146a080ab.js",
+    "precache-manifest.3f645bfafa7c0efb4c9fd80b981d8198.js": "/mysavei/precache-manifest.3f645bfafa7c0efb4c9fd80b981d8198.js",
     "service-worker.js": "/mysavei/service-worker.js",
     "static/css/main.3c10d2c1.chunk.css.map": "/mysavei/static/css/main.3c10d2c1.chunk.css.map",
     "static/js/2.d320b49a.chunk.js.LICENSE.txt": "/mysavei/static/js/2.d320b49a.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.6ffa9c1e.js",
     "static/js/2.d320b49a.chunk.js",
     "static/css/main.3c10d2c1.chunk.css",
-    "static/js/main.416d49b6.chunk.js"
+    "static/js/main.744b07b2.chunk.js"
   ]
 }
