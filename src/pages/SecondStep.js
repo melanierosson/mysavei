@@ -19,7 +19,7 @@ const SecondStep = () => {
                 />
             </section>
             
-            <main id="step2-page" class="content-page">
+            <main id="step2-page" className="content-page">
                 
                 <section id="step2-question" className="component-content">
                     <div className="left"></div>

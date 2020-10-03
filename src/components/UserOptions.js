@@ -10,15 +10,15 @@ const UserOptions = () => (
                     <br /><br className="hide-mobile"/>
                     <span className="more-descr">i.e. not check your account or participate in the investment process once it’s started</span>
                     <div className="bottom-2">
-                        <i class="fas fa-chevron-right"></i>
+                        <i className="fas fa-chevron-right"></i>
                     </div>
                 </Link>
             </li>
             <li id="both-option">
                 <Link to={process.env.PUBLIC_URL + '/all'}>
-                    <span className="fw-semibold">What about a little of both? <i class="mobile-arrow fas fa-chevron-right"></i> </span>
+                    <span className="fw-semibold">What about a little of both? <i className="mobile-arrow fas fa-chevron-right"></i> </span>
                     <div className="bottom-2">
-                        <i class="fas fa-chevron-right"></i>
+                        <i className="fas fa-chevron-right"></i>
                     </div>
                 </Link>
             </li>
@@ -29,7 +29,7 @@ const UserOptions = () => (
                     <span className="more-descr">i.e. you want to learn a little bit more about stocks, do some short-term trading, and setup
                     re-occurring deposits</span>
                     <div className="bottom-2">
-                        <i class="fas fa-chevron-right"></i>
+                        <i className="fas fa-chevron-right"></i>
                     </div>
                 </Link>
             </li>

@@ -25,6 +25,7 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
                     <img 
                         className="app-icons" 
                         src={ type ? AcornsImg : RobinhoodImg } 
+                        alt={type ? 'Acorns mobile app icon' : 'Robinhood mobile app icon'}
                         onClick={ type ?
                             () => document.getElementById('acorns-store-icon').style.display = "block"
                         :

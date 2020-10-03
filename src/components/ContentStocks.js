@@ -43,7 +43,7 @@ const ContentStocks = ({highlight}) => {
             <p>
                 <b>Crypto:</b> Blockchain and virtual currency funds like Bitcoin and Ethereum.
                 These are only available to be traded within certain states in Robinhood. 
-                <a className="link" href="https://robinhood.com/us/en/support/articles/commission-free-cryptocurrency-investing/" target="_blank">See more <i class="fas fa-chevron-right"></i></a>
+                <a className="link" href="https://robinhood.com/us/en/support/articles/commission-free-cryptocurrency-investing/" target="_blank">See more <i className="fas fa-chevron-right"></i></a>
             </p>
             <img src={cryptoImg} alt="Crypto Bitcoin graph in Robinhood" />
         </li>
@@ -59,7 +59,7 @@ const ContentStocks = ({highlight}) => {
                             See 
                             {showContent ? ' less ' : ' some '} 
                             key players &nbsp;
-                        {showContent ? <i class="fas fa-chevron-up"></i> : <i class="fas fa-chevron-right"></i>}
+                        {showContent ? <i className="fas fa-chevron-up"></i> : <i className="fas fa-chevron-right"></i>}
                     </b>
                 </p>
                 <img src={indexImg} alt="A few index fund key players on Robinhood" />
@@ -74,7 +74,7 @@ const ContentStocks = ({highlight}) => {
                     See
                         {showContent ? ' less ' : ' some '}
                         key players &nbsp;
-                    {showContent ? <i class="fas fa-chevron-up" style={{paddingBottom:'20px'}}></i> : <i class="fas fa-chevron-right"></i>}
+                    {showContent ? <i className="fas fa-chevron-up" style={{paddingBottom:'20px'}}></i> : <i className="fas fa-chevron-right"></i>}
                 </b>
                 <ul className="sublist" style={showContent ? { display: 'block' } : { display: 'none' }}>
                     <li id="spgi">
@@ -99,7 +99,7 @@ const ContentStocks = ({highlight}) => {
                         </p>
                     </li>
                 </ul>
-                <b style={{fontSize:'1.195rem'}}><i class="fas fa-star"></i> Index funds are by the far the safest way to invest your money, long-term in the stock market for guaranteed profits.</b>
+                <b style={{fontSize:'1.195rem'}}><i className="fas fa-star"></i> Index funds are by the far the safest way to invest your money, long-term in the stock market for guaranteed profits.</b>
             </div>
         </li>
         <li style={{ flexDirection: 'column' }}>
@@ -121,7 +121,7 @@ const ContentStocks = ({highlight}) => {
                         <p>
                             Robinhood has an <b>automatic dividends reinvestment feature</b> called DRIP that allows you to choose to have your dividends from a stock/ETF be automatically reinvested back in that stock/ETF.
                             <a className="link" href="https://robinhood.com/us/en/support/articles/dividend-reinvestment/" target="_blank">
-                                See more <i class="fas fa-chevron-right"></i>
+                                See more <i className="fas fa-chevron-right"></i>
                             </a>
                         </p>
                     </li>

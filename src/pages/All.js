@@ -24,7 +24,7 @@ const All = ({props}) => {
                 />
             </section>
 
-            <main class="content-page" id="all-content">
+            <main className="content-page" id="all-content">
                 <section className="content-container">
                     <h2 className="page-title">All Investing Resources</h2>
                     <p className="page-description">
@@ -36,13 +36,13 @@ const All = ({props}) => {
                     </p>
                 </section>
                 
-                <section id="mobile-apps" class="content-container all-container" style={{
+                <section id="mobile-apps" className="content-container all-container" style={{
                     marginTop: '30px'}}>
                     {/* <div id="toggle-mobile-apps" onClick={() => displayMobile(showMobile ? false : true)}> */}
                         <h3 className="text-white text-center">
-                            {/* { showMobile ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> } */}
+                            {/* { showMobile ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                             &nbsp; Mobile Apps &nbsp; 
-                            {/* { showMobile ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> } */}
+                            {/* { showMobile ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                         </h3>
                     {/* </div>
                     <div id="mobileapp-components" style={showMobile ? { display: 'block' } : { display: 'none' }}> */}
@@ -64,12 +64,12 @@ const All = ({props}) => {
                     {/* </div> */}
                 </section>
                 
-                <section id="know" class="content-container all-container" style={{marginTop:'30px', marginBottom: '100px'}}>
+                <section id="know" className="content-container all-container" style={{marginTop:'30px', marginBottom: '100px'}}>
                     {/* <div id="toggle-needtoknow" onClick={() => displayNeedToKnow(showNeedToKnow ? false : true)}></div> */}
                         <h3 className="text-white text-center">
-                            {/* { showNeedToKnow ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> } */}
+                            {/* { showNeedToKnow ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                             &nbsp; Need To Know &nbsp; 
-                            {/* { showNeedToKnow ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> } */}
+                            {/* { showNeedToKnow ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                         </h3>
                     {/* </div> */}
                     {/* <div id="needtoknow-components" style={showNeedToKnow ? { display: 'block' } : { display: 'none' }}> */}

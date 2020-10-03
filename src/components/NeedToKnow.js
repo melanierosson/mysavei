@@ -17,11 +17,11 @@ const NeedToKnow = ({type, showTitle, passiveColor, activeColor}) => {
                     : '' }
 
                     <h5 className="text-center">
-                        { showContent ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> }
+                        { showContent ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> }
 
                     &nbsp; {type ? 'Acorns Features' : 'Stock Market'} &nbsp;
 
-                    { showContent ? <i class="xs fas fa-chevron-up"></i> : <i class="xs fas fa-chevron-down"></i> }
+                    { showContent ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> }
                     </h5>
                 </div>
                 
