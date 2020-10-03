@@ -19,25 +19,25 @@ const ContentStocks = ({highlight}) => {
             <p>
                 <b>Stock/ETF:</b> A stock is a portion of ownership in a company while an ETF is an exchange traded fund. Both are traded on the stock market and are similar (to beginning traders).
             </p>
-            <img src={stockImg} alt="Image of overall investing graph in Robinhood"/>
+            <img src={stockImg} alt="Users total investing graph in Robinhood"/>
         </li>
         <li>
             <p>
                 <b>Market Price:</b> Current selling price for a single share of a stock/ETF.
             </p>
-            <img src={marketImg} alt="Image of Twitter's (TWTR) market price in Robinhood"/>
+            <img src={marketImg} alt="Twitter's (TWTR) market price in Robinhood"/>
         </li>
         <li>
             <p>
                 <b>Fractional Shares:</b> Partial, or less than a single share of stock.
             </p>
-                <img src={fractionalImg} alt="Image of Twitter (TWTR) fractional share purchase in Robinhood"/>
+                <img src={fractionalImg} alt="Twitter (TWTR) fractional share purchase in Robinhood"/>
         </li>
         <li>
             <p>
                 <b>Limit Order:</b> Purchasing of stock only once it lowers to a set price point. You can’t do this with fractional shares.
             </p>
-            <img src={limitImg} alt="Image of form for placing a limit order in Robinhood"/>
+            <img src={limitImg} alt="Order form for placing a limit order in Robinhood"/>
         </li>
         <li>
             <p>
@@ -45,7 +45,7 @@ const ContentStocks = ({highlight}) => {
                 These are only available to be traded within certain states in Robinhood. 
                 <a className="link" href="https://robinhood.com/us/en/support/articles/commission-free-cryptocurrency-investing/" target="_blank">See more <i class="fas fa-chevron-right"></i></a>
             </p>
-            <img src={cryptoImg} alt="Image of Crypto Bitcoin graph in Robinhood" />
+            <img src={cryptoImg} alt="Crypto Bitcoin graph in Robinhood" />
         </li>
         <li style={{ flexDirection: 'column', backgroundColor: 'rgba(250,213,81,0.2)' }}>
             <div className="listImgStyle">
@@ -62,7 +62,7 @@ const ContentStocks = ({highlight}) => {
                         {showContent ? <i class="fas fa-chevron-up"></i> : <i class="fas fa-chevron-right"></i>}
                     </b>
                 </p>
-                <img src={indexImg} alt="Image of index fund key players on Robinhood" />
+                <img src={indexImg} alt="A few index fund key players on Robinhood" />
             </div>
             
             <div style={{paddingBottom:'20px', paddingLeft: '0', paddingTop: '10px'}}>
@@ -108,7 +108,7 @@ const ContentStocks = ({highlight}) => {
                     <b>Dividends: </b>
                     Portions of profit that the company will pay its shareholders (this might be done regularly or just one-time).
                 </p>
-                <img src={dividendImg} alt="Image of the Stats area in Robinhood with the Div/Yield area in focus"/>
+                <img src={dividendImg} alt="Stats area in Robinhood with the Div/Yield area in focus"/>
             </div>
             <div className="col-12" style={{ paddingBottom: '20px', paddingLeft: '0' }}>
                 <ul className="sublist">
@@ -132,7 +132,7 @@ const ContentStocks = ({highlight}) => {
             <p>
                 <b>Automatic Deposits:</b> You can choose to automatically deposit a certain amount to your investing account on a regular basis. (This is beneficial for limiting yourself or insuring that you always have funds to trade.)
             </p>
-            <img src={autoDepositImg} alt="Image of Schedule Automatic Deposits button under the Transfers area of Robinhood"/>
+            <img src={autoDepositImg} alt="Schedule Automatic Deposits button under the Transfers area of Robinhood"/>
         </li>
         <li style={{flexDirection:'column', alignItems:'flex-start'}}>
             <p style={{marginBottom:'0'}}>
