@@ -25,11 +25,24 @@ article.why-invest {
         align-items: center;
         width: 334px;
         height: 199px;
-        background-color: $offWhite2;
+        background-color: $offWhite4;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
         @media screen and (max-width:374px) {
             width: 270px;
             height:130px;
+        }
+         @media screen and (min-width:768px) {
+            position:absolute;
+            margin:auto;
+            left:0;
+            right:0;
+            top:250px;
+            width: 452px;
+            height: 305px;
+            @media screen and (max-width:1023px) {
+                width: 350px;
+                height: 235px;
+            }
         }
     }
 }
@@ -43,7 +56,7 @@ ul.options-list {
     padding-left: 0;
     li {
         width: 141px;
-        height:247px;
+        height:255px;
         @media screen and (max-height:667px) {
             height:215px;
         }
@@ -52,21 +65,29 @@ ul.options-list {
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
         list-style-type: none;
         list-indent: none;
-        margin: -20px 15px 20px 15px;
+        margin: -25px 15px 20px 15px;
         padding: 20px;
         text-align: center;
         display:flex;
         justify-content:center;
         align-items:center;
         &:hover {
-            transform: translateY(18px);
+            transform: translateY(15px);
             transition:0.15s linear;
             cursor:pointer;
+            > div.circle {
+                transform: translateY(0) !important;
+                transition:none 0 linear 0 !important;
+                position:absolute !important;
+                top:-138px !important;
+            }
             > div.bottom {
                 background-color: $fullYellow;
             }
         }
-
+        p {
+            margin-top:25px;
+        }
         // the half circles
         $size: 70.5px;
         div.bottom {
@@ -89,7 +110,49 @@ ul.options-list {
             justify-content:center;
             align-items:center;
             span {
-                margin-top:-10px;
+                margin-top:-8px;
+            }
+        }
+    }
+    div.circle {
+        display:none;
+    }
+    @media screen and (min-width:768px) {
+        div.circle {
+            display: block;
+            z-index:11;
+            width:173px;
+            height:173px;
+            position:absolute;
+            top:158px;
+            background-color: $offWhite;
+            border: 4px solid $offWhite2;
+            border-radius: 50%;
+            box-shadow:$x8Shadow;
+        }
+        margin-top:178px;
+        div.circle:first-of-type {
+            margin-left:-370px;
+            @media screen and (max-width:1023px) {
+                margin-left:-290px;
+            }
+        }
+        div.circle:last-of-type {
+            margin-left:370px;
+            @media screen and (max-width:1023px) {
+                margin-left:290px;
+            }
+        }
+        li:first-of-type {
+            margin-right:300px;
+            @media screen and (max-width:1023px) {
+                margin-right:220px;
+            }
+        }
+        li:last-of-type {
+            margin-left:300px;
+            @media screen and (max-width:1023px) {
+                margin-left:220px;
             }
         }
     }

@@ -38,6 +38,7 @@ const Home = () => {
                 </Figure>
             </article>
             <ul className="options-list">
+                <div className="circle"></div>
                 <Link to={process.env.PUBLIC_URL + '/step2'}>
                     <li>
                         <p>
@@ -48,8 +49,10 @@ const Home = () => {
                         </div>
                     </li>
                 </Link>
+                <div className="circle"></div>
                 <Link to={process.env.PUBLIC_URL + '/all'}>
                     <li>
+                        
                         <p>
                             I want to see <span className="fw-medium">all investment &amp; savings information</span>
                         </p>

@@ -10,7 +10,8 @@ const SecondStep = () => {
     return (
         <>
             <section className="top" style={{ backgroundColor: '#39D08A' }}>
-                <Title content="Your Investment Strategy" bgColor="#39D08A" />
+                <Title content="Quick Start Investing" bgColor="#39D08A" 
+                />
                 <Nav
                     className="hide-on-mobile desktop-nav"
                     bgColor="#39D08A"

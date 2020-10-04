@@ -5,12 +5,14 @@ main#step2-page {
 }
 
 #step2-page {
+    justify-content:flex-start !important;
     #step2-question {
         display:flex;
         flex-direction:row;
         align-content:center;
         align-items:center;
         justify-content:space-between;
+        margin-top:5%;
         max-width:630px;
         height:129px;
         border-radius:100%;
@@ -64,8 +66,10 @@ main#step2-page {
                 margin-left:-60px;
             }
         }
+        p {
+            margin-top:5px;
+        }
     }
-
     ul.options-list {
         display: flex;
         flex-direction: row;
@@ -73,6 +77,7 @@ main#step2-page {
         align-content: center;
         align-items: flex-start;
         padding-left: 0;
+        margin-top:0;
         li {
             width: 141px;
             height:330px;
@@ -114,6 +119,41 @@ main#step2-page {
                 @media screen and (max-width:767px) {
                     margin: -20px 15px 0 15px;
                 }
+                @media screen and (max-height:667px) {
+                    @media screen and (max-width:767px) {
+                        .more-descr {
+                            display:none;
+                        }
+                        .mobile-arrow {
+                            display:none;
+                        }
+                        div.bottom-2 {
+                            transform: translate(-8px,25px);
+                            background-color: $lightGreen;
+                        }
+                        width:340px;
+                        height:90px;
+                        position:absolute;
+                        margin:0 auto;
+                        border-radius:50px;
+                        display:flex;
+                        align-items:center;
+                        padding-top:6px;
+                        div.bottom-2 {
+                            display:none;
+                        }
+                        @media screen and (max-height:667px) {
+                            top:270px;
+                        }
+                        .mobile-arrow {
+                            display:inline;
+                            padding-left:6px;
+                        }
+                        &:hover {
+                            transform: translate(18px,0);
+                        }
+                    }
+                }
             }
             &#both-option {
                 background-color: $fullGreen;
@@ -129,7 +169,7 @@ main#step2-page {
                     width:317px;
                     height:67px;
                     position:absolute;
-                    top:645px;
+                    top:675px;
                     margin:0 auto;
                     border-radius:50px;
                     display:flex;
@@ -139,7 +179,12 @@ main#step2-page {
                         display:none;
                     }
                     @media screen and (max-height:667px) {
-                        top:500px;
+                        top:490px;
+                        width:340px;
+                        height:90px;
+                        i.mobile-arrow {
+                            display:none !important;
+                        }
                     }
                     .mobile-arrow {
                         display:inline;
@@ -161,6 +206,41 @@ main#step2-page {
                 }
                 @media screen and (max-width:767px) {
                     margin: -20px 15px 0 15px;
+                }
+                @media screen and (max-height:667px) {
+                    @media screen and (max-width:767px) {
+                        .more-descr {
+                            display:none;
+                        }
+                        .mobile-arrow {
+                            display:none;
+                        }
+                        div.bottom-2 {
+                            transform: translate(-8px,25px);
+                            background-color: $lightGreen;
+                        }
+                        width:340px;
+                        height:90px;
+                        position:absolute;
+                        margin:0 auto;
+                        border-radius:50px;
+                        display:flex;
+                        align-items:center;
+                        padding-top:6px;
+                        div.bottom-2 {
+                            display:none;
+                        }
+                        @media screen and (max-height:667px) {
+                            top:380px;
+                        }
+                        .mobile-arrow {
+                            display:inline;
+                            padding-left:6px;
+                        }
+                        &:hover {
+                            transform: translate(18px,0);
+                        }
+                    }
                 }
             }
 

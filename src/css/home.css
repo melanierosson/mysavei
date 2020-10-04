@@ -22,13 +22,30 @@ article.why-invest Figure {
   align-items: center;
   width: 334px;
   height: 199px;
-  background-color: #FCFCFC;
+  background-color: #DDDDDD;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
 }
 @media screen and (max-width: 374px) {
   article.why-invest Figure {
     width: 270px;
     height: 130px;
+  }
+}
+@media screen and (min-width: 768px) {
+  article.why-invest Figure {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
+    width: 452px;
+    height: 305px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  article.why-invest Figure {
+    width: 350px;
+    height: 235px;
   }
 }
 
@@ -42,13 +59,13 @@ ul.options-list {
 }
 ul.options-list li {
   width: 141px;
-  height: 247px;
+  height: 255px;
   z-index: 0;
   background-color: #F5F5F8;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   list-style-type: none;
   list-indent: none;
-  margin: -20px 15px 20px 15px;
+  margin: -25px 15px 20px 15px;
   padding: 20px;
   text-align: center;
   display: flex;
@@ -61,12 +78,21 @@ ul.options-list li {
   }
 }
 ul.options-list li:hover {
-  transform: translateY(18px);
+  transform: translateY(15px);
   transition: 0.15s linear;
   cursor: pointer;
 }
+ul.options-list li:hover > div.circle {
+  transform: translateY(0) !important;
+  transition: none 0 linear 0 !important;
+  position: absolute !important;
+  top: -138px !important;
+}
 ul.options-list li:hover > div.bottom {
   background-color: #FAD551;
+}
+ul.options-list li p {
+  margin-top: 25px;
 }
 ul.options-list li div.bottom {
   background: #FAD551;
@@ -91,5 +117,63 @@ ul.options-list li div.bottom {
   }
 }
 ul.options-list li div.bottom span {
-  margin-top: -10px;
+  margin-top: -8px;
+}
+ul.options-list div.circle {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  ul.options-list {
+    margin-top: 178px;
+  }
+  ul.options-list div.circle {
+    display: block;
+    z-index: 11;
+    width: 173px;
+    height: 173px;
+    position: absolute;
+    top: 158px;
+    background-color: #F5F5F8;
+    border: 4px solid #FCFCFC;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  }
+  ul.options-list div.circle:first-of-type {
+    margin-left: -370px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ul.options-list div.circle:first-of-type {
+    margin-left: -290px;
+  }
+}
+@media screen and (min-width: 768px) {
+  ul.options-list div.circle:last-of-type {
+    margin-left: 370px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ul.options-list div.circle:last-of-type {
+    margin-left: 290px;
+  }
+}
+@media screen and (min-width: 768px) {
+  ul.options-list li:first-of-type {
+    margin-right: 300px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ul.options-list li:first-of-type {
+    margin-right: 220px;
+  }
+}
+@media screen and (min-width: 768px) {
+  ul.options-list li:last-of-type {
+    margin-left: 300px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ul.options-list li:last-of-type {
+    margin-left: 220px;
+  }
 }
