@@ -139,22 +139,24 @@ ul.options-list div.circle {
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   }
   ul.options-list div.circle:first-of-type {
-    margin-left: -370px;
+    left: 55px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   ul.options-list div.circle:first-of-type {
-    margin-left: -290px;
+    left: auto;
+    margin-left: -575px;
   }
 }
 @media screen and (min-width: 768px) {
   ul.options-list div.circle:last-of-type {
-    margin-left: 370px;
+    right: 55px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   ul.options-list div.circle:last-of-type {
-    margin-left: 290px;
+    right: auto;
+    margin-right: -575px;
   }
 }
 @media screen and (min-width: 768px) {

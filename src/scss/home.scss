@@ -132,15 +132,17 @@ ul.options-list {
         }
         margin-top:178px;
         div.circle:first-of-type {
-            margin-left:-370px;
+            left:55px;
             @media screen and (max-width:1023px) {
-                margin-left:-290px;
+                left:auto;
+                margin-left:-575px;
             }
         }
         div.circle:last-of-type {
-            margin-left:370px;
+            right:55px;
             @media screen and (max-width:1023px) {
-                margin-left:290px;
+                right:auto;
+                margin-right:-575px;
             }
         }
         li:first-of-type {
