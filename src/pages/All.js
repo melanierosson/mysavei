@@ -28,11 +28,7 @@ const All = ({props}) => {
                 <section className="content-container">
                     <h2 className="page-title">All Investing Resources</h2>
                     <p className="page-description">
-                        You're interested in knowing more about both&nbsp;
-                        <span style={{ backgroundColor:'#5DD4CF'}}>passive</span> 
-                        &nbsp;and&nbsp;
-                        <span style={{ backgroundColor: '#FAD551' }}>active</span>
-                        &nbsp;investing.
+                        You're interested in knowing more about both <span style={{ backgroundColor:'#5DD4CF'}}>passive</span> &nbsp;and&nbsp; <span style={{ backgroundColor: '#FAD551' }}>active</span> &nbsp;investing.
                     </p>
                 </section>
                 
