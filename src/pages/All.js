@@ -88,6 +88,15 @@ const All = ({props}) => {
                 </section>
 
             </main>
+            <section 
+                className="mobile-nav hide-on-desktop" 
+                style={{ backgroundColor: '#A2D039'}}
+            >
+                <Nav 
+                    bgColor='#A2D039'
+                    all='true'
+                />
+            </section>
             <Footer />
         </>
     )

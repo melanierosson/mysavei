@@ -102,6 +102,14 @@ div#root {
         justify-content:space-between;
       }
     }
+    section.mobile-nav {
+      @media screen and (max-width:767px) {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        position:sticky !important;
+      }
+    }
 
     code {
       font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

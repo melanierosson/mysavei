@@ -20,6 +20,14 @@ const NotFound = () => (
                 <p>We're sorry - we cannot find this page.</p>
             </article>
         </main>
+        <section 
+            className="mobile-nav hide-on-desktop" 
+            style={{ backgroundColor: '#39D08A'}}
+        >
+            <Nav 
+                bgColor='#39D08A'
+            />
+        </section>
         <Footer />
     </>
 )

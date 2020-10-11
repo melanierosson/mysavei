@@ -63,6 +63,15 @@ const Home = () => {
                 </Link>
             </ul>
         </main>
+        <section 
+            className="mobile-nav hide-on-desktop" 
+            style={{ backgroundColor: '#39D08A'}}
+        >
+            <Nav 
+                bgColor='#39D08A'
+                home='true'
+            />
+        </section>
         <Footer />
     </>
     )

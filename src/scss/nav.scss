@@ -1,4 +1,29 @@
 nav.navigation {
+    @media screen and (max-width:767px) {
+        padding:0;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        section.nav {
+            padding:10px;
+            &:hover,
+            &:active,
+            &.active-nav {
+                border-bottom:8px solid #FFF;
+                .nav-link { 
+                    margin-bottom:-8px;
+                }
+            }
+            .nav-link {
+                padding:20px;
+                width:100px;
+                text-align:center;
+            }
+            #nav-all {
+                padding-right:0;
+            }
+        }
+    }
     @media screen and (min-width:768px) {
         padding:0;
         section.nav {
@@ -23,6 +48,5 @@ nav.navigation {
                 padding-right:0;
             }
         }
-       
     }
 }

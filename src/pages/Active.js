@@ -32,6 +32,14 @@ const Active = () => (
             </section>
 
         </main>
+        <section 
+            className="mobile-nav hide-on-desktop" 
+            style={{ backgroundColor: '#FAD551'}}
+        >
+            <Nav 
+                bgColor='#FAD551'
+            />
+        </section>
         <Footer />
     </>
 )

@@ -350,6 +350,14 @@ div#root section#app .xs {
     justify-content: space-between;
   }
 }
+@media screen and (max-width: 767px) {
+  div#root section#app section.mobile-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky !important;
+  }
+}
 div#root section#app code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

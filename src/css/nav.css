@@ -1,3 +1,28 @@
+@media screen and (max-width: 767px) {
+  nav.navigation {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav.navigation section.nav {
+    padding: 10px;
+  }
+  nav.navigation section.nav:hover, nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
+    border-bottom: 8px solid #FFF;
+  }
+  nav.navigation section.nav:hover .nav-link, nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
+    margin-bottom: -8px;
+  }
+  nav.navigation section.nav .nav-link {
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+  }
+  nav.navigation section.nav #nav-all {
+    padding-right: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   nav.navigation {
     padding: 0;
