@@ -79,7 +79,7 @@ const ContentStocks = ({highlight}) => {
                 <ul className="sublist" style={showContent ? { display: 'block' } : { display: 'none' }}>
                     <li id="spgi">
                         <p>
-                            <b>S&amp;P 500:</b> Group of the 500 largest companies on the U.S. stock exchange.
+                            <b>S&amp;P 500:</b> Group of the 500 largest companies on the U.S. stock exchange. It's <a href="#symbols">stock symbol</a> is GSPC, but is not available to purchase on Robinhood.
                         </p>
                     </li>
                     <li>
@@ -135,7 +135,7 @@ const ContentStocks = ({highlight}) => {
             <img src={autoDepositImg} alt="Schedule Automatic Deposits button under the Transfers area of Robinhood"/>
         </li>
         <li style={{flexDirection:'column', alignItems:'flex-start'}}>
-            <p style={{marginBottom:'0'}}>
+            <p style={{marginBottom:'0', marginTop:'30px'}}>
                 <b>Less-Important Key Terms:</b>
                 <br /><br className="hide-on-desktop"/>
                 <ul className="sublist">
@@ -151,7 +151,7 @@ const ContentStocks = ({highlight}) => {
                     </li>
                     <li id="symbols">
                         <p style={{ marginBottom: '0' }}>
-                            <b>Stock Symbols:</b> Also known as "Ticker Symbols" or company abbreviations, they are just a shorthand way to represent the company on the stock exchange. There's not a significant or consistent reason why some companies use 2 letters versus 3+. (e.g. TWTR, NFLX, BAC, FB)
+                            <b>Stock Symbols:</b> Also known as "Ticker Symbols" or company abbreviations. These uppercase characters are just a shorthand way to represent the company on the stock exchange. There's not a significant or consistent reason why some companies use 2 letters versus 3+. (e.g. TWTR, NFLX, BAC, FB)
                         </p>
                     </li>
                 </ul>
