@@ -5,7 +5,7 @@ article.component-content.mobile-app {
         padding:16px 0 0 0;
         border-radius: 0 0 20px 20px;
         position:relative;
-        z-index:1;
+        z-index:9;
         box-shadow:$x8Shadow;
     }
     @mixin expanding {
@@ -17,7 +17,6 @@ article.component-content.mobile-app {
         align-items:center;
     }
     //
-
     margin:auto;
     @media screen and (max-width:767px) {
         height:250px;
@@ -132,7 +131,7 @@ article.component-content.mobile-app {
                 @include expanding;
                 margin-top:0;
                 max-width:200px;
-                z-index:3;
+                z-index:14;
             }
             .mobile-app-descr.dropdown-start.active-color > .expand {
                 background-color: $lightYellow;
@@ -149,7 +148,7 @@ article.component-content.mobile-app {
                 margin-top:-49px;
                 position:relative;
                 // display:block;
-                z-index:5;
+                z-index:11;
                 &:hover {
                     cursor:pointer;
                 }

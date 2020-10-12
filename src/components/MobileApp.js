@@ -34,7 +34,7 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
                 </div>
             </section>
 
-            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} style={type ? { zIndex: '5' } : { zIndex: '3'}}>
+            <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} style={type ? { zIndex: '9' } : { zIndex: '8'}}>
                 <div className="mobile-app-title" onClick={type ?
                     () => document.getElementById('acorns-store-icon').style.display = "block"
                     :

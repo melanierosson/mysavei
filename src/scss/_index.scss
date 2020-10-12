@@ -132,7 +132,7 @@ div#root {
         background-color:$darken;
         margin-left:34px;
         margin-right:34px;
-        width:90%;
+        width:88%;
         @media screen and (max-width:400px) {
           max-width:350px;
         }
@@ -144,7 +144,7 @@ div#root {
           // max-width: 635px;
         }
         @media screen and (min-width:1024px) {
-          width:748px;
+          width:635px;
         }
         &.all-container {
           border-color: $bgMdGreen;
@@ -159,11 +159,13 @@ div#root {
       .component-content {
         background-color:$offWhite;
         border-radius: 20px;
-        width:100%;
+        width:120%;
         box-shadow: $x8Shadow;
         padding:24px;
+        position:relative;
+        margin-left:-10%;
         @media screen and (max-width:767px) {
-          padding:6px;
+          padding:16px;
         }
       }
       .page-description {
