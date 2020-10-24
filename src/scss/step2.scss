@@ -17,6 +17,7 @@ main#step2-page {
         height:129px;
         border-radius:100%;
         z-index:30;
+        margin-left:0 !important;
         @media screen and (max-height:667px) {
             height:100px;
         }
