@@ -129,6 +129,59 @@ ul.options-list {
             border: 4px solid $offWhite2;
             border-radius: 50%;
             box-shadow:$x8Shadow;
+            div.sec-hand {
+                height:62px;
+                width:5px;
+                background-color:#9D95A2;
+            }
+            div.min-hand {
+                height:44px;
+                width:5px;
+                background-color:#707070;
+            }
+            &.clock-left {
+                div.triangle-1 {
+                    height: 0; 
+                    width: 0;
+                    border-top: 94px solid $fullYellow;
+                    border-left: 47px solid transparent; 
+                    border-right: 47px solid transparent; 
+                    clip-path: polygon(50% 0%, 44% 99%, 69% 4%);
+                    transform:translate(35px,0);
+                }
+                div.sec-hand {
+                    transform:translate(77px,-71px) rotate(2deg);
+                }
+                div.min-hand {
+                    transform:translate(82px,-115px) rotate(14deg);
+                }
+            }
+            &.clock-right {
+                div.triangle-1 {
+                    height: 0; 
+                    width: 0;
+                    border-top: 94px solid $fullYellow;
+                    border-left: 47px solid transparent; 
+                    border-right: 47px solid transparent; 
+                    clip-path: polygon(50% 0%, 44% 99%, 85% 8%);
+                    transform:translate(35px,0);
+                }
+                div.triangle-2 {
+                    height: 0; 
+                    width: 0;
+                    border-top: 94px solid $lightYellow;
+                    border-left: 47px solid transparent; 
+                    border-right: 47px solid transparent; 
+                    clip-path: polygon(50% 0%, 44% 99%, 85% 8%);
+                    transform:translate(50px,-90px) rotate(20deg);
+                }
+                div.sec-hand {
+                    transform:translate(77px,-165px) rotate(2deg);
+                }
+                div.min-hand {
+                    transform:translate(92px,-202px) rotate(50deg);
+                }
+            }
         }
         margin-top:178px;
         div.circle:first-of-type {

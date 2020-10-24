@@ -38,7 +38,11 @@ const Home = () => {
                 </Figure>
             </article>
             <ul className="options-list">
-                <div className="circle"></div>
+                <div className="circle clock-left">
+                    <div className="triangle-1"></div>
+                    <div className="sec-hand"></div>
+                    <div className="min-hand"></div>
+                </div>
                 <Link to={process.env.PUBLIC_URL + '/step2'}>
                     <li>
                         <p>
@@ -49,7 +53,12 @@ const Home = () => {
                         </div>
                     </li>
                 </Link>
-                <div className="circle"></div>
+                <div className="circle clock-right">
+                    <div className="triangle-1"></div>
+                    <div className="triangle-2"></div>
+                    <div className="sec-hand"></div>
+                    <div className="min-hand"></div>
+                </div>
                 <Link to={process.env.PUBLIC_URL + '/all'}>
                     <li>
                         

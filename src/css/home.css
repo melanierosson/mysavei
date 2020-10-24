@@ -138,6 +138,55 @@ ul.options-list div.circle {
     border-radius: 50%;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
   }
+  ul.options-list div.circle div.sec-hand {
+    height: 62px;
+    width: 5px;
+    background-color: #9D95A2;
+  }
+  ul.options-list div.circle div.min-hand {
+    height: 44px;
+    width: 5px;
+    background-color: #707070;
+  }
+  ul.options-list div.circle.clock-left div.triangle-1 {
+    height: 0;
+    width: 0;
+    border-top: 94px solid #FAD551;
+    border-left: 47px solid transparent;
+    border-right: 47px solid transparent;
+    clip-path: polygon(50% 0%, 44% 99%, 69% 4%);
+    transform: translate(35px, 0);
+  }
+  ul.options-list div.circle.clock-left div.sec-hand {
+    transform: translate(77px, -71px) rotate(2deg);
+  }
+  ul.options-list div.circle.clock-left div.min-hand {
+    transform: translate(82px, -115px) rotate(14deg);
+  }
+  ul.options-list div.circle.clock-right div.triangle-1 {
+    height: 0;
+    width: 0;
+    border-top: 94px solid #FAD551;
+    border-left: 47px solid transparent;
+    border-right: 47px solid transparent;
+    clip-path: polygon(50% 0%, 44% 99%, 85% 8%);
+    transform: translate(35px, 0);
+  }
+  ul.options-list div.circle.clock-right div.triangle-2 {
+    height: 0;
+    width: 0;
+    border-top: 94px solid #FAE495;
+    border-left: 47px solid transparent;
+    border-right: 47px solid transparent;
+    clip-path: polygon(50% 0%, 44% 99%, 85% 8%);
+    transform: translate(50px, -90px) rotate(20deg);
+  }
+  ul.options-list div.circle.clock-right div.sec-hand {
+    transform: translate(77px, -165px) rotate(2deg);
+  }
+  ul.options-list div.circle.clock-right div.min-hand {
+    transform: translate(92px, -202px) rotate(50deg);
+  }
   ul.options-list div.circle:first-of-type {
     left: 55px;
   }
