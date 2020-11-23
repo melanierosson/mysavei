@@ -1,5 +1,5 @@
 # mysavei
-🤑 Website containing condensed savings & investment advice for those that are intimidated by traditional financial documentation. Coded in React JS using functional components + hooks with Router and Bootstrap.
+🤑 Website containing condensed savings & investment advice for those that are intimidated by traditional financial documentation or simply don't have easy access to such information. Coded in React JS using functional components + hooks with Router.
 >In Progress: http://mysavei.com
 
 ## goals
@@ -11,7 +11,7 @@
 * endorse tools (mobile apps) that will be recognizable, free (or extremely inexpensive), and user-friendly for today's smart phone users (almost everyone)
 * ensure the informative content and process for beginning to invest takes as little of the users time as possible
 #### developer
-* gain more experience with React JS, React Bootstrap, and React Router
+* gain more experience with React JS and React Router
 * host a React website and connect it to search engines via various available tools
 * practice incorporating structured data to improve SEO
 * incorporate as much accessibility-friendly design as possible (which may include a toggling grayscale color skin for color blind viewers)
