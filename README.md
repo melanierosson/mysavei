@@ -42,5 +42,5 @@ I only did a small amount of market research via online search engines. I couldn
 
 ## development
 #### in progress
-This is in a functional state on http://mysavei.com but there are many bugs and refinements that I need to fix. When that is done, I'll be re-developing it in Gatsby, and transferring to Netlify.
+This is in a functional state on http://mysavei.com but there are many bugs and refinements that need attention. When those are done, I'll be re-developing it in Gatsby, and transferring to Netlify.
 
