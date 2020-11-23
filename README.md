@@ -40,5 +40,7 @@ I only did a small amount of market research via online search engines. I couldn
 ##### final
 <img src="/imgs/mysavei-mobile-home.jpg" height="300px"> <img src="/imgs/mysavei-mobile-secondstep.jpg" height="300px"> <img src="/imgs/mysavei-mobile-passive.jpg" height="300px"> <img src="/imgs/mysavei-mobile-active.jpg" height="300px"> <img src="/imgs/mysavei-mobile-all.jpg" height="300px"> <img src="/imgs/mysavei-desktop-home.jpg" height="450px"> <img src="/imgs/mysavei-desktop-secondstep.jpg" height="450px"> <img src="/imgs/mysavei-desktop-passive.jpg" height="450px"> <img src="/imgs/mysavei-desktop-active.jpg" height="450px"> <img src="/imgs/mysavei-desktop-all.jpg" height="450px">
 
-
+## development
+#### in progress
+This is in a functional state on http://mysavei.com but there are many bugs and refinements that I need to fix. When that is done, I'll be re-developing it in Gatsby, and transferring to Netlify.
 
