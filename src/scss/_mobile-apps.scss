@@ -63,7 +63,7 @@ article.component-content.mobile-app {
             @media screen and (max-width:767px) {
                 @include mobile-app-dropdown;
                 margin: 18px auto 0 auto;
-                max-width:200px;
+                max-width:240px;
                 &.opened {
                     height:340px;
                     .expand {
@@ -90,7 +90,7 @@ article.component-content.mobile-app {
                 .expand {
                     @include expanding;
                     margin-top:19px;
-                    max-width:200px;
+                    max-width:240px;
                     &:hover {
                         cursor:pointer;
                     }
@@ -117,7 +117,7 @@ article.component-content.mobile-app {
                     @include mobile-app-dropdown;
                     margin: 18px auto 0 auto;
                     padding:16px 16px 16px 16px;
-                    max-width:200px;
+                    max-width:240px;
                     height:160px;
                     &.active-color {
                         background-color:$fullYellow;
@@ -130,7 +130,7 @@ article.component-content.mobile-app {
             .mobile-app-descr.dropdown-start > .expand {
                 @include expanding;
                 margin-top:0;
-                max-width:200px;
+                max-width:240px;
                 z-index:14;
             }
             .mobile-app-descr.dropdown-start.active-color > .expand {

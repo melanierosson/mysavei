@@ -51,7 +51,7 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
                         <div className="cost">
                             {type ?
                                 <span className="cost-descr">
-                                    All accounts are extremely affordable<br />($1-$5 a month)
+                                    All accounts are extremely affordable, ranging between $1-$5 a month depending on the plan
                                 </span>
                                 :
                                 <span className="cost-descr">
