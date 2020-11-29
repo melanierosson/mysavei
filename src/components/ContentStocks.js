@@ -16,14 +16,14 @@ const ContentStocks = ({highlight}) => {
     return (
     <ul className="stock-market need-to-know list">
         <li>
-            <p>
+            <p id="etf">
                 <b>Stock/ETF:</b> A stock is a portion of ownership in a company while an ETF is an exchange traded fund. Both are traded on the stock market and are similar (to beginning traders).
             </p>
             <img src={stockImg} alt="Users total investing graph in Robinhood"/>
         </li>
         <li>
             <p>
-                <b>Market Price:</b> Current selling price for a single share of a stock/ETF.
+                <b>Market Price:</b> Current selling price for a single share of a <a href="#etf">stock/ETF</a>.
             </p>
             <img src={marketImg} alt="Twitter's (TWTR) market price in Robinhood"/>
         </li>
@@ -42,7 +42,8 @@ const ContentStocks = ({highlight}) => {
         <li>
             <p>
                 <b>Crypto:</b> Blockchain and virtual currency funds like Bitcoin and Ethereum.
-                These are only available to be traded within certain states in Robinhood. 
+                These are only available to be traded within certain states in Robinhood.
+                <br className="hide-on-desktop"/>
                 <a className="link" href="https://robinhood.com/us/en/support/articles/commission-free-cryptocurrency-investing/" target="_blank">See more <i className="fas fa-chevron-right"></i></a>
             </p>
             <img src={cryptoImg} alt="Crypto Bitcoin graph in Robinhood" />
@@ -79,7 +80,7 @@ const ContentStocks = ({highlight}) => {
                 <ul className="sublist" style={showContent ? { display: 'block' } : { display: 'none' }}>
                     <li id="spgi">
                         <p>
-                            <b>S&amp;P 500:</b> Group of the 500 largest companies on the U.S. stock exchange. It's <a href="#symbols">stock symbol</a> is GSPC, but is not available to purchase on Robinhood.
+                            <b>S&amp;P 500:</b> Group of the 500 largest companies on the U.S. stock exchange. It's <a href="#symbols">stock symbol</a> is GSPC, but is <i>not</i> available to purchase on Robinhood. There are many other funds/ETFs built off of it that you <i>can</i> buy, such as SPDR S&amp;P 500 <a href="#etf">ETF</a> (SPY) and Vanguard S&amp;P 500 <a href="#etf">ETF</a> (VOO).
                         </p>
                     </li>
                     <li>
@@ -95,7 +96,7 @@ const ContentStocks = ({highlight}) => {
                     </li>
                     <li>
                         <p>
-                            <b>BRK.B:</b> This is not an index fund but it is similar. Berkshire Hathaway is Warren Buffet’s company that holds all of his hand-picked stocks. (Warren Buffet is known for basically being the king of all stock trading.)
+                            <b>BRK.B:</b> This is not an index fund but it is similar. Berkshire Hathaway is Warren Buffet’s company that holds all of his hand-picked stocks. (Warren Buffet is known for being the Bill Gates of stock trading.)
                         </p>
                     </li>
                 </ul>
@@ -119,7 +120,7 @@ const ContentStocks = ({highlight}) => {
                     </li>
                     <li>
                         <p>
-                            Robinhood has an <b>automatic dividends reinvestment feature</b> called DRIP that allows you to choose to have your dividends from a stock/ETF be automatically reinvested back in that stock/ETF.
+                            Robinhood has an <b>automatic dividends reinvestment feature</b> called DRIP that allows you to choose to have your dividends from a <a href="#etf">stock/ETF</a> be automatically reinvested back in that <a href="#etf">stock/ETF</a>.
                             <a className="link" href="https://robinhood.com/us/en/support/articles/dividend-reinvestment/" target="_blank">
                                 See more <i className="fas fa-chevron-right"></i>
                             </a>
