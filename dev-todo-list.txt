@@ -1,9 +1,10 @@
 - change mobile version of second step choices to all be stacked buttons, not just reduced height screens
 - mobile bottom nav screen feedback link bottom-border alignment on hover
 - design -> mobile app dropdown modal link (hover goes white, dark green normally - can there be a better user experience?)
-- design -> mobile app store modal windows - maybe include the mobile app icon? or some way to better link the modal to the correct app visually (without reading)
+- design -> mobile app store modal windows - maybe include the mobile app icon? or some way to better link the modal to the correct app visually (without reading) - maybe colored border on all info page screen?
 - animations and hover effects
 - darkened behind the component content area shape needs to have more space on the bottom (just adding padding or subtracting top margin from the component content shapes didn't work)
 - home page desktop clocks need another bordered no-fill circle to overlay them so that the yellow triangles have rounded outer edges
 - stock market content index funds section key players link needs balanced spacing on firefox too
 - stock market links folding characters to next line on smaller screens
+- refine tablet screen size content containers
