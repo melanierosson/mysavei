@@ -35,7 +35,7 @@ const All = ({props}) => {
                 <section id="mobile-apps" className="content-container all-container" style={{
                     marginTop: '30px'}}>
                     {/* <div id="toggle-mobile-apps" onClick={() => displayMobile(showMobile ? false : true)}> */}
-                        <h3 className="text-white text-center" style={{marginTop: '-10px'}}>
+                        <h3 className="text-white text-center">
                             {/* { showMobile ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                             &nbsp; Mobile Apps &nbsp; 
                             {/* { showMobile ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
