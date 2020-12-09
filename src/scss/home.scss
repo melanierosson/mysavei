@@ -73,7 +73,7 @@ ul.options-list {
         align-items:center;
         &:hover {
             transform: translateY(15px);
-            transition:0.15s linear;
+            transition: transform 200ms ease-in-out;
             cursor:pointer;
             > div.circle {
                 transform: translateY(0) !important;

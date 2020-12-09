@@ -33,6 +33,7 @@ article.component-content.mobile-app {
                 height:109px;
                 &:hover {
                     cursor:pointer;
+                    transform:scale(1.1,1.1);
                 }
             }
         }
@@ -57,6 +58,8 @@ article.component-content.mobile-app {
             }
             &:hover {
                 cursor:pointer;
+                transform:translateX(5px);
+                transition: transform 330ms ease-in-out;
             }
         }
         &.dropdown-start {

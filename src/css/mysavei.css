@@ -21,6 +21,7 @@ article.component-content.mobile-app .img-container .img-holder img.app-icons {
 }
 article.component-content.mobile-app .img-container .img-holder img.app-icons:hover {
   cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .img-container {
@@ -45,6 +46,8 @@ article.component-content.mobile-app .about-mobile-app {
 }
 article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
   cursor: pointer;
+  transform: translateX(5px);
+  transition: transform 330ms ease-in-out;
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .about-mobile-app.dropdown-start {
@@ -401,12 +404,15 @@ div#root section#app main.content-page section.content-container {
 }
 div#root section#app main.content-page section.content-container.all-container {
   border-color: #92B96A;
+  padding-bottom: 35px;
 }
 div#root section#app main.content-page section.content-container.active-container {
   border-color: #C59139;
+  padding-bottom: 35px;
 }
 div#root section#app main.content-page section.content-container.passive-container {
   border-color: #53AA81;
+  padding-bottom: 35px;
 }
 div#root section#app main.content-page .component-content {
   background-color: #F5F5F8;
@@ -557,7 +563,7 @@ section#robinhood-store-icon {
   transform: translate(-50%, -50%);
   z-index: 50;
   width: 350px;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: white;
   padding: 35px 20px 20px 20px;
   border-radius: 30px;
 }
@@ -571,15 +577,25 @@ section#acorns-store-icon div.close:hover,
 section#robinhood-store-icon div.close:hover {
   cursor: pointer;
   color: #F3755B;
+  transform: scale(1.1);
+}
+section#acorns-store-icon h5,
+section#robinhood-store-icon h5 {
+  margin-left: 15px;
 }
 section#acorns-store-icon div.apps,
 section#robinhood-store-icon div.apps {
   display: flex;
   justify-content: space-around;
 }
+section#acorns-store-icon section.img-container img.app-icons,
+section#robinhood-store-icon section.img-container img.app-icons {
+  margin: auto;
+  width: 80px;
+}
 section#acorns-store-icon a i.fab,
 section#robinhood-store-icon a i.fab {
-  font-size: 6rem;
+  font-size: 3rem;
 }
 section#acorns-store-icon a i.fab.fa-apple,
 section#robinhood-store-icon a i.fab.fa-apple {
@@ -598,6 +614,7 @@ section#robinhood-store-icon a:hover {
 section#acorns-store-icon a:hover i.fab,
 section#robinhood-store-icon a:hover i.fab {
   color: #F3755B;
+  transform: scale(1.2);
 }
 section#acorns-store-icon a:hover span,
 section#robinhood-store-icon a:hover span {

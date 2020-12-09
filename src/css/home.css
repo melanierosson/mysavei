@@ -79,7 +79,7 @@ ul.options-list li {
 }
 ul.options-list li:hover {
   transform: translateY(15px);
-  transition: 0.15s linear;
+  transition: transform 200ms ease-in-out;
   cursor: pointer;
 }
 ul.options-list li:hover > div.circle {

@@ -148,12 +148,15 @@ div#root {
         }
         &.all-container {
           border-color: $bgMdGreen;
+          padding-bottom:35px;
         }
         &.active-container {
           border-color: $bgGold;
+          padding-bottom:35px;
         }
         &.passive-container {
           border-color: $bgTqGreen;
+          padding-bottom:35px;
         }
       }
       .component-content {
