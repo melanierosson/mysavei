@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0180b1cf00c686753a61d4693a88ed02",
+    "revision": "59a9d2ca56f9c14d5f98371f03320c2a",
     "url": "/mysavei/index.html"
   },
   {
-    "revision": "1428d96ac41a55bb08b8",
-    "url": "/mysavei/static/css/main.3d430b09.chunk.css"
+    "revision": "edcaa38c80b2b7e2487d",
+    "url": "/mysavei/static/css/main.d2e6ff4b.chunk.css"
   },
   {
     "revision": "4a9a321886ee81c071b8",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mysavei/static/js/2.2287cd9c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1428d96ac41a55bb08b8",
+    "revision": "edcaa38c80b2b7e2487d",
     "url": "/mysavei/static/js/main.bcb9d627.chunk.js"
   },
   {
