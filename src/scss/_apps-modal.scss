@@ -21,7 +21,7 @@ section#robinhood-store-icon {
         }
     }
     h5 {
-        margin-left:15px;
+        margin-left:0;
         font-size:1.25rem !important;
     }
     div.apps {
@@ -29,6 +29,7 @@ section#robinhood-store-icon {
         justify-content:space-around;
     }
     section.img-container {
+        height:90px;
         img.app-icons {
             margin:auto;
             width:80px;
