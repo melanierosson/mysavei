@@ -30,10 +30,11 @@ article.component-content.mobile-app {
       article.component-content.mobile-app .about-mobile-app .mobile-app-title span.type::after {
         content: '\a';
         white-space: pre; } }
-    article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
-      cursor: pointer;
-      transform: translateX(5px);
-      transition: transform 330ms ease-in-out; }
+    @media screen and (min-width: 768px) {
+      article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
+        cursor: pointer;
+        transform: translateX(5px);
+        transition: transform 330ms ease-in-out; } }
     @media screen and (max-width: 767px) {
       article.component-content.mobile-app .about-mobile-app.dropdown-start {
         background-color: #39D08A;
