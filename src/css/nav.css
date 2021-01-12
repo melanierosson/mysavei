@@ -4,15 +4,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
   }
   nav.navigation section.nav {
     padding: 10px;
   }
   nav.navigation section.nav:hover, nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
-    border-bottom: 8px solid #FFF;
+    border-top: 8px solid #FFF;
   }
   nav.navigation section.nav:hover .nav-link, nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
-    margin-bottom: -8px;
+    margin-top: -8px;
   }
   nav.navigation section.nav .nav-link {
     padding: 20px;

@@ -32,7 +32,7 @@ const LongTerm = () => (
         </main>
         <section 
             className="mobile-nav hide-on-desktop" 
-            style={{ backgroundColor: '#5DD4CF'}}
+            style={{ backgroundColor: '#5DD4CF', zIndex: 1000}}
         >
             <Nav 
                 bgColor='#5DD4CF'

@@ -86,7 +86,7 @@ const All = ({props}) => {
             </main>
             <section 
                 className="mobile-nav hide-on-desktop" 
-                style={{ backgroundColor: '#A2D039'}}
+                style={{ backgroundColor: '#A2D039', zIndex: 1000}}
             >
                 <Nav 
                     bgColor='#A2D039'

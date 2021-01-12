@@ -4,14 +4,18 @@ nav.navigation {
         display:flex;
         flex-direction:row;
         justify-content:space-around;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        height:80px;
         section.nav {
             padding:10px;
             &:hover,
             &:active,
             &.active-nav {
-                border-bottom:8px solid #FFF;
+                border-top:8px solid #FFF;
                 .nav-link { 
-                    margin-bottom:-8px;
+                    margin-top:-8px;
                 }
             }
             .nav-link {
@@ -24,6 +28,7 @@ nav.navigation {
             }
         }
     }
+   
     @media screen and (min-width:768px) {
         padding:0;
         section.nav {

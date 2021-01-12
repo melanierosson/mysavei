@@ -2,7 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/nav.css';
 
-const Nav = ({ bgColor, showDesktop, showMobile, home, all }) => (
+const Nav = ({ bgColor, showDesktop, showMobile, home, all }) => {
+    // const [scrolled,setScrolled]=React.useState(false);
+    // const handleScroll=() => {
+    //     const offset=window.scrollY;
+    //     if(offset > 200 ){
+    //     setScrolled(true);
+    //     }
+    //     else{
+    //     setScrolled(false);
+    //     }
+    // }
+
+    // useEffect(() => {
+    //     window.addEventListener('scroll',handleScroll)
+    // })
+    // let navbarClasses=['navigation'];
+    // if(scrolled){
+    //     navbarClasses.push('scrolled');
+    // }
+
+   return (
     <nav className={`navigation ${showDesktop ? 'hide-on-mobile' : ''} ${showMobile ? 'hide-on-desktop' : ''}`} style={{ backgroundColor: `${bgColor}` }}>
         <article className="row">
             <section id="nav-home" className={`nav ${home ? 'active-nav' : ''}`}>
@@ -28,6 +48,6 @@ const Nav = ({ bgColor, showDesktop, showMobile, home, all }) => (
             </section>
         </article>
     </nav>
-)
+)}
 
 export default Nav;

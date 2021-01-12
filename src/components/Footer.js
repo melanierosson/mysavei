@@ -6,8 +6,8 @@ const Footer = () => (
     <article className="footer">
         <footer className="row">
             <section id="copyright" className="text-center">
-                <a href="http://melpdesigns.com" target="_blank">
-                    <b>&copy; MELP DESIGNS</b>
+                <a href="https://mpowheard.com" target="_blank">
+                    <b>&copy; MPOWHEARD</b>
                 </a>
             </section>
         </footer>

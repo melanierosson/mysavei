@@ -74,7 +74,7 @@ const Home = () => {
         </main>
         <section 
             className="mobile-nav hide-on-desktop" 
-            style={{ backgroundColor: '#39D08A'}}
+            style={{ backgroundColor: '#39D08A', zIndex: 1000}}
         >
             <Nav 
                 bgColor='#39D08A'
