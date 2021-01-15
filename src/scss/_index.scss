@@ -22,6 +22,7 @@ div#root {
     position:relative;
     display:flex;
     flex-direction:column;
+    align-items:stretch;
     h1 {
       font-size:2rem;
       font-weight:700 !important;

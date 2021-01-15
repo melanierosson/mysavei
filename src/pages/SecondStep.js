@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Loading from '../components/Loading.js';
 import Title from '../components/Title.js';
 import UserOptions from '../components/UserOptions.js';
 import Nav from '../components/Nav.js';
@@ -8,7 +9,7 @@ import '../css/step2.css';
 const SecondStep = () => {
 
     return (
-        <>
+        <Loading>
             <section className="top" style={{ backgroundColor: '#39D08A' }}>
                 <Title content="Quick Start Investing" bgColor="#39D08A" 
                 />
@@ -42,7 +43,7 @@ const SecondStep = () => {
                 />
             </section>
             <Footer />
-        </>
+        </Loading>
     )
 }
 

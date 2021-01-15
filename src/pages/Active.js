@@ -1,4 +1,5 @@
 import React from 'react';
+import Loading from '../components/Loading.js';
 import Title from '../components/Title.js';
 import MobileApp from '../components/MobileApp.js';
 import NeedToKnow from '../components/NeedToKnow.js';
@@ -7,8 +8,7 @@ import Footer from '../components/Footer.js';
 import '../css/active.css';
 
 const Active = () => (
-    <>
-        
+    <Loading>
         <section className="top" style={{ backgroundColor: '#FAD551' }}>
             <Title content="Your Investment Strategy" bgColor="#FAD551" />
             <Nav
@@ -41,7 +41,7 @@ const Active = () => (
             />
         </section>
         <Footer />
-    </>
+    </Loading>
 )
 
 export default Active;

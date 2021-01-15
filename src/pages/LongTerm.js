@@ -1,4 +1,5 @@
 import React from 'react';
+import Loading from '../components/Loading.js';
 import Title from '../components/Title.js';
 import MobileApp from '../components/MobileApp.js';
 import NeedToKnow from '../components/NeedToKnow.js';
@@ -7,7 +8,7 @@ import Footer from '../components/Footer.js';
 import '../css/passive.css';
 
 const LongTerm = () => (
-    <>
+    <Loading>
         <section className="top" style={{ backgroundColor: '#5DD4CF' }}>
             <Title content="Your Investment Strategy" bgColor="#5DD4CF" />
             <Nav
@@ -39,7 +40,7 @@ const LongTerm = () => (
             />
         </section>
         <Footer />
-    </>
+    </Loading>
 )
 
 export default LongTerm;

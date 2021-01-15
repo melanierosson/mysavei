@@ -1,10 +1,11 @@
 import React from 'react';
+import Loading from '../components/Loading.js';
 import Title from '../components/Title.js';
 import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 
 const NotFound = () => (
-    <>
+    <Loading>
         <section className="top" style={{ backgroundColor: '#39D08A' }}>
             <Title content="Whoops!" bgColor="#39D08A" />
             <Nav
@@ -29,7 +30,7 @@ const NotFound = () => (
             />
         </section>
         <Footer />
-    </>
+    </Loading>
 )
 
 export default NotFound;
