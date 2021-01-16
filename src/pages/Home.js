@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Loading from '../components/Loading.js';
 import Title from '../components/Title.js';
 import Figure from 'react-bootstrap/Figure';
 import { Link } from 'react-router-dom';
@@ -11,7 +10,7 @@ import '../css/home.css';
 const Home = () => {
 
     return (
-        <Loading>
+        <>
             <section className="top" style={{ backgroundColor: '#39D08A'}}>
                 <Title content="Quick Start Investing" bgColor="#39D08A" />
                 <Nav 
@@ -83,7 +82,7 @@ const Home = () => {
                 />
             </section>
             <Footer />
-        </Loading>
+        </>
     )
 }  
 

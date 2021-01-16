@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Loading from '../components/Loading.js';
 import Title from '../components/Title.js';
 import NeedToKnow from '../components/NeedToKnow.js';
 import MobileApp from '../components/MobileApp.js';
@@ -13,7 +12,7 @@ const All = ({props}) => {
     const [showNeedToKnow, displayNeedToKnow] = useState(true);
 
     return (
-        <Loading>
+        <>
             <section className="top" style={{ backgroundColor: '#A2D039' }}>
                 <Title content="Your Investment Strategy" bgColor="#A2D039" />
                 <Nav 
@@ -95,7 +94,7 @@ const All = ({props}) => {
                 />
             </section>
             <Footer />
-        </Loading>
+        </>
     )
 }
 

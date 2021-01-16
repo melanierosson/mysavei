@@ -4,6 +4,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
+import Loading from './components/Loading.js';
 
 // Pages
 import Home from './pages/Home.js';
@@ -18,7 +19,7 @@ import NotFound from './pages/NotFound.js';
 function App() {
 
   return (
-    <>
+    <Loading>
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -57,7 +58,7 @@ function App() {
       <script
         src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
         crossOrigin></script>
-    </>
+    </Loading>
   );
 }
 

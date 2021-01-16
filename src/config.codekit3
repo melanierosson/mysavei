@@ -53,6 +53,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/components/Loading.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/components/Loading-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/components/MobileApp.js": {
 		"bF": 0,
 		"ft": 64,
@@ -170,15 +181,25 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/css/loading.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/loading-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/mysavei.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/mysavei-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/nav.css": {
 		"aP": 1,
@@ -579,6 +600,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/scss/loading.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/loading.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 0
+		},
 	"/scss/mysavei.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -587,10 +621,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/mysavei.css",
-		"oF": 2,
+		"oAP": "/scss/mysavei.css",
+		"oF": 0,
 		"oS": 0,
-		"sct": 1
+		"sct": 0
 		},
 	"/scss/nav.scss": {
 		"aP": 0,
@@ -699,6 +733,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/Promise/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/Promise/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/prop-types/index.js": {
 		"bF": 0,
 		"ft": 64,
@@ -796,6 +841,17 @@
 		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-is/index.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-loadingg/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-loadingg/lib/index-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-router-dom/esm/react-router-dom.js": {
