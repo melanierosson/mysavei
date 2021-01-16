@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Title from '../components/Title.js';
 import Figure from 'react-bootstrap/Figure';
 import { Link } from 'react-router-dom';

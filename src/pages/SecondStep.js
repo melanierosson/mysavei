@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Title from '../components/Title.js';
 import UserOptions from '../components/UserOptions.js';
 import Nav from '../components/Nav.js';
