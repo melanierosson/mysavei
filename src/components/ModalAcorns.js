@@ -3,9 +3,15 @@ import AcornsImg from '../imgs/acorns.png';
 
 const ModalAcorns = () => {
 
+    const hideModals = () => {
+        document.getElementById('acorns-store-icon').style.display = "none";
+        document.getElementById('modal-overlay').removeEventListener("click", hideModals, false);
+        document.getElementById('modal-overlay').style.display = "none";
+    }
+
     return (
         <section id="acorns-store-icon" className="text-center" style={{display:'none'}}>
-            <div className="close" onClick={() => document.getElementById('acorns-store-icon').style.display = "none"}>
+            <div className="close" onClick={hideModals}>
                 <i className="fas fa-times"></i>
             </div>
             <h5>Install</h5>

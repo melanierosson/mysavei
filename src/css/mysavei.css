@@ -571,10 +571,21 @@ ul.need-to-know.list .listImgStyle {
   }
 }
 
+div#modal-overlay {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: rgba(51, 51, 51, 0.05);
+}
+
 section#acorns-store-icon,
 section#robinhood-store-icon {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);

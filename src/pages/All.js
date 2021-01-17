@@ -34,19 +34,13 @@ const All = ({props}) => {
                 
                 <section id="mobile-apps" className="content-container all-container" style={{
                     marginTop: '30px'}}>
-                    {/* <div id="toggle-mobile-apps" onClick={() => displayMobile(showMobile ? false : true)}> */}
                         <h3 className="text-white text-center">
-                            {/* { showMobile ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                             &nbsp; Mobile Apps &nbsp; 
-                            {/* { showMobile ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                         </h3>
-                    {/* </div>
-                    <div id="mobileapp-components" style={showMobile ? { display: 'block' } : { display: 'none' }}> */}
                         <MobileApp 
                             type={true} 
                             containAll={true} 
                             expand="See" 
-                            // passiveColor="true"
                         />
                         
                         <br /><br />
@@ -55,9 +49,7 @@ const All = ({props}) => {
                             type={false} 
                             containAll={true} 
                             expand="See" 
-                            // activeColor="true"
                         />
-                    {/* </div> */}
                 </section>
                 
                 <section id="know" className="content-container all-container" style={{marginTop:'30px', marginBottom: '100px'}}>

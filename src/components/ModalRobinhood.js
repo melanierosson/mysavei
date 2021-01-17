@@ -3,9 +3,15 @@ import RobinhoodImg from '../imgs/robinhood.png';
 
 const ModalRobinhood = () => {
 
+    const hideModals = () => {
+        document.getElementById('robinhood-store-icon').style.display = "none";
+        document.getElementById('modal-overlay').removeEventListener("click", hideModals, false);
+        document.getElementById('modal-overlay').style.display = "none";
+    }
+
     return (
         <section id="robinhood-store-icon" className="text-center" style={{display:'none'}}>
-            <div className="close" onClick={() => document.getElementById('robinhood-store-icon').style.display = "none"}>
+            <div className="close" onClick={hideModals}>
                 <i className="fas fa-times"></i>
             </div>
             <h5>Install</h5>
