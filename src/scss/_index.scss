@@ -181,6 +181,9 @@ div#root {
       .page-description {
         color: $textBlack;
         padding:0 20px;
+        @media screen and (max-width:767px) {
+          padding:0;
+        }
         margin-top:-5px;
         text-align:center;
         max-width:748px;

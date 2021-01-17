@@ -442,6 +442,11 @@ div#root section#app main.content-page .page-description {
   text-align: center;
   max-width: 748px;
 }
+@media screen and (max-width: 767px) {
+  div#root section#app main.content-page .page-description {
+    padding: 0;
+  }
+}
 div#root section#app main.content-page #toggle-mobile-apps:hover,
 div#root section#app main.content-page #toggle-needtoknow:hover,
 div#root section#app main.content-page #needtoknow-header:hover {

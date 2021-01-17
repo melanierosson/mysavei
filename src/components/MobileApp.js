@@ -42,7 +42,12 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
                 } >
                     <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
-                <div className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} style={showContent ? {height: '124px'} : {height: '257px'}}>
+                <div 
+                    className={`mobile-app-descr ${containDescr ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} 
+                    style={showContent ? {height: '124px'} : {height: '257px'}}
+                    onMouseOver={() => displayContent()}
+                    onMouseOut={() => displayContent(showContent ? false : true)}
+                >
                     { type 
                         ? 'The Acorns mobile app makes passive investing as easy as possible.' 
                         : 'The Robinhood mobile app is an in-pocket, no-fee, stock market broker tool.' 
@@ -72,7 +77,12 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
                         </div>
                     </div>
                 </div>
-                <div className={`expand ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} onClick={() => displayContent(showContent ? false : true)}>
+                <div 
+                    className={`expand ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} 
+                    onClick={() => displayContent(showContent ? false : true)}
+                    onMouseOver={() => displayContent()}
+                    onMouseOut={() => displayContent(showContent ? false : true)}
+                >
                     {expand}&nbsp;{showContent ? <span>more &nbsp;<i className="xs fas fa-chevron-down"></i></span> : <span>less &nbsp;<i className="xs fas fa-chevron-up"></i></span>}
                 </div>
             </section>
