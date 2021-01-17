@@ -18,14 +18,10 @@ main#step2-page {
   z-index: 30;
   margin-left: 0 !important;
 }
-@media screen and (max-height: 667px) {
-  #step2-page #step2-question {
-    height: 100px;
-  }
-}
 @media screen and (max-width: 767px) {
   #step2-page #step2-question {
     max-width: 345px;
+    height: 100px;
     border-radius: 100px !important;
     justify-content: center;
   }
@@ -42,46 +38,17 @@ main#step2-page {
   height: 129px;
   width: 64.5px;
 }
-@media screen and (max-height: 667px) {
-  #step2-page #step2-question .right,
-#step2-page #step2-question .left {
-    height: 100px;
-    width: 50px;
-  }
-}
 #step2-page #step2-question .right {
   border-bottom-right-radius: 129px;
   border-top-right-radius: 129px;
   margin-right: -70px;
   box-shadow: 14px 0 20px rgba(0, 0, 0, 0.14);
 }
-@media screen and (max-height: 667px) {
-  #step2-page #step2-question .right {
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
-  }
-}
-@media screen and (max-height: 667px) {
-  #step2-page #step2-question .right {
-    margin-right: -60px;
-  }
-}
 #step2-page #step2-question .left {
   border-bottom-left-radius: 129px;
   border-top-left-radius: 129px;
   margin-left: -70px;
   box-shadow: -14px 0 20px rgba(0, 0, 0, 0.14);
-}
-@media screen and (max-height: 667px) {
-  #step2-page #step2-question .left {
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 100px;
-  }
-}
-@media screen and (max-height: 667px) {
-  #step2-page #step2-question .left {
-    margin-left: -60px;
-  }
 }
 #step2-page #step2-question p {
   margin-top: 5px;
@@ -110,16 +77,9 @@ main#step2-page {
   justify-content: center;
   align-items: flex-start;
 }
-@media screen and (max-height: 667px) {
-  #step2-page ul.options-list li {
-    height: 228px;
-  }
-  #step2-page ul.options-list li .hide-mobile {
-    display: none;
-  }
-  #step2-page ul.options-list li span.more-descr {
-    font-size: 0.8rem;
-    line-height: 0.8rem;
+@media screen and (min-width: 768px) {
+  #step2-page ul.options-list li .option-link {
+    margin-top: 15px;
   }
 }
 #step2-page ul.options-list li:hover {
@@ -131,21 +91,12 @@ main#step2-page {
   background-color: #5DD4CF;
 }
 #step2-page ul.options-list li#passive-option div.bottom-2 {
-  transform: translate(-8px, 62px);
+  transform: translate(-8px, 95px);
   background-color: #7FE6E2;
-}
-@media screen and (max-height: 667px) {
-  #step2-page ul.options-list li#passive-option div.bottom-2 {
-    transform: translate(-8px, 2px);
-  }
 }
 @media screen and (max-width: 767px) {
   #step2-page ul.options-list li#passive-option {
     margin: -20px 15px 0 15px;
-  }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) {
-  #step2-page ul.options-list li#passive-option {
     width: 340px;
     height: 90px;
     position: absolute;
@@ -153,7 +104,8 @@ main#step2-page {
     border-radius: 50px;
     display: flex;
     align-items: center;
-    padding-top: 6px;
+    padding-top: 20px;
+    top: 270px;
   }
   #step2-page ul.options-list li#passive-option .more-descr {
     display: none;
@@ -168,19 +120,10 @@ main#step2-page {
   #step2-page ul.options-list li#passive-option div.bottom-2 {
     display: none;
   }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) and (max-height: 667px) {
-  #step2-page ul.options-list li#passive-option {
-    top: 270px;
-  }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) {
   #step2-page ul.options-list li#passive-option .mobile-arrow {
     display: inline;
     padding-left: 6px;
   }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) {
   #step2-page ul.options-list li#passive-option:hover {
     transform: translate(18px, 0);
   }
@@ -193,42 +136,31 @@ main#step2-page {
   display: none;
 }
 #step2-page ul.options-list li#both-option div.bottom-2 {
-  transform: translate(-8px, 25px);
+  transform: translate(-47px, 28px);
   background-color: #C5E282;
 }
 @media screen and (max-width: 767px) {
   #step2-page ul.options-list li#both-option {
-    width: 317px;
-    height: 67px;
     position: absolute;
-    top: 675px;
     margin: 0 auto;
     border-radius: 50px;
     display: flex;
     align-items: center;
     padding-top: 6px;
-  }
-  #step2-page ul.options-list li#both-option div.bottom-2 {
-    display: none;
-  }
-}
-@media screen and (max-width: 767px) and (max-height: 667px) {
-  #step2-page ul.options-list li#both-option {
     top: 490px;
     width: 340px;
     height: 90px;
   }
+  #step2-page ul.options-list li#both-option div.bottom-2 {
+    display: none;
+  }
   #step2-page ul.options-list li#both-option i.mobile-arrow {
     display: none !important;
   }
-}
-@media screen and (max-width: 767px) {
   #step2-page ul.options-list li#both-option .mobile-arrow {
     display: inline;
     padding-left: 6px;
   }
-}
-@media screen and (max-width: 767px) {
   #step2-page ul.options-list li#both-option:hover {
     transform: translate(18px, 0);
   }
@@ -237,21 +169,12 @@ main#step2-page {
   background-color: #FAD551;
 }
 #step2-page ul.options-list li#active-option div.bottom-2 {
-  transform: translate(-8px, 19px);
+  transform: translate(-8px, 28px);
   background-color: #FAE495;
-}
-@media screen and (max-height: 667px) {
-  #step2-page ul.options-list li#active-option div.bottom-2 {
-    transform: translate(-8px, 2px);
-  }
 }
 @media screen and (max-width: 767px) {
   #step2-page ul.options-list li#active-option {
     margin: -20px 15px 0 15px;
-  }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) {
-  #step2-page ul.options-list li#active-option {
     width: 340px;
     height: 90px;
     position: absolute;
@@ -259,7 +182,8 @@ main#step2-page {
     border-radius: 50px;
     display: flex;
     align-items: center;
-    padding-top: 6px;
+    align-content: center;
+    top: 380px;
   }
   #step2-page ul.options-list li#active-option .more-descr {
     display: none;
@@ -274,19 +198,10 @@ main#step2-page {
   #step2-page ul.options-list li#active-option div.bottom-2 {
     display: none;
   }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) and (max-height: 667px) {
-  #step2-page ul.options-list li#active-option {
-    top: 380px;
-  }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) {
   #step2-page ul.options-list li#active-option .mobile-arrow {
     display: inline;
     padding-left: 6px;
   }
-}
-@media screen and (max-height: 667px) and (max-width: 767px) {
   #step2-page ul.options-list li#active-option:hover {
     transform: translate(18px, 0);
   }
