@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mysavei/static/css/main.847ef811.chunk.css",
-    "main.js": "/mysavei/static/js/main.25b7b1e0.chunk.js",
-    "main.js.map": "/mysavei/static/js/main.25b7b1e0.chunk.js.map",
+    "main.css": "/mysavei/static/css/main.a8480e79.chunk.css",
+    "main.js": "/mysavei/static/js/main.62788421.chunk.js",
+    "main.js.map": "/mysavei/static/js/main.62788421.chunk.js.map",
     "runtime-main.js": "/mysavei/static/js/runtime-main.6ffa9c1e.js",
     "runtime-main.js.map": "/mysavei/static/js/runtime-main.6ffa9c1e.js.map",
     "static/js/2.2ca3a359.chunk.js": "/mysavei/static/js/2.2ca3a359.chunk.js",
     "static/js/2.2ca3a359.chunk.js.map": "/mysavei/static/js/2.2ca3a359.chunk.js.map",
     "index.html": "/mysavei/index.html",
-    "precache-manifest.3083eeb1e53c56655c3e77a6f6cabe26.js": "/mysavei/precache-manifest.3083eeb1e53c56655c3e77a6f6cabe26.js",
+    "precache-manifest.1f722b1ace9dd3f1080512bffa354c5b.js": "/mysavei/precache-manifest.1f722b1ace9dd3f1080512bffa354c5b.js",
     "service-worker.js": "/mysavei/service-worker.js",
-    "static/css/main.847ef811.chunk.css.map": "/mysavei/static/css/main.847ef811.chunk.css.map",
+    "static/css/main.a8480e79.chunk.css.map": "/mysavei/static/css/main.a8480e79.chunk.css.map",
     "static/js/2.2ca3a359.chunk.js.LICENSE.txt": "/mysavei/static/js/2.2ca3a359.chunk.js.LICENSE.txt",
     "static/media/auto-deposits.jpg": "/mysavei/static/media/auto-deposits.bc500c43.jpg",
     "static/media/crypto.jpg": "/mysavei/static/media/crypto.50e79c6a.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ffa9c1e.js",
     "static/js/2.2ca3a359.chunk.js",
-    "static/css/main.847ef811.chunk.css",
-    "static/js/main.25b7b1e0.chunk.js"
+    "static/css/main.a8480e79.chunk.css",
+    "static/js/main.62788421.chunk.js"
   ]
 }
