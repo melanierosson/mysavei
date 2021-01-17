@@ -38,7 +38,7 @@ I only did a small amount of market research via online search engines. I couldn
 <img src="/imgs/insta-mocks-3.png" width="500px">
 
 ##### final
-<img src="/imgs/mysavei-mobile-home.jpg" height="300px"> <img src="/imgs/mysavei-mobile-secondstep.jpg" height="300px"> <img src="/imgs/mysavei-mobile-passive.jpg" height="300px"> <img src="/imgs/mysavei-mobile-active.jpg" height="300px"> <img src="/imgs/mysavei-mobile-all.jpg" height="300px"> <img src="/imgs/mysavei-desktop-home.jpg" width="40%" max-height="450px"> <img src="/imgs/mysavei-desktop-secondstep.jpg" width="40%" max-height="450px"> <img src="/imgs/mysavei-desktop-passive.jpg" width="30%" max-height="250px"> <img src="/imgs/mysavei-desktop-active.jpg" width="30%" max-height="250px"> <img src="/imgs/mysavei-desktop-all.jpg" width="30%" max-height="250px"><br/>
+<img src="/imgs/mysavei-mobile-home.jpg" height="300px"> <img src="/imgs/mysavei-mobile-secondstep.jpg" height="300px"> <img src="/imgs/mysavei-mobile-passive.jpg" height="300px"> <img src="/imgs/mysavei-mobile-active.jpg" height="300px"> <img src="/imgs/mysavei-mobile-all.jpg" height="300px"> <img src="/imgs/mysavei-desktop-home.jpg" width="40%" max-height="450px"> <img src="/imgs/mysavei-desktop-secondstep.jpg" width="40%" max-height="450px"><br/>
 While developing, I experimented with some more white-dominant page designs that are easier on the eyes.
 <img src="/imgs/mysavei-active-page.png" width="30%" max-height="450px"> <img src="/imgs/mysavei-passive-page.png" width="30%" max-height="450px"> <img src="/imgs/mysavei-all-page.png" width="30%" max-height="450px">
 
