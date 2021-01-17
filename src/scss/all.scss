@@ -8,12 +8,12 @@ main#all-content {
     }
     i.fab.fa-google-play,
     i.fab.fa-apple {
-        color:$fullTurq;
+        color:$fullGreen;
     }
     a {
         &:hover {
             i.fab {
-                color:$lightTurq;
+                color:$lightGreen;
             }
         }
     }

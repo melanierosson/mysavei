@@ -25,9 +25,9 @@ const All = ({props}) => {
             </section>
 
             <main className="content-page" id="all-content">
-                <section className="content-container" style={{marginTop: '10px'}}>
+                <section className="content-container" style={{marginTop: '15px'}}>
                     <h2 className="page-title">All Investing Resources</h2>
-                    <p className="page-description">
+                    <p className="page-description" style={{marginBottom: '2px'}}>
                         You're interested in knowing more about both passive and active investing.
                     </p>
                 </section>
@@ -61,26 +61,20 @@ const All = ({props}) => {
                 </section>
                 
                 <section id="know" className="content-container all-container" style={{marginTop:'30px', marginBottom: '100px'}}>
-                    {/* <div id="toggle-needtoknow" onClick={() => displayNeedToKnow(showNeedToKnow ? false : true)}></div> */}
                         <h3 className="text-white text-center">
-                            {/* { showNeedToKnow ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                             &nbsp; Need To Know &nbsp; 
-                            {/* { showNeedToKnow ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> } */}
                         </h3>
-                    {/* </div> */}
-                    {/* <div id="needtoknow-components" style={showNeedToKnow ? { display: 'block' } : { display: 'none' }}> */}
                         <NeedToKnow 
                             type={true} 
-                            showTitle={false} 
-                            // passiveColor="true" 
+                            showTitle={false}
+                            allColor={true}
                         />
                         <br />
                         <NeedToKnow 
                             type={false} 
-                            showTitle={false} 
-                            // activeColor="true"
+                            showTitle={false}
+                            allColor={true}
                         />
-                    {/* </div> */}
                 </section>
 
             </main>

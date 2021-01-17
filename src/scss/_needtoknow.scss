@@ -7,6 +7,11 @@
     &.active-border {
         border:5px solid $fullYellow;
     }
+    section.need-to-know {
+        @media screen and (min-width:768px) {
+            margin-bottom:-5px;
+        }
+    }
 }
 ul.need-to-know.list {
     list-style-type:none;

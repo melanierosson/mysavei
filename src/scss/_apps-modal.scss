@@ -23,6 +23,9 @@ section#robinhood-store-icon {
     h5 {
         margin-left:0;
         font-size:1.25rem !important;
+        @media screen and (min-width:768px) {
+            margin-left:15px;
+        }
     }
     div.apps {
         display:flex;

@@ -2,26 +2,44 @@ import React, { useState } from 'react';
 import ContentAcorns from './ContentAcorns.js';
 import ContentStocks from './ContentStocks.js';
 
-const NeedToKnow = ({type, showTitle, passiveColor, activeColor}) => {
+const NeedToKnow = ({type, showTitle, passiveColor, activeColor, allColor}) => {
 
     const [showContent, displayContent] = useState(true);
 
+    let findColor = () => {
+        if (passiveColor) { return ('#5DD4CF') };
+        if (activeColor) { return ('#FAD551') };
+        if (allColor) { return ('#A2D039') }
+    }
+    let pageColor = {
+        color: findColor(),
+    }
+    // pageColor();
+
     return (
         <article id="need-to-know" 
-            className={`component-content need-to-know ${passiveColor ? 'passive-border' : ''} ${activeColor ? 'active-border' : ''}`}
+            className={`component-content need-to-know`}
         >
-            <section>
+            <section className="need-to-know">
                 <div id="needtoknow-header" onClick={() => displayContent(showContent ? false : true)}>
                     { showTitle ? 
-                        < h4 className="text-center">Need To Know</h4>
+                        < h4 className="text-center" style={{marginBottom:'15px'}}>Need To Know</h4>
                     : '' }
 
                     <h5 className="text-center">
-                        { showContent ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> }
 
-                    &nbsp; {type ? 'Acorns Features' : 'Stock Market'} &nbsp;
+                        { showContent ? 
+                            <i className="xs fas fa-chevron-up" style={pageColor}></i> : 
+                            <i className="xs fas fa-chevron-down" style={pageColor}></i> 
+                        }
 
-                    { showContent ? <i className="xs fas fa-chevron-up"></i> : <i className="xs fas fa-chevron-down"></i> }
+                        &nbsp; &nbsp; {type ? 'Acorns Features' : 'Stock Market'} &nbsp; &nbsp;
+
+                        { showContent ? 
+                            <i className="xs fas fa-chevron-up" style={pageColor}></i> : 
+                            <i className="xs fas fa-chevron-down" style={pageColor}></i> 
+                        }
+
                     </h5>
                 </div>
                 

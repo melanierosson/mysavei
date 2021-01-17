@@ -7,8 +7,8 @@ main#all-content h2, main#all-content h3 {
 }
 main#all-content i.fab.fa-google-play,
 main#all-content i.fab.fa-apple {
-  color: #39D08A;
+  color: #A2D039;
 }
 main#all-content a:hover i.fab {
-  color: #67E6AC;
+  color: #C5E282;
 }

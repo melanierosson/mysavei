@@ -19,14 +19,14 @@ const LongTerm = () => (
         </section>
         
         <main className="content-page" id="passive-content">
-            <section id="passive" className="content-container passive-container" style={{ marginBottom: '100px', marginTop:'10px' }}>
+            <section id="passive" className="content-container passive-container" style={{ marginBottom: '100px', marginTop:'15px' }}>
                 <h2 className="page-title">Passive Investing</h2>
                 <p className="page-description">
                     You rarely want to check your account or participate in the investment process once it’s started.
                 </p>
                 <MobileApp type={true} containAll={true} expand="See" passiveColor="true" />
                 <br /><br />
-                <NeedToKnow type={true} showTitle={true}/>
+                <NeedToKnow type={true} showTitle={true} passiveColor={true}/>
             </section>
 
         </main>

@@ -44,7 +44,7 @@
     border-top: 8px solid #FFF;
   }
   nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
-    margin-top: -8px;
+    margin-top: 0px;
   }
   nav.navigation section.nav:hover {
     border-bottom: 8px solid #FFF;
@@ -54,6 +54,8 @@
   }
   nav.navigation section.nav .nav-link {
     padding: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     width: 120px;
     text-align: center;
   }

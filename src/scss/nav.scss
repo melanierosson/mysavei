@@ -42,7 +42,7 @@ nav.navigation {
             &.active-nav {
                 border-top:8px solid #FFF;
                 .nav-link { 
-                    margin-top:-8px;
+                    margin-top:0px;
                 }
             }
             &:hover {
@@ -53,6 +53,8 @@ nav.navigation {
             }
             .nav-link {
                 padding:20px;
+                margin-top:8px;
+                margin-bottom:8px;
                 width:120px;
                 text-align:center;
                 @media screen and (max-width:810px) {

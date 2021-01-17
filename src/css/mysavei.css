@@ -354,7 +354,7 @@ div#root section#app .xs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
   }
 }
 @media screen and (max-width: 767px) {
@@ -453,6 +453,11 @@ div#root section#app main.content-page #needtoknow-header:hover {
 }
 #need-to-know.active-border {
   border: 5px solid #FAD551;
+}
+@media screen and (min-width: 768px) {
+  #need-to-know section.need-to-know {
+    margin-bottom: -5px;
+  }
 }
 
 ul.need-to-know.list {
@@ -590,6 +595,12 @@ section#acorns-store-icon h5,
 section#robinhood-store-icon h5 {
   margin-left: 0;
   font-size: 1.25rem !important;
+}
+@media screen and (min-width: 768px) {
+  section#acorns-store-icon h5,
+section#robinhood-store-icon h5 {
+    margin-left: 15px;
+  }
 }
 section#acorns-store-icon div.apps,
 section#robinhood-store-icon div.apps {

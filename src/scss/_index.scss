@@ -103,7 +103,7 @@ div#root {
         display:flex;
         flex-direction:row;
         justify-content:space-between;
-        box-shadow: $mobileDropShadow;
+        box-shadow: $bottomDropShadow;
       }
     }
     section.mobile-nav {
