@@ -1,5 +1,23 @@
 @import 'variables';
 
 main#active-content {
-    background-color: $fullYellow;
+    background-color: $bgWhite;
+    h2, h3 {
+        font-weight:500 !important;
+        color:$textBlack !important;
+    }
+    #needtoknow-header h4 {
+        font-weight:500 !important;
+    }
+    i.fab.fa-google-play,
+    i.fab.fa-apple {
+        color:$fullYellow;
+    }
+    a {
+        &:hover {
+            i.fab {
+                color:$lightYellow;
+            }
+        }
+    }
 }

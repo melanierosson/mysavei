@@ -1,3 +1,17 @@
 main#active-content {
-  background-color: #FAD551;
+  background-color: #FFF;
+}
+main#active-content h2, main#active-content h3 {
+  font-weight: 500 !important;
+  color: #333 !important;
+}
+main#active-content #needtoknow-header h4 {
+  font-weight: 500 !important;
+}
+main#active-content i.fab.fa-google-play,
+main#active-content i.fab.fa-apple {
+  color: #FAD551;
+}
+main#active-content a:hover i.fab {
+  color: #FAE495;
 }

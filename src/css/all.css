@@ -1,3 +1,14 @@
 main#all-content {
-  background-color: #A2D039;
+  background-color: #FFF;
+}
+main#all-content h2, main#all-content h3 {
+  font-weight: 500 !important;
+  color: #333 !important;
+}
+main#all-content i.fab.fa-google-play,
+main#all-content i.fab.fa-apple {
+  color: #39D08A;
+}
+main#all-content a:hover i.fab {
+  color: #67E6AC;
 }

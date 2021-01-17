@@ -1,5 +1,20 @@
 @import 'variables';
 
 main#all-content {
-    background-color: $fullGreen;
+    background-color: $bgWhite;
+    h2, h3 {
+        font-weight:500 !important;
+        color:$textBlack !important;
+    }
+    i.fab.fa-google-play,
+    i.fab.fa-apple {
+        color:$fullTurq;
+    }
+    a {
+        &:hover {
+            i.fab {
+                color:$lightTurq;
+            }
+        }
+    }
 }

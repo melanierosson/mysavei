@@ -1,3 +1,17 @@
 main#passive-content {
-  background-color: #5DD4CF;
+  background-color: #FFF;
+}
+main#passive-content h2, main#passive-content h3 {
+  font-weight: 500 !important;
+  color: #333 !important;
+}
+main#passive-content #needtoknow-header h4 {
+  font-weight: 500 !important;
+}
+main#passive-content i.fab.fa-google-play,
+main#passive-content i.fab.fa-apple {
+  color: #5DD4CF;
+}
+main#passive-content a:hover i.fab {
+  color: #7FE6E2;
 }

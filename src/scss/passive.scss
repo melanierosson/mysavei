@@ -1,5 +1,23 @@
 @import 'variables';
 
 main#passive-content {
-    background-color: $fullBlue;
+    background-color: $bgWhite;
+    h2, h3 {
+        font-weight:500 !important;
+        color:$textBlack !important;
+    }
+    #needtoknow-header h4 {
+        font-weight:500 !important;
+    }
+    i.fab.fa-google-play,
+    i.fab.fa-apple {
+        color:$fullBlue;
+    }
+    a {
+        &:hover {
+            i.fab {
+                color:$lightBlue;
+            }
+        }
+    }
 }

@@ -8,6 +8,7 @@ $bgSecondaryGrey: #CCC;
 $bgMdGreen: #92B96A;
 $bgGold: #C59139;
 $bgTqGreen: #53AA81;
+$bgWhite:#FFF;
 
 $bgSecondGreen: #71B176;
 
@@ -31,18 +32,18 @@ $expSolidGreen: #75B45B;
 
 // typography
 $textWhite: #F7F7F2;
-$textBlack: #000;
+$textBlack: #333;
 
 
 // other effects
 $y8Shadow: 8px -8px 8px rgba(0,0,0,0.16);
 $x8Shadow: 8px 8px 8px rgba(0,0,0,0.16);
 $x4Shadow: 4px 4px 4px rgba(0,0,0,0.16);
-$mobileDropShadow: 0 10px 20px rgba(0,0,0,0.20);
+$mobileDropShadow: 0 10px 20px rgba(0,0,0,0.16);
 $leftDropShadow: -14px 0 20px rgba(0,0,0,0.14);
 $rightDropShadow: 14px 0 20px rgba(0,0,0,0.14);
-$iconDropShadow: 0 0 20px rgba(0,0,0,0.30);
-$componentDropShadow: 0 0 32px rgba(0,0,0,0.30);
+$iconDropShadow: 0 0 20px rgba(0,0,0,0.2);
+$componentDropShadow: 0 0 32px rgba(0,0,0,0.2);
 $linkShadow: 1px 1px 2px rgba(255,255,255,0.5);
 
 // new colorblock colors
@@ -58,7 +59,7 @@ $offWhite: #F5F5F8;
 $offWhite2: #FCFCFC;
 $offWhite3: #F7F7F7;
 $offWhite4:#DDDDDD;
-$darken: rgba(51,51,51,0.1);
+$darken: rgba(51,51,51,0.05);
 $bgColor: $fullTurq;
 
 

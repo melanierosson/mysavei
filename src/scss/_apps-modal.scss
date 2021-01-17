@@ -39,18 +39,19 @@ section#robinhood-store-icon {
         i.fab {
             font-size:3rem;
             &.fa-apple {
-                color:$hvrLinkGreen;
+                // color:$hvrLinkGreen;
                 padding:10px;
             }
             &.fa-google-play {
-                color:$hvrTqGreen;
+                // color:$hvrTqGreen;
                 padding:10px;
             }
         }
         &:hover {
             cursor:pointer;
             i.fab {
-                color:$hvrLinkOrange;
+                // color:$hvrLinkOrange;
+                // color:$darken;
                 transform:scale(1.2);
             }
             span {

@@ -20,12 +20,12 @@ const Active = () => (
         
         <main className="content-page" id="active-content">
 
-            <section id="active" className="content-container active-container" style={{ marginBottom: '100px'}}>
+            <section id="active" className="content-container active-container" style={{ marginBottom: '100px', marginTop: '10px'}}>
                 <h2 className="page-title">Active Investing</h2>
                 <p className="page-description">
                     You want to learn a little bit more about stocks, do some short-term trading, and maybe setup re-occurring deposits.
                 </p>
-                <MobileApp type={false} containAll={true} expand="See" />
+                <MobileApp type={false} containAll={true} expand="See" activeColor="true"/>
                 <br /><br />
                 <NeedToKnow type={false} showTitle={true}/>
             </section>

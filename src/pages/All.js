@@ -25,10 +25,10 @@ const All = ({props}) => {
             </section>
 
             <main className="content-page" id="all-content">
-                <section className="content-container">
+                <section className="content-container" style={{marginTop: '10px'}}>
                     <h2 className="page-title">All Investing Resources</h2>
                     <p className="page-description">
-                        You're interested in knowing more about both <span style={{ backgroundColor:'#5DD4CF'}}>&nbsp;passive&nbsp;</span> and <span style={{ backgroundColor: '#FAD551' }}>&nbsp;active&nbsp;</span> investing.
+                        You're interested in knowing more about both passive and active investing.
                     </p>
                 </section>
                 
@@ -46,7 +46,7 @@ const All = ({props}) => {
                             type={true} 
                             containAll={true} 
                             expand="See" 
-                            passiveColor="true"
+                            // passiveColor="true"
                         />
                         
                         <br /><br />
@@ -55,7 +55,7 @@ const All = ({props}) => {
                             type={false} 
                             containAll={true} 
                             expand="See" 
-                            activeColor="true"
+                            // activeColor="true"
                         />
                     {/* </div> */}
                 </section>
@@ -72,13 +72,13 @@ const All = ({props}) => {
                         <NeedToKnow 
                             type={true} 
                             showTitle={false} 
-                            passiveColor="true" 
+                            // passiveColor="true" 
                         />
                         <br />
                         <NeedToKnow 
                             type={false} 
                             showTitle={false} 
-                            activeColor="true"
+                            // activeColor="true"
                         />
                     {/* </div> */}
                 </section>
