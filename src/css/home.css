@@ -23,7 +23,7 @@ article.why-invest Figure {
   width: 334px;
   height: 199px;
   background-color: #DDDDDD;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
 }
 @media screen and (max-width: 374px) {
   article.why-invest Figure {
@@ -62,7 +62,7 @@ ul.options-list li {
   height: 255px;
   z-index: 0;
   background-color: #F5F5F8;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
   list-style-type: none;
   list-indent: none;
   margin: -25px 15px 20px 15px;
@@ -100,7 +100,7 @@ ul.options-list li div.bottom {
   transform: translate(0, 159px);
   -webkit-transform: translate(0, 159px);
   -moz-transform: translate(0, 159px);
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   height: 70.5px;
   width: 141px;
   border-bottom-left-radius: 141px;
@@ -136,7 +136,7 @@ ul.options-list div.circle {
     background-color: #F5F5F8;
     border: 4px solid #FCFCFC;
     border-radius: 50%;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
   }
   ul.options-list div.circle div.sec-hand {
     height: 62px;

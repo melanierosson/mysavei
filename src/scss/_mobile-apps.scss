@@ -6,7 +6,7 @@ article.component-content.mobile-app {
         border-radius: 0 0 20px 20px;
         position:relative;
         z-index:9;
-        box-shadow:$x8Shadow;
+        box-shadow:$mobileDropShadow;
     }
     @mixin expanding {
         height:48px;
@@ -25,7 +25,7 @@ article.component-content.mobile-app {
         display:flex;
         .img-holder {
             border-radius:30px;
-            box-shadow: $x4Shadow;
+            box-shadow: $iconDropShadow;
             width:109px;
             height:109px;
             img.app-icons {

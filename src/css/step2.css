@@ -53,6 +53,7 @@ main#step2-page {
   border-bottom-right-radius: 129px;
   border-top-right-radius: 129px;
   margin-right: -70px;
+  box-shadow: 14px 0 20px rgba(0, 0, 0, 0.14);
 }
 @media screen and (max-height: 667px) {
   #step2-page #step2-question .right {
@@ -69,6 +70,7 @@ main#step2-page {
   border-bottom-left-radius: 129px;
   border-top-left-radius: 129px;
   margin-left: -70px;
+  box-shadow: -14px 0 20px rgba(0, 0, 0, 0.14);
 }
 @media screen and (max-height: 667px) {
   #step2-page #step2-question .left {
@@ -97,7 +99,7 @@ main#step2-page {
   width: 141px;
   height: 330px;
   z-index: 0;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
   list-style-type: none;
   list-indent: none;
   margin: -20px 30px 0 30px;
@@ -292,7 +294,7 @@ main#step2-page {
 #step2-page ul.options-list li div.bottom-2 {
   background: #71B176;
   position: absolute;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   height: 70.5px;
   width: 141px;
   border-bottom-left-radius: 141px;

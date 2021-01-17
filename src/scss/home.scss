@@ -26,7 +26,7 @@ article.why-invest {
         width: 334px;
         height: 199px;
         background-color: $offWhite4;
-        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+        box-shadow: $componentDropShadow;
         @media screen and (max-width:374px) {
             width: 270px;
             height:130px;
@@ -62,7 +62,7 @@ ul.options-list {
         }
         z-index:0;
         background-color: $offWhite;
-        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+        box-shadow: $componentDropShadow;
         list-style-type: none;
         list-indent: none;
         margin: -25px 15px 20px 15px;
@@ -101,7 +101,7 @@ ul.options-list {
                 -webkit-transform: translate(0,140px);
                 -moz-transform: translate(0,140px);
             }
-            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+            box-shadow: $mobileDropShadow;
             height: $size;
             width: $size * 2;
             border-bottom-left-radius: $size * 2;
@@ -128,7 +128,7 @@ ul.options-list {
             background-color: $offWhite;
             border: 4px solid $offWhite2;
             border-radius: 50%;
-            box-shadow:$x8Shadow;
+            box-shadow:$componentDropShadow;
             div.sec-hand {
                 height:62px;
                 width:5px;
