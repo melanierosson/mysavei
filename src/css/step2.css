@@ -169,7 +169,7 @@ main#step2-page {
   background-color: #FAD551;
 }
 #step2-page ul.options-list li#active-option div.bottom-2 {
-  transform: translate(-8px, 28px);
+  transform: translate(-8px, 49px);
   background-color: #FAE495;
 }
 @media screen and (max-width: 767px) {

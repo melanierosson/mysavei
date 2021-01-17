@@ -26,7 +26,7 @@ const UserOptions = () => (
                 <Link to={process.env.PUBLIC_URL + '/active'} className="option-link">
                     <span className="fw-semibold more-head">Actively<br/> Trade</span>
                     <br/><br className="hide-mobile"/>
-                    <span className="more-descr">i.e. you want to learn a little bit more about stocks, do some short-term trading, and setup
+                    <span className="more-descr">i.e. learn a little bit more about stocks, do some short-term trading, and setup
                     re-occurring deposits</span>
                     <div className="bottom-2">
                         <i className="fas fa-chevron-right"></i>
