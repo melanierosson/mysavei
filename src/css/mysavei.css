@@ -349,9 +349,12 @@ div#root section#app .xs {
 }
 @media screen and (min-width: 768px) {
   div#root section#app section.top {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
   }
 }
 @media screen and (max-width: 767px) {
@@ -360,6 +363,9 @@ div#root section#app .xs {
     flex-direction: row;
     justify-content: space-around;
     position: sticky !important;
+  }
+  div#root section#app section.mobile-nav nav.navigation {
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.16);
   }
 }
 div#root section#app code {

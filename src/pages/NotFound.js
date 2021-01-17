@@ -4,7 +4,7 @@ import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 
 const NotFound = () => (
-    <>
+    <section id="app">
         <section className="top" style={{ backgroundColor: '#39D08A' }}>
             <Title content="Whoops!" bgColor="#39D08A" />
             <Nav
@@ -29,7 +29,7 @@ const NotFound = () => (
             />
         </section>
         <Footer />
-    </>
+    </section>
 )
 
 export default NotFound;

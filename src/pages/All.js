@@ -12,7 +12,7 @@ const All = ({props}) => {
     const [showNeedToKnow, displayNeedToKnow] = useState(true);
 
     return (
-        <>
+        <section id="app" style={{boxShadow: '0 0 50px rgba(197,226,130,0.5)'}}>
             <section className="top" style={{ backgroundColor: '#A2D039' }}>
                 <Title content="Your Investment Strategy" bgColor="#A2D039" />
                 <Nav 
@@ -94,7 +94,7 @@ const All = ({props}) => {
                 />
             </section>
             <Footer />
-        </>
+        </section>
     )
 }
 

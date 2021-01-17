@@ -613,6 +613,16 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/scss/mysavei.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/mysavei-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/scss/mysavei.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -621,8 +631,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/mysavei.css",
-		"oF": 0,
+		"oAP": "/css/mysavei.css",
+		"oF": 2,
 		"oS": 0,
 		"sct": 0
 		},
@@ -733,17 +743,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/Promise/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/Promise/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/prop-types/index.js": {
 		"bF": 0,
 		"ft": 64,
@@ -753,6 +752,17 @@
 		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/prop-types/index-min.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/esm/ThemeProvider.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/Figure/../esm/ThemeProvider-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/Figure/../esm/createWithBsPrefix.js": {

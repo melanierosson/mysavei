@@ -36,7 +36,6 @@ function App() {
       />
 
       <Router>
-        <section id="app">
           <Switch>
             <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
             <Route path={process.env.PUBLIC_URL + '/all'} component={All}/>
@@ -45,7 +44,6 @@ function App() {
             <Route path={process.env.PUBLIC_URL + '/passive'} component={LongTerm}/>
             <Route component={NotFound}/>
           </Switch>
-        </section>
       </Router>
 
 

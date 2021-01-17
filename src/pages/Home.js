@@ -10,7 +10,7 @@ import '../css/home.css';
 const Home = () => {
 
     return (
-        <>
+        <section id="app" style={{boxShadow: '0 0 50px rgba(103,230,172,0.6)'}}>
             <section className="top" style={{ backgroundColor: '#39D08A'}}>
                 <Title content="Quick Start Investing" bgColor="#39D08A" />
                 <Nav 
@@ -82,7 +82,7 @@ const Home = () => {
                 />
             </section>
             <Footer />
-        </>
+        </section>
     )
 }  
 

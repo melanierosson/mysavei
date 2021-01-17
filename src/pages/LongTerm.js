@@ -7,7 +7,7 @@ import Footer from '../components/Footer.js';
 import '../css/passive.css';
 
 const LongTerm = () => (
-    <>
+    <section id="app" style={{boxShadow: '0 0 50px rgba(127,230,226,0.5)'}}>
         <section className="top" style={{ backgroundColor: '#5DD4CF' }}>
             <Title content="Your Investment Strategy" bgColor="#5DD4CF" />
             <Nav
@@ -39,7 +39,7 @@ const LongTerm = () => (
             />
         </section>
         <Footer />
-    </>
+    </section>
 )
 
 export default LongTerm;

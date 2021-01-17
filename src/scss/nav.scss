@@ -10,12 +10,17 @@ nav.navigation {
         height:80px;
         section.nav {
             padding:10px;
-            &:hover,
             &:active,
             &.active-nav {
                 border-top:8px solid #FFF;
                 .nav-link { 
                     margin-top:-8px;
+                }
+            }
+            &:hover {
+                border-bottom:8px solid #FFF;
+                .nav-link { 
+                    margin-bottom:-8px;
                 }
             }
             .nav-link {
@@ -32,13 +37,18 @@ nav.navigation {
     @media screen and (min-width:768px) {
         padding:0;
         section.nav {
-            padding:10px;
-            &:hover,
+            padding:12px 10px 12px 10px;
             &:active,
             &.active-nav {
                 border-top:8px solid #FFF;
                 .nav-link { 
                     margin-top:-8px;
+                }
+            }
+            &:hover {
+                border-bottom:8px solid #FFF;
+                .nav-link { 
+                    margin-bottom:-8px;
                 }
             }
             .nav-link {

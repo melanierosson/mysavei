@@ -7,7 +7,7 @@ import Footer from '../components/Footer.js';
 import '../css/active.css';
 
 const Active = () => (
-    <>
+    <section id="app" style={{boxShadow: '0 0 40px rgba(250,228,149,0.5)'}}>
         <section className="top" style={{ backgroundColor: '#FAD551' }}>
             <Title content="Your Investment Strategy" bgColor="#FAD551" />
             <Nav
@@ -40,7 +40,7 @@ const Active = () => (
             />
         </section>
         <Footer />
-    </>
+    </section>
 )
 
 export default Active;

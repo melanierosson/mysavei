@@ -12,11 +12,17 @@
   nav.navigation section.nav {
     padding: 10px;
   }
-  nav.navigation section.nav:hover, nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
+  nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
     border-top: 8px solid #FFF;
   }
-  nav.navigation section.nav:hover .nav-link, nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
+  nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
     margin-top: -8px;
+  }
+  nav.navigation section.nav:hover {
+    border-bottom: 8px solid #FFF;
+  }
+  nav.navigation section.nav:hover .nav-link {
+    margin-bottom: -8px;
   }
   nav.navigation section.nav .nav-link {
     padding: 20px;
@@ -32,13 +38,19 @@
     padding: 0;
   }
   nav.navigation section.nav {
-    padding: 10px;
+    padding: 12px 10px 12px 10px;
   }
-  nav.navigation section.nav:hover, nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
+  nav.navigation section.nav:active, nav.navigation section.nav.active-nav {
     border-top: 8px solid #FFF;
   }
-  nav.navigation section.nav:hover .nav-link, nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
+  nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
     margin-top: -8px;
+  }
+  nav.navigation section.nav:hover {
+    border-bottom: 8px solid #FFF;
+  }
+  nav.navigation section.nav:hover .nav-link {
+    margin-bottom: -8px;
   }
   nav.navigation section.nav .nav-link {
     padding: 20px;
