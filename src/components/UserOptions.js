@@ -6,7 +6,7 @@ const UserOptions = () => (
         <ul className="options-list">
             <li id="passive-option">
                 <Link to={process.env.PUBLIC_URL + '/passive'} className="option-link">
-                    <span className="fw-semibold more-head">Passively,<br/>Long-Term</span>
+                    <span className="fw-semibold more-head">Passively, <br className="hide-on-mobile"/>long-term</span>
                     <br /><br className="hide-mobile"/>
                     <span className="more-descr">i.e. not check your account or participate in the investment process once it’s started</span>
                     <div className="bottom-2">
@@ -24,7 +24,7 @@ const UserOptions = () => (
             </li>
             <li id="active-option">
                 <Link to={process.env.PUBLIC_URL + '/active'} className="option-link">
-                    <span className="fw-semibold more-head">Actively<br/> Trade</span>
+                    <span className="fw-semibold more-head">Actively <br className="hide-on-mobile"/>trade</span>
                     <br/><br className="hide-mobile"/>
                     <span className="more-descr">i.e. learn a little bit more about stocks, do some short-term trading, and setup
                     re-occurring deposits</span>

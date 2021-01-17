@@ -98,13 +98,13 @@ div#root {
     }
     section.top {
       @media screen and (min-width:768px) {
-        position:relative;
-        z-index:1;
         display:flex;
         flex-direction:row;
         justify-content:space-between;
-        box-shadow: $bottomDropShadow;
       }
+      position:relative;
+      z-index:1;
+      box-shadow: $bottomDropShadow;
     }
     section.mobile-nav {
       @media screen and (max-width:767px) {

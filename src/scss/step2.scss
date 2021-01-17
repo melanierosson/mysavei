@@ -31,6 +31,7 @@ main#step2-page {
             }
         }
         $size: 64.5px;
+        margin-top:15px;
         div {
             background-color:$offWhite;
             display: inline-block;
@@ -121,21 +122,12 @@ main#step2-page {
                 div.bottom-2 {
                     transform: translate(-8px,95px);
                     background-color:$lightBlue;
-                    // @media screen and (max-height:667px) {
-                        // transform: translate(-8px,2px);
-                    // }
                 }
                 @media screen and (max-width:767px) {
                     margin: -20px 15px 0 15px;
+                    top:270px;
                     .more-descr {
                         display:none;
-                    }
-                    .mobile-arrow {
-                        display:none;
-                    }
-                    div.bottom-2 {
-                        transform: translate(-8px,25px);
-                        background-color: $lightGreen;
                     }
                     width:340px;
                     height:90px;
@@ -144,17 +136,16 @@ main#step2-page {
                     border-radius:50px;
                     display:flex;
                     align-items:center;
-                    padding-top:20px;
+                    align-content:center;
                     div.bottom-2 {
                         display:none;
                     }
-                    top:270px;
                     .mobile-arrow {
                         display:inline;
                         padding-left:6px;
                     }
                     &:hover {
-                        transform: translate(18px,0);
+                        transform: scale(1.1)
                     }
                 }
             }
@@ -189,7 +180,7 @@ main#step2-page {
                         padding-left:6px;
                     }
                     &:hover {
-                        transform: translate(18px,0);
+                        transform: scale(1.1);
                     }
                 }
             }
@@ -206,10 +197,6 @@ main#step2-page {
                     }
                     .mobile-arrow {
                         display:none;
-                    }
-                    div.bottom-2 {
-                        transform: translate(-8px,25px);
-                        background-color: $lightGreen;
                     }
                     width:340px;
                     height:90px;
@@ -228,7 +215,7 @@ main#step2-page {
                         padding-left:6px;
                     }
                     &:hover {
-                        transform: translate(18px,0);
+                        transform: scale(1.1);
                     }
                 }
             }

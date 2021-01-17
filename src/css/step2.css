@@ -17,6 +17,7 @@ main#step2-page {
   border-radius: 100%;
   z-index: 30;
   margin-left: 0 !important;
+  margin-top: 15px;
 }
 @media screen and (max-width: 767px) {
   #step2-page #step2-question {
@@ -97,6 +98,7 @@ main#step2-page {
 @media screen and (max-width: 767px) {
   #step2-page ul.options-list li#passive-option {
     margin: -20px 15px 0 15px;
+    top: 270px;
     width: 340px;
     height: 90px;
     position: absolute;
@@ -104,18 +106,10 @@ main#step2-page {
     border-radius: 50px;
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    top: 270px;
+    align-content: center;
   }
   #step2-page ul.options-list li#passive-option .more-descr {
     display: none;
-  }
-  #step2-page ul.options-list li#passive-option .mobile-arrow {
-    display: none;
-  }
-  #step2-page ul.options-list li#passive-option div.bottom-2 {
-    transform: translate(-8px, 25px);
-    background-color: #C5E282;
   }
   #step2-page ul.options-list li#passive-option div.bottom-2 {
     display: none;
@@ -125,7 +119,7 @@ main#step2-page {
     padding-left: 6px;
   }
   #step2-page ul.options-list li#passive-option:hover {
-    transform: translate(18px, 0);
+    transform: scale(1.1);
   }
 }
 #step2-page ul.options-list li#both-option {
@@ -162,7 +156,7 @@ main#step2-page {
     padding-left: 6px;
   }
   #step2-page ul.options-list li#both-option:hover {
-    transform: translate(18px, 0);
+    transform: scale(1.1);
   }
 }
 #step2-page ul.options-list li#active-option {
@@ -192,10 +186,6 @@ main#step2-page {
     display: none;
   }
   #step2-page ul.options-list li#active-option div.bottom-2 {
-    transform: translate(-8px, 25px);
-    background-color: #C5E282;
-  }
-  #step2-page ul.options-list li#active-option div.bottom-2 {
     display: none;
   }
   #step2-page ul.options-list li#active-option .mobile-arrow {
@@ -203,7 +193,7 @@ main#step2-page {
     padding-left: 6px;
   }
   #step2-page ul.options-list li#active-option:hover {
-    transform: translate(18px, 0);
+    transform: scale(1.1);
   }
 }
 #step2-page ul.options-list li div.bottom-2 {

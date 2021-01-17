@@ -222,14 +222,14 @@
 		"oS": 3
 		},
 	"/css/step2.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/css/step2-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"/css/title.css": {
 		"aP": 0,
@@ -613,16 +613,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/mysavei.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/mysavei-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/scss/mysavei.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -752,6 +742,50 @@
 		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/prop-types/index-min.js",
 		"oF": 0,
 		"sC": 0,
+		"tS": 0
+		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/esm/createWithBsPrefix.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/Figure/../esm/createWithBsPrefix-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/esm/FigureCaption.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/Figure/../esm/FigureCaption-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/esm/FigureImage.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/Figure/../esm/FigureImage-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/esm/Image.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/Figure/../esm/Image-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/Users/melaniepanem/Documents/GitHub/mysavei/node_modules/react-bootstrap/esm/ThemeProvider.js": {

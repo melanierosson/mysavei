@@ -347,14 +347,16 @@ div#root section#app .xs {
     display: block;
   }
 }
+div#root section#app section.top {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+}
 @media screen and (min-width: 768px) {
   div#root section#app section.top {
-    position: relative;
-    z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
   }
 }
 @media screen and (max-width: 767px) {

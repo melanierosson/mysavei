@@ -26,6 +26,9 @@ const SecondStep = () => {
                     <div className="left"></div>
                     <p id="step2-q-text" className="text-center fw-medium">
                         How would you<br/>like to invest?
+                        <span className="hide-on-desktop" style={{marginBottom:'-17px', color:'#BBBBBB'}}>
+                            <i className="xs fas fa-chevron-down"></i>
+                        </span>
                     </p>
                     <div className="right"></div>
                 </section>
