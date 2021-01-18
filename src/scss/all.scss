@@ -17,4 +17,10 @@ main#all-content {
             }
         }
     }
+    section#all-info {
+        margin-top:15px;
+        @media screen and (max-width:767px) {
+            margin-top:10px;
+        }
+    }
 }

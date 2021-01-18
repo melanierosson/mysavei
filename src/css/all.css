@@ -12,3 +12,11 @@ main#all-content i.fab.fa-apple {
 main#all-content a:hover i.fab {
   color: #C5E282;
 }
+main#all-content section#all-info {
+  margin-top: 15px;
+}
+@media screen and (max-width: 767px) {
+  main#all-content section#all-info {
+    margin-top: 10px;
+  }
+}

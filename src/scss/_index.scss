@@ -62,6 +62,21 @@ div#root {
         margin-top:8px;
       }
     }
+    @media screen and (max-width:767px) {
+      // mobile needs smaller fonts
+      h2 {
+        font-size:1.25rem;
+      }
+      h3 {
+        font-size:1.15rem;
+      }
+      h4 {
+        font-size:1.125rem;
+      }
+      h5, h6 {
+        font-size:1rem;
+      }
+    }
 
     a:link, a {
       color: $textBlack;

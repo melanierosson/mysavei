@@ -25,7 +25,7 @@ const All = ({props}) => {
             </section>
 
             <main className="content-page" id="all-content">
-                <section className="content-container" style={{marginTop: '15px'}}>
+                <section className="content-container" id="all-info">
                     <h2 className="page-title">All Investing Resources</h2>
                     <p className="page-description" style={{marginBottom: '2px'}}>
                         You're interested in knowing more about both passive and active investing.

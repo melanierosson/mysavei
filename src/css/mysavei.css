@@ -312,6 +312,20 @@ div#root section#app h5, div#root section#app h6 {
     margin-top: 8px;
   }
 }
+@media screen and (max-width: 767px) {
+  div#root section#app h2 {
+    font-size: 1.25rem;
+  }
+  div#root section#app h3 {
+    font-size: 1.15rem;
+  }
+  div#root section#app h4 {
+    font-size: 1.125rem;
+  }
+  div#root section#app h5, div#root section#app h6 {
+    font-size: 1rem;
+  }
+}
 div#root section#app a:link, div#root section#app a {
   color: #333;
 }
