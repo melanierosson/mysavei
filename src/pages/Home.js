@@ -10,7 +10,7 @@ import '../css/home.css';
 const Home = () => {
 
     return (
-        <section id="app" style={{boxShadow: '0 0 50px rgba(103,230,172,0.6)'}}>
+        <section id="app">
             <section className="top" style={{ backgroundColor: '#39D08A'}}>
                 <Title content="Quick Start Investing" bgColor="#39D08A" />
                 <Nav 
@@ -46,7 +46,7 @@ const Home = () => {
                     <Link to={process.env.PUBLIC_URL + '/step2'}>
                         <li>
                             <p>
-                                I want to see my <span className="fw-medium">personal investment strategy</span>
+                                See my personal investment strategy
                             </p>
                             <div className="bottom">
                                 <span className="time">&lt; 2 min.</span>
@@ -63,7 +63,7 @@ const Home = () => {
                         <li>
                             
                             <p>
-                                I want to see <span className="fw-medium">all investment &amp; savings information</span>
+                                See all investment &amp; savings information
                             </p>
                             <div className="bottom">
                                 <span className="time">&lt; 15 min.</span>

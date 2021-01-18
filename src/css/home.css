@@ -74,7 +74,7 @@ ul.options-list li {
 }
 @media screen and (max-height: 667px) {
   ul.options-list li {
-    height: 215px;
+    height: 200px;
   }
 }
 ul.options-list li:hover {
@@ -111,9 +111,9 @@ ul.options-list li div.bottom {
 }
 @media screen and (max-height: 667px) {
   ul.options-list li div.bottom {
-    transform: translate(0, 140px);
-    -webkit-transform: translate(0, 140px);
-    -moz-transform: translate(0, 140px);
+    transform: translate(0, 130px);
+    -webkit-transform: translate(0, 130px);
+    -moz-transform: translate(0, 130px);
   }
 }
 ul.options-list li div.bottom span {

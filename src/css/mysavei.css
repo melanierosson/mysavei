@@ -255,6 +255,12 @@ div#root {
   min-height: 100vh;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  div#root {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}
 div#root section#app {
   max-width: 1024px;
   margin: 0 auto;
