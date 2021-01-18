@@ -64,7 +64,7 @@ ul.options-list {
         width: 141px;
         height:255px;
         @media screen and (max-height:667px) {
-            height:200px;
+            height:180px;
         }
         z-index:0;
         background-color: $offWhite;
@@ -103,9 +103,9 @@ ul.options-list {
             -webkit-transform: translate(0,159px);
             -moz-transform: translate(0,159px);
             @media screen and (max-height:667px) {
-                transform: translate(0,130px);
-                -webkit-transform: translate(0,130px);
-                -moz-transform: translate(0,130px);
+                transform: translate(0,120px);
+                -webkit-transform: translate(0,120px);
+                -moz-transform: translate(0,120px);
             }
             box-shadow: $mobileDropShadow;
             height: $size;

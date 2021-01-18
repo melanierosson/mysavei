@@ -18,10 +18,8 @@ main#step2-page {
         border-radius:100%;
         z-index:30;
         margin-left:0 !important;
-        // @media screen and (max-height:667px) {
-        //     height:100px;
-        // }
         @media screen and (max-width:767px) {
+            margin-top:5px;
             max-width:345px;
             height:100px;
             border-radius:100px !important;
@@ -125,7 +123,7 @@ main#step2-page {
                 }
                 @media screen and (max-width:767px) {
                     margin: -20px 15px 0 15px;
-                    top:270px;
+                    top:250px;
                     .more-descr {
                         display:none;
                     }
@@ -169,7 +167,7 @@ main#step2-page {
                     div.bottom-2 {
                         display:none;
                     }
-                    top:490px;
+                    top:470px;
                     width:340px;
                     height:90px;
                     i.mobile-arrow {
@@ -209,7 +207,7 @@ main#step2-page {
                     div.bottom-2 {
                         display:none;
                     }
-                        top:380px;
+                    top:360px;
                     .mobile-arrow {
                         display:inline;
                         padding-left:6px;

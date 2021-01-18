@@ -48,6 +48,7 @@
   }
   nav.navigation section.nav:hover {
     border-bottom: 8px solid #FFF;
+    cursor: pointer;
   }
   nav.navigation section.nav:hover .nav-link {
     margin-bottom: -8px;

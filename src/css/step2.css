@@ -21,6 +21,7 @@ main#step2-page {
 }
 @media screen and (max-width: 767px) {
   #step2-page #step2-question {
+    margin-top: 5px;
     max-width: 345px;
     height: 100px;
     border-radius: 100px !important;
@@ -98,7 +99,7 @@ main#step2-page {
 @media screen and (max-width: 767px) {
   #step2-page ul.options-list li#passive-option {
     margin: -20px 15px 0 15px;
-    top: 270px;
+    top: 250px;
     width: 340px;
     height: 90px;
     position: absolute;
@@ -141,7 +142,7 @@ main#step2-page {
     display: flex;
     align-items: center;
     padding-top: 6px;
-    top: 490px;
+    top: 470px;
     width: 340px;
     height: 90px;
   }
@@ -177,7 +178,7 @@ main#step2-page {
     display: flex;
     align-items: center;
     align-content: center;
-    top: 380px;
+    top: 360px;
   }
   #step2-page ul.options-list li#active-option .more-descr {
     display: none;
