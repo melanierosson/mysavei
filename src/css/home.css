@@ -10,6 +10,11 @@ article.why-invest {
   /* z-index:10;
   display:relative; */
 }
+@media screen and (max-width: 767px) {
+  article.why-invest {
+    margin-top: -10px;
+  }
+}
 article.why-invest Figure {
   position: relative;
   z-index: 10;
@@ -24,6 +29,11 @@ article.why-invest Figure {
   height: 199px;
   background-color: #DDDDDD;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 767px) {
+  article.why-invest Figure {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 374px) {
   article.why-invest Figure {

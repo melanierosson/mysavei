@@ -68,9 +68,9 @@ article.component-content.mobile-app {
                 margin: 18px auto 0 auto;
                 max-width:240px;
                 &.opened {
-                    height:340px;
+                    height:320px;
                     .expand {
-                        margin-top:-15px;
+                        margin-top:-35px;
                     }
                 }
                 .mobile-app-descr.closed {

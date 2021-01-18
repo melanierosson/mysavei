@@ -11,6 +11,9 @@ main#page {
 }
 
 article.why-invest {
+    @media screen and (max-width:767px) {
+        margin-top:-10px;
+    }
     /* z-index:10;
     display:relative; */
     Figure {
@@ -27,6 +30,9 @@ article.why-invest {
         height: 199px;
         background-color: $offWhite4;
         box-shadow: $componentDropShadow;
+        @media screen and (max-width:767px) {
+            margin-top:0;
+        }
         @media screen and (max-width:374px) {
             width: 270px;
             height:130px;

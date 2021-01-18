@@ -61,10 +61,10 @@ article.component-content.mobile-app .about-mobile-app {
     max-width: 240px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start.opened {
-    height: 340px;
+    height: 320px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start.opened .expand {
-    margin-top: -15px;
+    margin-top: -35px;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start .mobile-app-descr.closed {
     display: none;
