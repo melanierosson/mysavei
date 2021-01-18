@@ -10,8 +10,8 @@ import '../css/home.css';
 const Home = () => {
 
     return (
-        <section id="app">
-            <section className="top" style={{ backgroundColor: '#39D08A'}}>
+        <section id="app" style={{boxShadow: '0 0 50px rgba(103,230,172,0.6)'}}>
+            <section className="top" style={{ backgroundColor: '#39D08A', boxShadow: '0 0 0 rgba(0,0,0,0)'}}>
                 <Title content="Quick Start Investing" bgColor="#39D08A" />
                 <Nav 
                     className="hide-on-mobile desktop-nav" 
