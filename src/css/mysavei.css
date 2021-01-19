@@ -44,11 +44,6 @@ article.component-content.mobile-app .about-mobile-app {
     white-space: pre;
   }
 }
-@media screen and (min-width: 768px) {
-  article.component-content.mobile-app .about-mobile-app .mobile-app-title:hover {
-    cursor: pointer;
-  }
-}
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .about-mobile-app.dropdown-start {
     background-color: #A2D039;

@@ -56,11 +56,6 @@ article.component-content.mobile-app {
                     white-space:pre;
                 }
             }
-            &:hover {
-                @media screen and (min-width:768px) {
-                    cursor:pointer;
-                }
-            }
         }
         &.dropdown-start {
             @media screen and (max-width:767px) {

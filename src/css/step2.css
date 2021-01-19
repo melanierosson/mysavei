@@ -55,6 +55,22 @@ main#step2-page {
 #step2-page #step2-question p {
   margin-top: 5px;
 }
+@media screen and (min-width: 768px) {
+  #step2-page #timeout {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  #step2-page #timeout {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1500;
+    top: 0;
+    left: 0;
+  }
+}
 #step2-page ul.options-list {
   display: flex;
   flex-direction: row;

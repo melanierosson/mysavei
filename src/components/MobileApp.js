@@ -51,11 +51,7 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
             </section>
 
             <section className={`about-mobile-app col-12 col-md-9 ${containAll ? 'dropdown-start' : ''} ${showContent ? 'closed' : 'opened'} ${activeColor ? 'active-color' : ''} ${passiveColor ? 'passive-color' : ''}`} style={type ? { zIndex: '9' } : { zIndex: '8'}}>
-                <div className="mobile-app-title" onClick={type ?
-                    showAcornsModal
-                    :
-                    showRobinhoodModal
-                } >
+                <div className="mobile-app-title">
                     <h4 className="mobile-app-title"><span className="type">{ type ? 'Acorns' : 'Robinhood' }</span> mobile app</h4>
                 </div>
                 <div 
