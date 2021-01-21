@@ -10,6 +10,7 @@ const UserOptions = () => {
 
     return (
         <nav>
+            {/* this timeout overlay is to prevent mobile touch screens from causing delayed hover effects on this page after pressing a button on the homepage */}
             <div id="timeout"></div>
             <ul className="options-list">
                 <li id="passive-option">

@@ -9,6 +9,21 @@ import '../css/home.css';
 // home page component
 const Home = () => {
 
+    const leftClockOver = () => {
+        document.querySelector('div.circle.clock-left').style.transform = "scale(1.07)";
+        document.querySelector('div.circle.clock-left').style.transition = "linear 0.25s";
+    }
+    const leftClockOut = () => {
+        document.querySelector('div.circle.clock-left').style.transform = "scale(1)";
+    }
+     const rightClockOver = () => {
+        document.querySelector('div.circle.clock-right').style.transform = "scale(1.07)";
+        document.querySelector('div.circle.clock-right').style.transition = "linear 0.25s";
+    }
+    const rightClockOut = () => {
+        document.querySelector('div.circle.clock-right').style.transform = "scale(1)";
+    }
+
     return (
         <section id="app" style={{boxShadow: '0 0 50px rgba(103,230,172,0.6)'}}>
             <section className="top" style={{ backgroundColor: '#39D08A', boxShadow: '0 0 0 rgba(0,0,0,0)'}}>
@@ -44,7 +59,10 @@ const Home = () => {
                         <div className="min-hand"></div>
                     </div>
                     <Link to={process.env.PUBLIC_URL + '/step2'}>
-                        <li>
+                        <li 
+                            onMouseOver={leftClockOver} 
+                            onMouseOut={leftClockOut}
+                        >
                             <p>
                                 See my personal investment strategy
                             </p>
@@ -60,8 +78,10 @@ const Home = () => {
                         <div className="min-hand"></div>
                     </div>
                     <Link to={process.env.PUBLIC_URL + '/all'}>
-                        <li>
-                            
+                        <li 
+                            onMouseOver={rightClockOver} 
+                            onMouseOut={rightClockOut}
+                        >
                             <p>
                                 See all investment &amp; savings information
                             </p>

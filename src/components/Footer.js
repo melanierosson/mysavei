@@ -6,7 +6,7 @@ const Footer = () => (
         <footer className="row">
             <section id="copyright" className="text-center">
                 <a href="https://mpowheard.com" target="_blank">
-                    <b>&copy; MPOWHEARD</b>
+                    <b>&copy; MPowheard</b>
                 </a>
             </section>
         </footer>
