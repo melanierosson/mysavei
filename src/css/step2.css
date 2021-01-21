@@ -102,7 +102,7 @@ main#step2-page {
 }
 #step2-page ul.options-list li:hover {
   transform: translate(0, 18px);
-  transition: transform 200ms ease-in-out;
+  transition: transform 0.15s linear;
   cursor: pointer;
 }
 #step2-page ul.options-list li#passive-option {

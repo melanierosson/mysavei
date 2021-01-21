@@ -18,12 +18,6 @@
   nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
     margin-top: -8px;
   }
-  nav.navigation section.nav:hover {
-    border-bottom: 8px solid #FFF;
-  }
-  nav.navigation section.nav:hover .nav-link {
-    margin-bottom: -8px;
-  }
   nav.navigation section.nav .nav-link {
     padding: 20px;
     width: 100px;
@@ -37,6 +31,13 @@
   nav.navigation {
     padding: 0;
   }
+  nav.navigation #nav-link-home:hover, nav.navigation #nav-link-all:hover {
+    border-bottom: 8px solid #FFF;
+    cursor: pointer;
+  }
+  nav.navigation #nav-link-home:hover .nav-link, nav.navigation #nav-link-all:hover .nav-link {
+    margin-bottom: -8px;
+  }
   nav.navigation section.nav {
     padding: 12px 10px 12px 10px;
   }
@@ -46,11 +47,11 @@
   nav.navigation section.nav:active .nav-link, nav.navigation section.nav.active-nav .nav-link {
     margin-top: 0px;
   }
-  nav.navigation section.nav:hover {
+  nav.navigation section.nav#nav-email:hover {
     border-bottom: 8px solid #FFF;
     cursor: pointer;
   }
-  nav.navigation section.nav:hover .nav-link {
+  nav.navigation section.nav#nav-email:hover .nav-link {
     margin-bottom: -8px;
   }
   nav.navigation section.nav .nav-link {

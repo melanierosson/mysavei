@@ -34,6 +34,7 @@ article.component-content.mobile-app {
                 &:hover {
                     cursor:pointer;
                     transform:scale(1.1,1.1);
+                    transition: linear 0.15s;
                 }
             }
         }
@@ -62,6 +63,7 @@ article.component-content.mobile-app {
                 @include mobile-app-dropdown;
                 margin: 18px auto 0 auto;
                 max-width:240px;
+                transition: linear 0.15s;
                 &.opened {
                     height:320px;
                     .expand {

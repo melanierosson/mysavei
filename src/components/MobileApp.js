@@ -25,8 +25,8 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
         document.getElementById('modal-overlay').style.display = "none";
     }
     const modalExitClick = () => {
-        document.getElementById('modal-overlay').addEventListener("click", hideModals, false);
         document.getElementById('modal-overlay').style.display = "block";
+        document.getElementById('modal-overlay').addEventListener("click", hideModals, false);
     }
 
     return (
@@ -75,7 +75,7 @@ const MobileApp = ({type, containAll, containDescr, expand, activeColor, passive
                                     Free unless you upgrade (Gold or Premium accounts) or transfer funds back to your bank account ($75 flat fee)
                                 </span>
                             }
-                            <div className="get-app" onClick={modalExitClick}>
+                            <div className="get-app">
                                 {type ?
                                     <span onClick={showAcornsModal}>
                                         <b>Get the <span className="hide-xs">Acorns</span> app</b>

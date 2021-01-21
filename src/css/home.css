@@ -89,7 +89,7 @@ ul.options-list li {
 }
 ul.options-list li:hover {
   transform: translateY(15px);
-  transition: transform 200ms ease-in-out;
+  transition: transform 0.15s linear;
   cursor: pointer;
 }
 ul.options-list li:hover > div.circle {
@@ -110,6 +110,7 @@ ul.options-list li div.bottom {
   transform: translate(0, 159px);
   -webkit-transform: translate(0, 159px);
   -moz-transform: translate(0, 159px);
+  transition: linear 0.15s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
   height: 70.5px;
   width: 141px;
@@ -124,6 +125,7 @@ ul.options-list li div.bottom {
     transform: translate(0, 120px);
     -webkit-transform: translate(0, 120px);
     -moz-transform: translate(0, 120px);
+    transition: linear 0.15s;
   }
 }
 ul.options-list li div.bottom span {

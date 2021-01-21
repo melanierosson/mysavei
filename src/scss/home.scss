@@ -79,7 +79,7 @@ ul.options-list {
         align-items:center;
         &:hover {
             transform: translateY(15px);
-            transition: transform 0.25s linear;
+            transition: transform 0.15s linear;
             cursor:pointer;
             > div.circle {
                 transform: translateY(0) !important;
@@ -102,12 +102,12 @@ ul.options-list {
             transform: translate(0,159px);
             -webkit-transform: translate(0,159px);
             -moz-transform: translate(0,159px);
-            transition:linear 0.25s;
+            transition:linear 0.15s;
             @media screen and (max-height:667px) {
                 transform: translate(0,120px);
                 -webkit-transform: translate(0,120px);
                 -moz-transform: translate(0,120px);
-                transition:linear 0.25s;
+                transition:linear 0.15s;
             }
             box-shadow: $mobileDropShadow;
             height: $size;

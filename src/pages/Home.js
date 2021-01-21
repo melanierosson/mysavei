@@ -11,14 +11,14 @@ const Home = () => {
 
     const leftClockOver = () => {
         document.querySelector('div.circle.clock-left').style.transform = "scale(1.07)";
-        document.querySelector('div.circle.clock-left').style.transition = "linear 0.25s";
+        document.querySelector('div.circle.clock-left').style.transition = "linear 0.15s";
     }
     const leftClockOut = () => {
         document.querySelector('div.circle.clock-left').style.transform = "scale(1)";
     }
      const rightClockOver = () => {
         document.querySelector('div.circle.clock-right').style.transform = "scale(1.07)";
-        document.querySelector('div.circle.clock-right').style.transition = "linear 0.25s";
+        document.querySelector('div.circle.clock-right').style.transition = "linear 0.15s";
     }
     const rightClockOut = () => {
         document.querySelector('div.circle.clock-right').style.transform = "scale(1)";

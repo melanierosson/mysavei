@@ -22,6 +22,7 @@ article.component-content.mobile-app .img-container .img-holder img.app-icons {
 article.component-content.mobile-app .img-container .img-holder img.app-icons:hover {
   cursor: pointer;
   transform: scale(1.1, 1.1);
+  transition: linear 0.15s;
 }
 @media screen and (max-width: 767px) {
   article.component-content.mobile-app .img-container {
@@ -54,6 +55,7 @@ article.component-content.mobile-app .about-mobile-app {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
     margin: 18px auto 0 auto;
     max-width: 240px;
+    transition: linear 0.15s;
   }
   article.component-content.mobile-app .about-mobile-app.dropdown-start.opened {
     height: 320px;
