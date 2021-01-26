@@ -1,6 +1,5 @@
 UX MVPs only:
 - Front page clock animations
-- Refine tablet screen size content containers
 - Front page "Why Invest" video
 - ? stock market content index funds section key players link needs balanced spacing on firefox too
 - ? stock market links folding characters to next line on smaller screens
