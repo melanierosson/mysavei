@@ -408,23 +408,15 @@ div#root section#app main.content-page section.content-container {
   margin-right: 34px;
   width: 88%;
 }
-@media screen and (max-width: 400px) {
-  div#root section#app main.content-page section.content-container {
-    max-width: 350px;
-  }
-}
 @media screen and (max-width: 767px) {
   div#root section#app main.content-page section.content-container {
+    max-width: 350px;
     padding: 16px;
   }
 }
 @media screen and (min-width: 768px) {
   div#root section#app main.content-page section.content-container {
     padding: 20px 24px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  div#root section#app main.content-page section.content-container {
     width: 635px;
   }
 }
