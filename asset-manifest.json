@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mysavei/static/css/main.ba7f0eca.chunk.css",
+    "main.css": "/mysavei/static/css/main.4ac41c07.chunk.css",
     "main.js": "/mysavei/static/js/main.1828abb9.chunk.js",
     "main.js.map": "/mysavei/static/js/main.1828abb9.chunk.js.map",
     "runtime-main.js": "/mysavei/static/js/runtime-main.6ffa9c1e.js",
@@ -8,9 +8,9 @@
     "static/js/2.2ca3a359.chunk.js": "/mysavei/static/js/2.2ca3a359.chunk.js",
     "static/js/2.2ca3a359.chunk.js.map": "/mysavei/static/js/2.2ca3a359.chunk.js.map",
     "index.html": "/mysavei/index.html",
-    "precache-manifest.d039cc4ff9cbb4a312996a7f67fe0a11.js": "/mysavei/precache-manifest.d039cc4ff9cbb4a312996a7f67fe0a11.js",
+    "precache-manifest.ac31994f3cf805156b260c06e3e28f18.js": "/mysavei/precache-manifest.ac31994f3cf805156b260c06e3e28f18.js",
     "service-worker.js": "/mysavei/service-worker.js",
-    "static/css/main.ba7f0eca.chunk.css.map": "/mysavei/static/css/main.ba7f0eca.chunk.css.map",
+    "static/css/main.4ac41c07.chunk.css.map": "/mysavei/static/css/main.4ac41c07.chunk.css.map",
     "static/js/2.2ca3a359.chunk.js.LICENSE.txt": "/mysavei/static/js/2.2ca3a359.chunk.js.LICENSE.txt",
     "static/media/auto-deposits.jpg": "/mysavei/static/media/auto-deposits.bc500c43.jpg",
     "static/media/crypto.jpg": "/mysavei/static/media/crypto.50e79c6a.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ffa9c1e.js",
     "static/js/2.2ca3a359.chunk.js",
-    "static/css/main.ba7f0eca.chunk.css",
+    "static/css/main.4ac41c07.chunk.css",
     "static/js/main.1828abb9.chunk.js"
   ]
 }
