@@ -86,6 +86,9 @@ ul.options-list li {
   ul.options-list li {
     height: 180px;
   }
+  ul.options-list li p {
+    margin-bottom: -10px;
+  }
 }
 ul.options-list li:hover {
   transform: translateY(15px);

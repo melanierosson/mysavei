@@ -65,6 +65,9 @@ ul.options-list {
         height:255px;
         @media screen and (max-height:667px) {
             height:180px;
+            p {
+                margin-bottom:-10px;
+            }
         }
         z-index:0;
         background-color: $offWhite;
