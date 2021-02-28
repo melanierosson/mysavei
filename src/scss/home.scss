@@ -52,6 +52,31 @@ article.why-invest {
         }
     }
 }
+// animations
+@keyframes triangleleft {
+    from {clip-path: polygon(50% 0%, 44% 99%, 52% 1%)}
+    to {clip-path: polygon(50% 0%, 44% 99%, 69% 4%)}
+}
+@keyframes minleft {
+    from {transform:translate(76px,-115px) rotate(0deg)}
+    to {transform:translate(82px,-115px) rotate(14deg)}
+}
+
+@keyframes triangleright1 {
+    from {clip-path: polygon(50% 0%, 44% 99%, 52% 1%)}
+    to {clip-path: polygon(50% 0%, 44% 99%, 85% 8%)}
+}
+@keyframes triangleright2 {
+    0% {opacity:0}
+    49% {opacity:0}
+    50% {clip-path: polygon(50% 0%, 44% 99%, 52% 1%);opacity:1}
+    100% {clip-path: polygon(50% 0%, 44% 99%, 85% 8%)}
+}
+@keyframes minright {
+    from {transform:translate(75px,-202px) rotate(0deg)}
+    to {transform:translate(92px,-202px) rotate(50deg)}
+}
+
 
 ul.options-list {
     display: flex;
@@ -159,11 +184,15 @@ ul.options-list {
                     border-right: 47px solid transparent; 
                     clip-path: polygon(50% 0%, 44% 99%, 69% 4%);
                     transform:translate(35px,0);
+                    animation-name: triangleleft;
+                    animation-duration: 2s;
                 }
                 div.sec-hand {
                     transform:translate(77px,-71px) rotate(2deg);
                 }
                 div.min-hand {
+                    animation-name: minleft;
+                    animation-duration: 2s;
                     transform:translate(82px,-115px) rotate(14deg);
                 }
             }
@@ -176,6 +205,8 @@ ul.options-list {
                     border-right: 47px solid transparent; 
                     clip-path: polygon(50% 0%, 44% 99%, 85% 8%);
                     transform:translate(35px,0);
+                    animation-name: triangleright1;
+                    animation-duration: 1s;
                 }
                 div.triangle-2 {
                     height: 0; 
@@ -185,11 +216,15 @@ ul.options-list {
                     border-right: 47px solid transparent; 
                     clip-path: polygon(50% 0%, 44% 99%, 85% 8%);
                     transform:translate(50px,-90px) rotate(20deg);
+                    animation-name: triangleright2;
+                    animation-duration: 1.5s;
                 }
                 div.sec-hand {
                     transform:translate(77px,-165px) rotate(2deg);
                 }
                 div.min-hand {
+                    animation-name: minright;
+                    animation-duration: 2.5s;
                     transform:translate(92px,-202px) rotate(50deg);
                 }
             }

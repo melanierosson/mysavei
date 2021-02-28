@@ -6,9 +6,13 @@ import Nav from '../components/Nav.js';
 import Footer from '../components/Footer.js';
 import '../css/home.css';
 
+const leftAnim = {
+
+}
+
 // home page component
 const Home = () => {
-
+    
     const leftClockOver = () => {
         document.querySelector('div.circle.clock-left').style.transform = "scale(1.07)";
         document.querySelector('div.circle.clock-left').style.transition = "linear 0.15s";
