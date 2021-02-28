@@ -12,20 +12,24 @@ const leftAnim = {
 
 // home page component
 const Home = () => {
-    
+
     const leftClockOver = () => {
         document.querySelector('div.circle.clock-left').style.transform = "scale(1.07)";
         document.querySelector('div.circle.clock-left').style.transition = "linear 0.15s";
+        document.querySelector('div.circle.clock-left').classList.add('animate');
     }
     const leftClockOut = () => {
         document.querySelector('div.circle.clock-left').style.transform = "scale(1)";
+        document.querySelector('div.circle.clock-left').classList.remove('animate');
     }
      const rightClockOver = () => {
         document.querySelector('div.circle.clock-right').style.transform = "scale(1.07)";
         document.querySelector('div.circle.clock-right').style.transition = "linear 0.15s";
+        document.querySelector('div.circle.clock-right').classList.add('animate');
     }
     const rightClockOut = () => {
         document.querySelector('div.circle.clock-right').style.transform = "scale(1)";
+        document.querySelector('div.circle.clock-right').classList.remove('animate');
     }
 
     return (

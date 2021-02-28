@@ -229,6 +229,36 @@ ul.options-list {
                 }
             }
         }
+        // hover animations
+        div.circle.clock-left.animate {
+            div.triangle-1 {
+                animation-name: triangleleft;
+                animation-duration: 2s;
+                animation-iteration-count:1;
+            }
+            div.min-hand {
+                animation-name: minleft;
+                animation-duration: 2s;
+                animation-iteration-count:1;
+            }
+        }
+        div.circle.clock-right.animate {
+            div.triangle-1 {
+                animation-name: triangleright1;
+                animation-duration: 1s;
+                animation-iteration-count:1;
+            }
+            div.triangle-2 {
+                animation-name: triangleright2;
+                animation-duration: 1.5s;
+                animation-iteration-count:1;
+            }
+            div.min-hand {
+                animation-name: minright;
+                animation-duration: 2.5s;
+                animation-iteration-count:1;
+            }
+        }
         margin-top:178px;
         div.circle:first-of-type {
             left:55px;
